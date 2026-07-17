@@ -1,0 +1,17 @@
+source: sources/audio/2025-05-25-how-to-make-ai-work-at-work.md
+created: '2026-07-17'
+nuggets:
+- id: mollick-leadership-lab-crowd
+  claim: Ethan Mollick's 'Making AI Work' framework argues individual AI productivity gains do not automatically
+    become organizational gains, and prescribes three interlocking mechanisms — Leadership (vivid vision),
+    the Lab (centralized experimentation), and the Crowd (bottom-up employee innovation, including hidden
+    'secret cyborg' users).
+  context: Host reading/commenting on Ethan Mollick's essay; via The AI Daily Brief episode summary notes
+    (2025-05-25). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - framework
+  - leadership
+  - adoption

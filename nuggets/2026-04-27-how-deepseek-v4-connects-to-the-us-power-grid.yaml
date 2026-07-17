@@ -1,0 +1,52 @@
+source: sources/audio/2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid.md
+created: '2026-07-17'
+nuggets:
+- id: goldman-datacenter-power-6-to-11
+  claim: Goldman Sachs projected US data-center electricity demand would rise from about 6% to about 11%
+    of total national consumption by 2030 (a separate episode, 2025-12-14, relays the projection as 4%
+    in 2023 rising to 8% by 2030).
+  context: The cross-episode discrepancy is noted; via The AI Daily Brief episode summary notes (2026-04-27).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - energy
+  - electricity
+  - data-center
+- id: gigawatt-nuclear-reactor-equivalence
+  claim: Each gigawatt of AI data-center capacity is described as roughly equivalent to a full-scale nuclear
+    reactor, with Anthropic's Amazon deal locking in 5 gigawatts and Microsoft's entire 2024 global data-center
+    footprint cited at ~6 GW.
+  context: Via The AI Daily Brief episode summary notes (2026-04-27). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - energy
+  - nuclear
+  - data-center
+  - compute
+- id: dpa-section-303-grid
+  claim: President Trump issued a presidential memo invoking Section 303 of the Defense Production Act,
+    declaring grid infrastructure (transformers, transmission lines, substations, high-voltage breakers,
+    electric core steel) essential to national defense.
+  context: Via The AI Daily Brief episode summary notes (2026-04-27). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - energy
+  - electricity
+  - policy
+  - grid
+- id: google-40b-anthropic-china-blocks-manus
+  claim: Google confirmed a $40 billion investment in Anthropic ($10B upfront, $30B milestone-contingent,
+    potentially above a 20% stake) while China blocked Meta's ~$2 billion Manus acquisition on national-security
+    grounds; a parallel Amazon deal required $100B AWS spend over a decade.
+  context: Via The AI Daily Brief episode summary notes (2026-04-27). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - deals
+  - china
+  - geopolitics
+  - compute

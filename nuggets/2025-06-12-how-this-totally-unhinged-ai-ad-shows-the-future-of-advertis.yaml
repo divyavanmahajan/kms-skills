@@ -1,0 +1,28 @@
+source: sources/audio/2025-06-12-how-this-totally-unhinged-ai-ad-shows-the-future-of-advertis.md
+created: '2026-07-17'
+nuggets:
+- id: kalshi-veo3-nba-ad
+  claim: AI filmmaker PJ Ace produced a fully AI-generated 'GTA-style' commercial for prediction-market
+    platform Kalshi using Google's Veo 3, which aired on national network TV during the NBA Finals at
+    an estimated 95% cost reduction versus traditional ad production.
+  context: Landmark case study in AI-generated advertising; via The AI Daily Brief episode summary notes
+    (2025-06-12). Third-hand.
+  quote: Just because this was cheap doesn't mean anyone can do it. Brands still pay a premium for taste.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - creativity
+  - advertising
+  - video-generation
+- id: disney-universal-sue-midjourney
+  claim: Disney and Universal filed suit against Midjourney, alleging its models were trained on copyrighted
+    material and can reproduce protected characters such as Darth Vader, Minions, and Shrek.
+  context: Reported as a headline; via The AI Daily Brief episode summary notes (2025-06-12). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - copyright
+  - art
+  - image-generation

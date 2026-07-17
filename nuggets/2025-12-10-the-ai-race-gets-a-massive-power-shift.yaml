@@ -1,0 +1,28 @@
+source: sources/audio/2025-12-10-the-ai-race-gets-a-massive-power-shift.md
+created: '2026-07-17'
+nuggets:
+- id: trump-h200-china-25pct-cut
+  claim: President Trump announced the US would allow NVIDIA to sell H200 chips to approved Chinese customers
+    with China paying a 25% cut of revenues to the US government, excluding Blackwell and Rubin chips.
+  context: Via The AI Daily Brief episode summary notes (2025-12-10). Third-hand.
+  quote: the U.S. will allow NVIDIA to sell H200 chips to approved Chinese customers, with China paying
+    a 25% cut of revenues to the U.S. government.
+  confidence: medium
+  status: active
+  tags:
+  - chips
+  - export-controls
+  - china
+  - policy
+  - nvidia
+- id: compute-advantage-33-to-1
+  claim: David Shore of Blue Rose Research estimated the H200 export move could reduce the US compute
+    advantage over China from 33-to-1 down to approximately 1.2-to-1.
+  context: '''Dangerous mistake'' camp analysis; via The AI Daily Brief episode summary notes (2025-12-10).
+    Third-hand.'
+  confidence: medium
+  status: active
+  tags:
+  - compute
+  - china
+  - export-controls

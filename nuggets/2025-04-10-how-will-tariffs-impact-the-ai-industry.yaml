@@ -1,0 +1,15 @@
+source: sources/audio/2025-04-10-how-will-tariffs-impact-the-ai-industry.md
+created: '2026-07-17'
+nuggets:
+- id: china-16b-nvidia-rush
+  claim: Chinese firms rushed to order $16 billion worth of NVIDIA chips in Q1 2025 ahead of anticipated
+    export restrictions, with China representing approximately 13% of NVIDIA's sales.
+  context: Via The AI Daily Brief episode summary notes (2025-04-10). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - infrastructure
+  - chips
+  - china
+  - export-controls
+  - tariffs

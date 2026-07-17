@@ -1,0 +1,30 @@
+source: sources/audio/2025-04-25-how-every-employee-becomes-an-agent-boss.md
+created: '2026-07-17'
+nuggets:
+- id: msft-agent-boss-82pct-capacity
+  claim: Microsoft/LinkedIn's 2025 Work Trend Index found 82% of leaders expect to use AI agents to meet
+    demand for increased workforce capacity, and defines an 'agent boss' as someone who builds, delegates
+    to, and manages agents.
+  context: Host analyzing Microsoft/LinkedIn 2025 Work Trend Index 'The Year the Frontier Firm Is Born';
+    via The AI Daily Brief episode summary notes (2025-04-25). Third-hand.
+  quote: 82% of leaders now expect to use agents to meet the demand for increased workforce capacity.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - agent-boss
+  - frontier-firm
+  - microsoft
+- id: frontier-firm-three-phases
+  claim: Microsoft frames the 'frontier firm' as evolving through three phases — Human with Assistant,
+    Human-Agent Teams, and Human-Led/Agent-Operated — the last being humans setting direction while agents
+    execute business processes.
+  context: Host summarizing the Microsoft 'frontier firm' model; via The AI Daily Brief episode summary
+    notes (2025-04-25). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - frontier-firm
+  - enterprise
+  - microsoft

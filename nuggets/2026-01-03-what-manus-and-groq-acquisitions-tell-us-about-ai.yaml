@@ -1,0 +1,18 @@
+source: sources/audio/2026-01-03-what-manus-and-groq-acquisitions-tell-us-about-ai.md
+created: '2026-07-17'
+nuggets:
+- id: meta-manus-nvidia-groq-2026-acquisitions
+  claim: Meta acquired AI-agent company Manus for over $2 billion and NVIDIA struck a $20 billion licensing
+    deal for inference-chip startup Groq, framed as bets on owning the agentic application layer and solving
+    the inference bottleneck.
+  context: Analyzing two holiday-period deals (Manus reportedly ~$125M ARR run rate by Dec 2025); via
+    The AI Daily Brief episode summary notes (2026-01-03). Third-hand.
+  quote: the agent war will be won in apps users refuse to leave, not in benchmarks
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - acquihire
+  - consolidation
+  - app-layer
+  - strategy

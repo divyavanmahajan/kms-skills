@@ -1,0 +1,18 @@
+source: sources/audio/2025-07-08-the-latest-ai-job-loss-predictions.md
+created: '2026-07-17'
+nuggets:
+- id: farley-amodei-white-collar-predictions
+  claim: Ford CEO Jim Farley said AI will replace 'literally half of all white-collar workers in the U.S.';
+    JPMorgan consumer CEO Marion Lake projected a 10% operations-headcount reduction; and Anthropic CEO
+    Dario Amodei estimated AI could eliminate up to 50% of entry-level white-collar jobs and drive 10–20%
+    overall unemployment.
+  context: Statements at/around the Aspen Ideas Festival plus Amodei's earlier projection; via The AI
+    Daily Brief episode summary notes (2025-07-08). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - predictions
+  - white-collar
+  - ceo

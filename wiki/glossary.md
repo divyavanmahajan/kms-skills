@@ -87,3 +87,61 @@ attached context or provenance. What a nugget improves on — see
 Supplying an AI system with verifiable, current evidence (rather than relying
 on model weights) so its outputs can cite reality. Web IQ is a grounding API;
 this repo's wiki pages are grounded via `sources:` frontmatter and nuggets.
+
+<!-- AI industry terms, compiled from The AI Daily Brief corpus (see topics/). -->
+
+## Agent boss
+
+A worker who builds, delegates to, and manages fleets of AI agents rather than
+doing all the work directly — Microsoft's framing of the role in the "frontier
+firm." See [AI agents](topics/ai-agents.md).
+
+## Agent swarm
+
+A multi-agent architecture where many specialized agents work in parallel,
+coordinated by an orchestrator, to converge on an outcome. Also called: *agent
+swarms*, *multi-agent systems*. See [AI agents](topics/ai-agents.md).
+
+## Vibe coding
+
+Describing intent in natural language and letting an AI generate working
+software; coined by Andrej Karpathy (Feb 2025). Later reframed by some as
+*agentic coding* / *spec-driven development*. See [Vibe coding](topics/vibe-coding.md).
+
+## Software 3.0
+
+Andrej Karpathy's framing of LLMs as a third programming paradigm — programmable
+in natural language — after human-written code (1.0) and neural-network weights
+(2.0). See [Vibe coding](topics/vibe-coding.md).
+
+## Use case primitive
+
+One of OpenAI's six department-agnostic categories of enterprise AI application:
+content creation, research, coding, data analysis, ideation & strategy, and
+automation. See [Enterprise AI adoption](topics/enterprise-ai-adoption.md).
+
+## Shadow AI
+
+Employees using AI tools (usually personal accounts) without formal
+organizational sanction — a gap between individual and organizational adoption.
+Also called: *secret cyborgs*. See [Enterprise AI adoption](topics/enterprise-ai-adoption.md).
+
+## AI washing
+
+Citing AI as the reason for layoffs (or product claims) when other factors —
+financial pressure, over-hiring — are the real driver, because "AI" reads more
+favorably to stakeholders. Also called: *AI laundering*. See
+[AI, jobs & labor](topics/ai-jobs-and-labor.md).
+
+## AI slop
+
+Low-quality, mass-produced AI-generated media (text, audio, video, images),
+often optimized for algorithmic distribution rather than human value. See
+[AI in media, creativity & society](topics/ai-media-and-society.md).
+
+## Circular financing
+
+An arrangement in which a chip/compute vendor invests in an AI lab that then
+spends the investment buying the vendor's products, inflating the vendor's
+revenue — a central AI-bubble concern. Also called: *vendor financing*. See
+[AI economics & the bubble debate](topics/ai-economics-and-the-bubble-debate.md).

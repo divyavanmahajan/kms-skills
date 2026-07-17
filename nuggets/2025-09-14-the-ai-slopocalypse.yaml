@@ -1,0 +1,16 @@
+source: sources/audio/2025-09-14-the-ai-slopocalypse.md
+created: '2026-07-17'
+nuggets:
+- id: inception-point-ai-podcasts
+  claim: Inception Point AI runs a network ('Quiet Please') producing over 3,000 AI-generated podcast
+    episodes per week across about 5,000 shows at roughly $1 or less per episode, using around 184 custom
+    AI agents and about 50 AI personalities.
+  context: Central case study in the 'AI Slopocalypse' episode; via The AI Daily Brief episode summary
+    notes (2025-09-14). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - slop
+  - creativity
+  - audio

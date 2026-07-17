@@ -1,0 +1,27 @@
+source: sources/audio/2025-05-30-the-6-ai-use-case-primitives.md
+created: '2026-07-17'
+nuggets:
+- id: openai-six-use-case-primitives
+  claim: OpenAI's enterprise report identified six department-agnostic 'use case primitives' — content
+    creation, research, coding, data analysis, ideation & strategy, and automation — derived from over
+    600 customer use cases.
+  context: Host analyzing OpenAI's 'Identifying and Scaling AI Use Cases' report; via The AI Daily Brief
+    episode summary notes (2025-05-30). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - use-case-primitives
+  - framework
+- id: openai-report-bcg-evidence
+  claim: OpenAI's enterprise use-case report drew on 300 successful implementations, 4,000+ adoption surveys,
+    and 2 million+ business users, and cited BCG finding AI-leading companies achieved 1.5x faster revenue
+    growth, 1.6x higher shareholder returns, and 1.4x better return on invested capital.
+  context: Episode reporting OpenAI/BCG figures; via The AI Daily Brief episode summary notes (2025-05-30).
+    Second-hand figures.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - roi
+  - adoption

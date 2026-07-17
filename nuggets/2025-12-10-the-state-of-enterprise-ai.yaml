@@ -1,0 +1,16 @@
+source: sources/audio/2025-12-10-the-state-of-enterprise-ai.md
+created: '2026-07-17'
+nuggets:
+- id: anthropic-enterprise-share-40
+  claim: Anthropic's share of enterprise LLM spend rose 12% (2023) to 24% (2024) to 40% (2025) while OpenAI's
+    fell from 50% to 27%, and Anthropic held 54% of the AI-coding market versus OpenAI's 21%.
+  context: OpenAI's State of Enterprise AI (survey of 9,000 workers across ~100 companies) and Menlo Ventures'
+    third annual enterprise report (n=495); via The AI Daily Brief episode summary notes (2025-12-10).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - market-share
+  - enterprise
+  - trends
+  - coding

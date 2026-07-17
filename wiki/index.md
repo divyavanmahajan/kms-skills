@@ -34,6 +34,33 @@ maintenance.
 - [LLM interpretability (global workspace)](topics/llm-interpretability.md) —
   Anthropic's J-space research, via The AI Daily Brief
 
+### AI industry (via *The AI Daily Brief*)
+
+Cross-cutting syntheses compiled from 411 AI Daily Brief episode summary notes
+(Apr 2025 – mid-2026). All are `draft` / `medium` confidence — third-hand
+(podcast coverage of primary reports); see each page's *Open questions*.
+
+- [AI agents (the shift to agentic AI)](topics/ai-agents.md) — adoption curve,
+  the "agent boss," swarms, real-world autonomy
+- [Vibe coding & AI-assisted software development](topics/vibe-coding.md) —
+  Software 3.0, Claude Code, the productivity debate
+- [Enterprise AI adoption & strategy](topics/enterprise-ai-adoption.md) —
+  use-case frameworks, why pilots fail, ROI
+- [Frontier model releases & capabilities](topics/frontier-model-releases.md) —
+  the 2025–2026 GPT-5 / Claude / Gemini / Grok timeline
+- [AI economics & the bubble debate](topics/ai-economics-and-the-bubble-debate.md) —
+  CapEx, valuations, circular financing, the bull/bear case
+- [AI, jobs & the labor market](topics/ai-jobs-and-labor.md) — displacement,
+  worker sentiment, "AI washing," the counter-narrative
+- [AI infrastructure — compute, chips & energy](topics/ai-infrastructure-compute-energy.md) —
+  gigawatts, export controls, the grid, token economics
+- [AI in media, creativity & society](topics/ai-media-and-society.md) — generative
+  media, "AI slop," copyright, the anti-AI turn
+- [State of AI — adoption metrics & trends](topics/state-of-ai-adoption.md) — the
+  survey/index reports (Stanford, Menlo, a16z, OpenAI/NBER)
+- [AI competition, strategy & geopolitics](topics/ai-competition-and-geopolitics.md) —
+  the full-stack contest, US–China, AI turning political
+
 ## Guides
 
 - [Long-term maintenance guidelines](guides/maintenance-guidelines.md) — every

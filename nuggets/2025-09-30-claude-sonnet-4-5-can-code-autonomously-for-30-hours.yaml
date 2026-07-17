@@ -1,0 +1,16 @@
+source: sources/audio/2025-09-30-claude-sonnet-4-5-can-code-autonomously-for-30-hours.md
+created: '2026-07-17'
+nuggets:
+- id: sonnet45-30hr-autonomous
+  claim: Anthropic reported Claude Sonnet 4.5 coded a Slack/Teams-style app autonomously for 30 hours
+    producing ~11,000 lines of code, and scored 77.2% on SWE-Bench Verified (82% with parallel test-time
+    compute) vs GPT-5 Codex's 74.5%; SWE-Bench was cited rising from ~33% to 82% in about a year.
+  context: Anthropic claim at Sonnet 4.5 release, Sept 30 2025; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - autonomous-coding
+  - claude
+  - swe-bench

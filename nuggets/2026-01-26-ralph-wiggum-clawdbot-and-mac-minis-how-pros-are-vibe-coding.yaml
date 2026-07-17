@@ -1,0 +1,15 @@
+source: sources/audio/2026-01-26-ralph-wiggum-clawdbot-and-mac-minis-how-pros-are-vibe-coding.md
+created: '2026-07-17'
+nuggets:
+- id: cursor-browser-parallel-agents
+  claim: Cursor built a web browser from scratch using GPT-5.2 — over 3 million lines of code across thousands
+    of files, running a week uninterrupted — via hundreds of concurrent agents coordinated by a planner/worker/judge
+    ('Ralph Wiggum loop') architecture.
+  context: Cursor's blog 'Scaling Long-Running Autonomous Coding' discussed Jan 2026; Ralph Wiggum loop
+    coined by Jeffrey Huntley (July 2025); via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - parallel-agents
+  - orchestration

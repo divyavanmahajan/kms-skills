@@ -1,0 +1,16 @@
+source: sources/audio/2026-05-24-why-agents-still-need-humans.md
+created: '2026-07-17'
+nuggets:
+- id: human-sandwich-infinite-backlog
+  claim: Drawing on Dan Shipper's 'After Automation,' the episode argues agents expand rather than eliminate
+    human work — via the 'infinite backlog' and a 'human sandwich' model (human frames the task, AI collapses
+    it, human judges and extends).
+  context: Host synthesizing Dan Shipper (CEO of Every) essay; via The AI Daily Brief episode summary
+    notes (2026-05-24). Third-hand.
+  quote: the more they automate, the more expert human work there is to do
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - human-in-loop
+  - work

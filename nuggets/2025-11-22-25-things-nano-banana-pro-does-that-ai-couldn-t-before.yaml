@@ -1,0 +1,14 @@
+source: sources/audio/2025-11-22-25-things-nano-banana-pro-does-that-ai-couldn-t-before.md
+created: '2026-07-17'
+nuggets:
+- id: nano-banana-pro-visual-compression
+  claim: Nano Banana Pro is described as the single biggest jump between image models in accurate in-image
+    text rendering and integrating reasoning into generation, enabling 'visual compression' such as turning
+    a 92-page Llama 3 technical PDF into a summarized whiteboard image.
+  context: Via The AI Daily Brief episode summary notes (2025-11-22). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - creativity
+  - image-generation
+  - tools

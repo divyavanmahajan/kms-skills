@@ -1,0 +1,17 @@
+source: sources/audio/2026-02-01-openai-ipo-grok-spacex-merger-the-ai-ipo-race-heats-up.md
+created: '2026-07-17'
+nuggets:
+- id: amazon-50b-openai-830b-valuation
+  claim: Amazon was reported in talks to invest ~$50 billion in OpenAI at an $830 billion valuation (~6%
+    stake), while OpenAI targeted a Q4 2026 IPO and Anthropic also signaled openness to an IPO by year-end.
+  context: Relaying WSJ/Reuters reporting; via The AI Daily Brief episode summary notes (2026-02-01).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - funding
+  - ipo
+  - openai
+  - anthropic
+  - amazon

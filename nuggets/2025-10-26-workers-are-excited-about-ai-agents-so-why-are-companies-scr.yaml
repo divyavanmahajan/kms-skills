@@ -1,0 +1,29 @@
+source: sources/audio/2025-10-26-workers-are-excited-about-ai-agents-so-why-are-companies-scr.md
+created: '2026-07-17'
+nuggets:
+- id: ey-84pct-eager-agents
+  claim: An EY study of 1,100+ U.S. employees at $1B+ firms found 84% were eager to embrace agentic AI
+    in their role, yet 56% were concerned about job security and 53% of managers felt unequipped to manage
+    hybrid human-agent teams.
+  context: Host summarizing an EY study (fielded Aug 8–Sep 3, 2025); via The AI Daily Brief episode summary
+    notes (2025-10-26). Third-hand.
+  quote: 84% of workers said they were eager to embrace agentic AI in their role
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - workforce
+  - sentiment
+  - ey
+- id: clear-communication-agent-usage-gap
+  claim: The EY study found actual agentic AI usage was 66% at organizations that clearly communicate
+    their AI strategy versus 39% at those that do not.
+  context: Host summarizing EY findings on communication and agent adoption; via The AI Daily Brief episode
+    summary notes (2025-10-26). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - communication
+  - adoption
+  - ey

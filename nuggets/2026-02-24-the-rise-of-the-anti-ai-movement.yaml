@@ -1,0 +1,16 @@
+source: sources/audio/2026-02-24-the-rise-of-the-anti-ai-movement.md
+created: '2026-07-17'
+nuggets:
+- id: pew-us-ai-concern-ranking
+  claim: The anti-AI episode cites Pew data that the US ranked last among surveyed nations on AI enthusiasm
+    — only 10% of Americans more excited than concerned versus 50% more concerned than excited — and YouGov
+    data that 58% distrust AI.
+  context: Presented to argue anti-AI sentiment is real and measurable; via The AI Daily Brief episode
+    summary notes (2026-02-24). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - society
+  - media
+  - slop
+  - sentiment

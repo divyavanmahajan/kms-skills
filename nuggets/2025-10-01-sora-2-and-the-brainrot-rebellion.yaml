@@ -1,0 +1,16 @@
+source: sources/audio/2025-10-01-sora-2-and-the-brainrot-rebellion.md
+created: '2026-07-17'
+nuggets:
+- id: sora-2-cameos-launch
+  claim: OpenAI released Sora 2 (improved physics, multi-character consistency, synchronized audio) alongside
+    a TikTok-style Sora social app whose 'Cameos' feature lets users train and control use of their own
+    likeness, triggering a 'brain rot' backlash; the episode cites a 2025 Pew study that 48% of teens
+    say social media harms people their age (up from 32% in 2022).
+  context: Via The AI Daily Brief episode summary notes (2025-10-01). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - creativity
+  - video-generation
+  - society

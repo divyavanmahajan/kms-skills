@@ -1,0 +1,16 @@
+source: sources/audio/2025-05-03-nvidia-and-anthropic-trade-barbs-around-ai-chip-rules.md
+created: '2026-07-17'
+nuggets:
+- id: ai-diffusion-rule-tiers
+  claim: 'The Biden-era AI Diffusion Rule created a three-tier chip export system: Tier 1 allies unrestricted,
+    Tier 2 capped at 50,000 advanced AI chips over three years (orders under 1,700 chips needing no authorization),
+    and Tier 3 adversaries (including China) fully banned.'
+  context: Via The AI Daily Brief episode summary notes (2025-05-03). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - infrastructure
+  - chips
+  - export-controls
+  - diffusion-rule
+  - policy

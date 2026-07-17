@@ -1,0 +1,17 @@
+source: sources/audio/2026-03-22-why-ai-actually-won-t-take-your-job.md
+created: '2026-07-17'
+nuggets:
+- id: resume-org-ai-washing
+  claim: A Resume.org survey of 1,000 hiring managers found nearly 60% emphasized AI's role in layoffs
+    because it is viewed more favorably by stakeholders than admitting financial constraints, while only
+    9% said AI had fully replaced any roles.
+  context: Cited as evidence of 'AI washing'; via The AI Daily Brief episode summary notes (2026-03-22).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - ai-washing
+  - layoffs
+  - survey

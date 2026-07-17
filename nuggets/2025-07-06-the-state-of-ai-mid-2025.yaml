@@ -1,0 +1,26 @@
+source: sources/audio/2025-07-06-the-state-of-ai-mid-2025.md
+created: '2026-07-17'
+nuggets:
+- id: menlo-consumer-adoption-61-tools
+  claim: 61% of American adults reported using AI in the past six months (20% daily); ChatGPT led assistant
+    usage at 28%, followed by Gemini 23%, Meta AI 18%, Alexa 18%, and Siri 16%.
+  context: Menlo Ventures' State of Consumer AI 2025 (n=5,000 U.S. adults); via The AI Daily Brief 'State
+    of AI - Mid-2025' (2025-07-06). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - adoption
+  - most-used
+  - consumer
+  - survey
+- id: menlo-parents-power-users
+  claim: 79% of parents reported using AI versus 54% of non-parents, with 29% of parents using it daily
+    (nearly twice the non-parent rate).
+  context: Menlo Ventures State of Consumer AI 2025 demographic breakdown; via The AI Daily Brief episode
+    summary notes (2025-07-06). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - adoption
+  - demographics
+  - survey

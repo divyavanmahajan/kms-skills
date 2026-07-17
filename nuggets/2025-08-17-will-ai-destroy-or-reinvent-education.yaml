@@ -1,0 +1,16 @@
+source: sources/audio/2025-08-17-will-ai-destroy-or-reinvent-education.md
+created: '2026-07-17'
+nuggets:
+- id: mit-eeg-education-study
+  claim: A small non-peer-reviewed MIT study of 54 participants found AI-assisted essay writers showed
+    up to 55% lower brain connectivity (by the DDTF measure) than brain-only writers and had poor recall
+    of their own writing.
+  context: The study is explicitly flagged as small and non-peer-reviewed; via The AI Daily Brief episode
+    summary notes (2025-08-17). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - education
+  - cognition
+  - society

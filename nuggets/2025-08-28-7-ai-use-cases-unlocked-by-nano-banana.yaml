@@ -1,0 +1,15 @@
+source: sources/audio/2025-08-28-7-ai-use-cases-unlocked-by-nano-banana.md
+created: '2026-07-17'
+nuggets:
+- id: nano-banana-official-name-cost
+  claim: Google's image model codenamed 'Nano Banana' is officially Gemini 2.5 Flash Image, costs approximately
+    4 cents per image via API (about one-quarter the cost of GPT-4o image at high detail), and led LM
+    Arena ELO rankings by roughly 17% over the next model.
+  context: Benchmarks noted as self-reported/user-preference-based; via The AI Daily Brief episode summary
+    notes (2025-08-28). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - creativity
+  - image-generation
+  - tools

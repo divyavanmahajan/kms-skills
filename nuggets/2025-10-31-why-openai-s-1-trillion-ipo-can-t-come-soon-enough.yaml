@@ -1,0 +1,43 @@
+source: sources/audio/2025-10-31-why-openai-s-1-trillion-ipo-can-t-come-soon-enough.md
+created: '2026-07-17'
+nuggets:
+- id: openai-1t-ipo-valuation-arc
+  claim: Reuters reported OpenAI considering IPO paperwork in H2 2026 or early 2027 raising at least $60
+    billion, with valuation going from $29B (start of 2024) to $500B (late 2025), against an expected
+    2025 cash burn of $8.5 billion excluding infrastructure CapEx.
+  context: Relaying Reuters reporting and OpenAI figures; via The AI Daily Brief episode summary notes
+    (2025-10-31). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - ipo
+  - valuation
+  - openai
+  - funding
+- id: nvidia-5t-market-cap
+  claim: NVIDIA became the first company to reach a $5 trillion market cap, citing half a trillion dollars
+    in backlogged chip orders through 2026 and plans to ship 20 million Blackwell chips.
+  context: Announced at NVIDIA's Developer Conference; via The AI Daily Brief episode summary notes (2025-10-31).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - valuation
+  - nvidia
+  - market-cap
+- id: powell-ai-vs-dotcom
+  claim: Fed Chair Jerome Powell distinguished AI spending from the dot-com bubble, saying AI companies
+    'have actual earnings... business models and profits' and that interest rates are 'not an important
+    part of the AI or data center story.'
+  context: FOMC press-conference remarks relayed on-air; via The AI Daily Brief episode summary notes
+    (2025-10-31). Third-hand.
+  quote: have actual earnings... business models and profits
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - bubble-debate
+  - business-model
+  - bull-case

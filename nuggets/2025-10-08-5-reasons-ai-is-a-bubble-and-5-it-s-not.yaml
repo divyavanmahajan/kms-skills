@@ -1,0 +1,29 @@
+source: sources/audio/2025-10-08-5-reasons-ai-is-a-bubble-and-5-it-s-not.md
+created: '2026-07-17'
+nuggets:
+- id: oracle-ai-cloud-margin-14pct
+  claim: The Information reported Oracle's AI cloud gross margin was ~14% in the three months ending August
+    2025 (~$125M profit on ~$900M revenue), below Walmart's 25% and far below Azure's 69% — a central
+    bear-case data point.
+  context: Triggering 'bubble' event of early Oct 2025; via The AI Daily Brief episode summary notes (2025-10-08).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - gross-margin
+  - oracle
+  - bear-case
+- id: bain-2t-revenue-800b-shortfall
+  claim: Bain & Company forecast that $2 trillion in annual revenue would be needed by 2030 to justify
+    AI compute spending, and estimated an $800 billion shortfall.
+  context: Bear-case (infrastructure overbuild) argument; via The AI Daily Brief episode summary notes
+    (2025-10-08). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - capex
+  - overbuild
+  - bear-case
+  - projections
