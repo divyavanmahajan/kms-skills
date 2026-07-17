@@ -1,0 +1,43 @@
+name: Knowledge graph index
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "nuggets/**"
+      - "wiki/**"
+      - "sources/**"
+      - "graph/**"
+      - "kms_mcp/**"
+      - "requirements-mcp.txt"
+  workflow_dispatch:
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-mcp.txt
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: .kms-index/models
+          key: fastembed-all-MiniLM-L6-v2
+      - name: Check entity extraction coverage
+        run: python3 scripts/extract_entities.py --check || echo "::warning::Some nuggets lack entity extraction — run scripts/extract_entities.py locally"
+      - name: Build index
+        run: python3 -m kms_mcp index
+      - name: Smoke-test search
+        run: python3 -m kms_mcp search "enterprise AI adoption" --limit 3
+      - name: Upload index artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kms-index
+          path: |
+            .kms-index/kms.kuzu
+            .kms-index/manifest.json
+          retention-days: 30

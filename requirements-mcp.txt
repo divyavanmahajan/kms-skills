@@ -1,0 +1,7 @@
+# Dependencies for the KMS MCP server (kms_mcp/).
+# The site/docs toolchain stays in requirements.txt.
+mcp[cli]>=1.10,<2
+kuzu>=0.11,<0.12
+fastembed>=0.7,<1
+numpy>=1.26
+pyyaml>=6.0
