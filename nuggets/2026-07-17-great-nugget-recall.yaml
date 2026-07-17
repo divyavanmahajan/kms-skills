@@ -1,0 +1,52 @@
+source: sources/web/2026-07-17-great-nugget-recall.md
+created: 2026-07-17
+nuggets:
+  - id: nugget-eval-definition
+    claim: >-
+      In evaluation usage, a nugget is a discrete factual assertion for which
+      an assessor can make a binary determination about its presence in a
+      response, judged at the semantic rather than lexical level.
+    context: >-
+      Definition as stated in "The Great Nugget Recall" (Pradeep et al.,
+      arXiv 2504.15068, April 2025), tracing to Voorhees's 2003 TREC QA
+      methodology for definition questions.
+    confidence: medium
+    status: active
+    tags: [nuggets, definition, evaluation]
+  - id: nugget-eval-origin-2003
+    claim: >-
+      Nugget-based evaluation originated in the 2003 TREC Question Answering
+      Track, where Voorhees developed it for definition questions requiring
+      synthesis across multiple documents, with atomic facts classified vital
+      or okay.
+    context: >-
+      Historical account in arXiv 2504.15068 (April 2025); predates the
+      "nugget" usage in modern retrieval products by two decades.
+    confidence: medium
+    status: active
+    tags: [nuggets, history, evaluation]
+  - id: pre-llm-automation
+    claim: >-
+      Pre-LLM attempts to automate nugget evaluation include POURPRE and
+      Nuggeteer by Lin and Demner-Fushman (2005-2006), which were limited by
+      the technology of the time.
+    context: >-
+      Cited as prior work in arXiv 2504.15068 (April 2025); modern LLM-based
+      nuggetization is positioned as finally making the automation viable.
+    confidence: medium
+    status: active
+    tags: [nuggets, history, automation]
+  - id: nuggetization-correlation
+    claim: >-
+      LLM-automated nugget evaluation reached run-level Kendall's tau of
+      0.887-0.901 against semi-manual evaluation, and automating only
+      assignment while keeping human-created nuggets gave stronger per-topic
+      agreement than end-to-end automation.
+    context: >-
+      Findings of arXiv 2504.15068 (April 2025); the paper also notes LLM
+      assessors judge more strictly than humans, especially on partial
+      support, and that human post-editing of auto-nuggets takes ~1 hour per
+      topic versus ~2.5 hours fully manual.
+    confidence: medium
+    status: active
+    tags: [nuggets, evaluation, benchmark]

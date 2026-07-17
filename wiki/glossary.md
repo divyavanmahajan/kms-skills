@@ -9,6 +9,7 @@ sources:
   - sources/web/2026-07-17-what-is-llm-wiki.md
   - sources/web/2026-07-17-llm-wiki-maintenance-knowledge-drift.md
   - sources/web/2026-07-17-webiq-grounding-at-scale.md
+  - sources/web/2026-07-17-great-nugget-recall.md
 tags: [glossary]
 ---
 
@@ -66,6 +67,14 @@ interpretable on its own (who claims it, when, under what scope) plus
 provenance. Also called: *structured evidence object*, *evidence object*
 (Microsoft's official Web IQ terms), *passage-level evidence*. Richer than a
 chunk. See [Nuggets](topics/nuggets.md); stored under `nuggets/`.
+
+## Nuggetization
+
+Extracting atomic, binary-checkable claims (nuggets) from source material —
+originally a manual TREC QA evaluation step (2003), now LLM-automated for RAG
+evaluation (AutoNuggetizer, TREC 2024). Also called: *nugget creation*, *fact
+extraction*. In this repo, the `/nuggets` skill performs it at ingest time.
+See [Nuggets § Heritage](topics/nuggets.md#heritage-nugget-based-evaluation-2003-today).
 
 ## Chunk
 

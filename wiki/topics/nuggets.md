@@ -8,7 +8,10 @@ review_interval_days: 90
 sources:
   - sources/web/2026-07-17-announcing-microsoft-web-iq.md
   - sources/web/2026-07-17-webiq-grounding-at-scale.md
-tags: [retrieval, knowledge-management, nuggets]
+  - sources/web/2026-07-17-great-nugget-recall.md
+  - sources/web/2026-07-17-autonuggetizer-trec-2024-rag.md
+  - sources/web/2026-07-17-trec-2007-qa-overview.md
+tags: [retrieval, knowledge-management, nuggets, evaluation]
 ---
 
 # Nuggets (structured evidence objects)
@@ -49,6 +52,35 @@ densest evidence under latency and context-window constraints. Microsoft
 reports sub-165 ms p95 latency and frames the whole design as token-economics
 optimization rather than architectural novelty.
 
+## Heritage: nugget-based evaluation (2003 → today)
+
+The term has a two-decade evaluation lineage predating Web IQ. Voorhees
+introduced nugget-based evaluation in the **2003 TREC Question Answering
+Track** for definition questions that required synthesizing multiple
+documents: a nugget there is "a discrete factual assertion for which
+assessors can make binary determinations about presence in responses,"
+judged semantically, with facts classified **vital** (must appear in a good
+answer) or **okay** (helpful, not essential). **Nugget pyramids** (TREC
+2006–2007) refined this by pooling importance judgments from multiple
+assessors; pre-LLM automation attempts (POURPRE, Nuggeteer, 2005–2006)
+stalled on the technology of the time.
+
+The modern revival is **nuggetization** for RAG evaluation: the
+**AutoNuggetizer** framework (TREC 2024 RAG Track, Pradeep et al.) uses LLMs
+to both create nuggets from relevant documents and assign them
+(support / partial / no support) against system answers. Fully automatic
+evaluation ranks systems almost as reliably as human assessors (run-level
+Kendall's τ 0.783 in the track report, 0.887–0.901 in the follow-up study),
+though per-answer agreement is noisier, LLM judges are stricter than humans,
+and hybrid pipelines (human-edited nuggets + automatic assignment) agree best.
+
+The evaluation lineage and Web IQ's retrieval units converge on the same
+insight this repo builds on: **the atomic, attributable claim — not the
+document or the chunk — is the right unit for judging and carrying
+knowledge.** Our `nuggets/` inventory is simultaneously a Web-IQ-style
+evidence store and a TREC-style claim checklist a review can score pages
+against.
+
 ## How this repo uses nuggets
 
 This knowledge base compiles at ingest time, so nugget extraction happens
@@ -63,11 +95,13 @@ architecture.
 
 ## Open questions
 
-- "Nugget" as an evaluation unit predates Web IQ (TREC QA's nugget-based
-  evaluation and recent RAG-evaluation "nuggetization" work) — no source for
-  this is ingested yet, so it is recorded here as unsourced background.
 - All Web IQ performance figures (GDSAT, latency, token efficiency) are
   vendor-reported; no independent benchmarks ingested yet.
+- The TREC 2007 overview source is a thin snapshot (search excerpts only) —
+  expand it from the full PDF before promoting pyramid-related claims.
+
+*(Resolved 2026-07-17: the TREC heritage of "nugget" was previously recorded
+here as unsourced background; now sourced — see Heritage section.)*
 
 ## Sources
 
@@ -78,3 +112,13 @@ architecture.
   definition, contrast with chunks, pipeline position (nuggets:
   `evidence-object-definition`, `evidence-object-vs-chunk`,
   `evidence-object-pipeline-position`)
+- `sources/web/2026-07-17-great-nugget-recall.md` — 2003 origin, evaluation
+  definition, POURPRE/Nuggeteer, automation correlations (nuggets:
+  `nugget-eval-definition`, `nugget-eval-origin-2003`, `pre-llm-automation`,
+  `nuggetization-correlation`)
+- `sources/web/2026-07-17-autonuggetizer-trec-2024-rag.md` — AutoNuggetizer
+  pipeline, vital/okay scoring, TREC 2024 correlations (nuggets:
+  `autonuggetizer-what`, `autonuggetizer-pipeline`, `vital-vs-okay`,
+  `autonuggetizer-correlation`)
+- `sources/web/2026-07-17-trec-2007-qa-overview.md` — nugget pyramids
+  (nugget: `nugget-pyramid`; thin snapshot)

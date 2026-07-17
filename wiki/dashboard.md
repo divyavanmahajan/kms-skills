@@ -11,7 +11,7 @@ title: Health Dashboard
 | Pages | 10 |
 | — draft | 7 |
 | — reviewed | 3 |
-| Nuggets | 17 |
+| Nuggets | 26 |
 | — disputed | 0 |
 | Stale (past review date) | 0 (0%) |
 | Unsourced | 2 |

@@ -1,0 +1,52 @@
+source: sources/web/2026-07-17-autonuggetizer-trec-2024-rag.md
+created: 2026-07-17
+nuggets:
+  - id: autonuggetizer-what
+    claim: >-
+      The AutoNuggetizer framework uses LLMs to automate both nugget creation
+      and nugget assignment, refactoring the 2003 TREC QA nugget methodology
+      to evaluate RAG systems in the TREC 2024 RAG Track.
+    context: >-
+      From the track report by Pradeep, Thakur, Upadhyay, Campos, Craswell,
+      and Lin (arXiv 2411.09607, November 2024); "refactoring" is the authors'
+      own framing.
+    confidence: medium
+    status: active
+    tags: [nuggets, evaluation, rag]
+  - id: autonuggetizer-pipeline
+    claim: >-
+      In AutoNuggetizer, GPT-4o generates up to 30 candidate nuggets per query
+      from relevant documents and outputs 20 ranked by importance; assignment
+      judges each nugget as support, partial_support, or not_support against a
+      system answer, at most 10 nuggets per LLM call.
+    context: >-
+      TREC 2024 RAG Track configuration (November 2024 report); NIST assessors
+      could post-edit auto-created nuggets at about one hour per topic.
+    confidence: medium
+    status: active
+    tags: [nuggets, evaluation, methodology]
+  - id: vital-vs-okay
+    claim: >-
+      Nugget evaluation distinguishes vital nuggets, which must appear in a
+      good response, from okay nuggets, which add value but are not essential;
+      the primary TREC 2024 metric V_strict averages strict matching over
+      vital nuggets only.
+    context: >-
+      The vital/okay distinction dates to the original 2003 TREC QA
+      methodology and is retained in the TREC 2024 RAG Track scoring
+      (arXiv 2411.09607).
+    confidence: medium
+    status: active
+    tags: [nuggets, evaluation, scoring]
+  - id: autonuggetizer-correlation
+    claim: >-
+      Fully automatic nugget evaluation correlated strongly with mostly-manual
+      NIST evaluation at the run level (Kendall's tau 0.783) but weakly per
+      topic/run (tau 0.324) in the TREC 2024 RAG Track.
+    context: >-
+      Measured over 21 topics with complete manual annotations, across 31 RAG
+      and 14 AG evaluated runs (November 2024 report); implies automatic
+      scoring ranks systems reliably but is noisy for individual answers.
+    confidence: medium
+    status: active
+    tags: [nuggets, evaluation, benchmark]

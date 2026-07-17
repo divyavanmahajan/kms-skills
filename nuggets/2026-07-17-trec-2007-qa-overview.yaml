@@ -1,0 +1,17 @@
+source: sources/web/2026-07-17-trec-2007-qa-overview.md
+created: 2026-07-17
+nuggets:
+  - id: nugget-pyramid
+    claim: >-
+      Nugget pyramids refine nugget evaluation by combining nugget-importance
+      judgments from multiple assessors, increasing stability and
+      discriminative power at small additional assessment cost; after success
+      in TREC 2006 the method became the official evaluation for "Other"
+      questions in TREC 2007.
+    context: >-
+      From the TREC 2007 QA Track overview (NIST); captured via search
+      excerpts only — the thin snapshot should be expanded before this claim
+      is promoted beyond medium confidence.
+    confidence: medium
+    status: active
+    tags: [nuggets, history, evaluation]
