@@ -19,8 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Tries to enable Pages automatically; the workflow token usually may
+      # not create the site, so this is best-effort — enable manually via
+      # Settings -> Pages -> Source: GitHub Actions if deploy still fails.
       - name: Enable and configure GitHub Pages
         uses: actions/configure-pages@v5
+        continue-on-error: true
         with:
           enablement: true
       - uses: actions/setup-python@v5

@@ -59,6 +59,25 @@ python3 scripts/new_page.py "Title" --type topic
 mkdocs serve                       # browse the wiki at http://127.0.0.1:8000
 ```
 
+## Podcast & audio ingestion
+
+Episodes are **sources, not pages** — they feed existing topic pages.
+
+- **Feeds (RSS / Patreon)**: list feeds in `feeds.yaml`; the daily
+  `Fetch feeds` workflow (or `python3 scripts/fetch_feed.py`) writes new
+  episodes into `inbox/` as metadata-rich feed entries. Patreon members get a
+  personal tokenized RSS URL — store it as the `PATREON_FEED_URL` repo secret
+  and reference it in `feeds.yaml` as `${PATREON_FEED_URL}`; never commit it.
+- **Recordings / episodes**: `/ingest-audio` collects required metadata
+  (title, date, speakers, origin — it asks you for anything it can't
+  determine), obtains a transcript (provided, feed-linked, or Whisper if
+  installed), preserves it in `sources/audio/`, and nuggetizes with
+  speaker-attributed context. Audio binaries stay out of Git; the transcript
+  records `audio_url:`.
+- **Cadence**: daily capture is deterministic and cheap; synthesis into wiki
+  pages happens in the weekly `/maintain` PR, so you review one PR a week, not
+  seven.
+
 ## How it stays honest
 
 Compiled summaries rot in six ways — source, concept, terminology, decision,

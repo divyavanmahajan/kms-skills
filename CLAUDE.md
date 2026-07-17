@@ -15,12 +15,15 @@ python3 scripts/lint.py          # structural lint (run before every commit touc
 python3 scripts/lint.py --strict # warnings become errors (used in CI)
 python3 scripts/dashboard.py     # regenerate wiki/dashboard.md
 python3 scripts/new_page.py "Title" --type topic   # scaffold a schema-compliant page
+python3 scripts/fetch_feed.py                      # pull new podcast episodes into inbox/
 mkdocs serve                     # preview the site locally (pip install -r requirements.txt)
 ```
 
 ## Skills
 
 - `/ingest <url|file|note>` — snapshot a source, extract nuggets, compile wiki pages
+- `/ingest-audio <file|episode>` — audio/podcast ingest: collects metadata (asks
+  for anything missing), transcribes, then runs the normal pipeline
 - `/nuggets [source]` — extract claim-level nuggets from a source into `nuggets/`
 - `/review [page]` — semantic review of stale or flagged pages
 - `/contradictions` — contradiction sweep over the nugget inventory + pages

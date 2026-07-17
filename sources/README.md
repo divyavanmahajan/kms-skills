@@ -9,3 +9,5 @@ and `type:` frontmatter.
 - `docs/` — papers, PDFs, formal documents (binaries get a `.md` sidecar)
 - `notes/` — the owner's own notes and drafts
 - `code/` — extracts from codebases, READMEs, ADRs, API docs
+- `audio/` — transcripts of recordings and podcast episodes (audio binaries
+  are not committed; see `policies/source-policy.md`)

@@ -1,0 +1,41 @@
+# Daily podcast/RSS capture (deterministic, no LLM).
+#
+# Fetches feeds listed in feeds.yaml and commits new episode entries to
+# inbox/ on main. The weekly maintenance loop (or /ingest-audio on demand)
+# then transcribes, nuggetizes, and compiles them.
+#
+# Private feeds: add the personal feed URL (e.g. Patreon's tokenized RSS
+# link) as a repo secret and reference it from feeds.yaml as ${VAR_NAME},
+# then expose it in the env block below.
+name: Fetch feeds
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # daily 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: Fetch feeds into inbox/
+        env:
+          PATREON_FEED_URL: ${{ secrets.PATREON_FEED_URL }}
+        run: python3 scripts/fetch_feed.py
+      - name: Commit new entries
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inbox/
+          git diff --cached --quiet || git commit -m "ingest: fetch feed entries into inbox"
+          git push

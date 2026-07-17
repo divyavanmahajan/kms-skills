@@ -13,7 +13,9 @@ in a session.
 
 `$ARGUMENTS` may be a URL, a file path (often in `inbox/`), or pasted text. If
 empty, list the contents of `inbox/` and ingest everything there (except
-`README.md`, which stays put).
+`README.md`, which stays put). Audio files and `inbox/podcast-*.md` feed
+entries are handled by the `ingest-audio` skill's procedure (metadata
+collection + transcription) — switch to it for those inputs.
 
 ## Step 1 — Preserve the source (append-only)
 

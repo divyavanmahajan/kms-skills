@@ -1,0 +1,20 @@
+# Podcast / RSS feeds fetched by scripts/fetch_feed.py (daily via CI).
+# New episodes land in inbox/ as feed-entry files awaiting /ingest-audio.
+#
+# Private feeds (e.g. Patreon): Patreon gives each member a personal RSS URL
+# containing an auth token. NEVER paste it here — reference an environment
+# variable instead, and set it as a GitHub Actions secret (see
+# .github/workflows/feeds.yml) or in your shell for local runs.
+#
+# Fields: name (unique), url, max_episodes (per run, default 5).
+
+feeds: []
+
+# Examples:
+# feeds:
+#   - name: changelog
+#     url: https://changelog.com/podcast/feed
+#     max_episodes: 3
+#   - name: my-patreon-show
+#     url: ${PATREON_FEED_URL}
+#     max_episodes: 5

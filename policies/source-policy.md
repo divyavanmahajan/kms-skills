@@ -11,6 +11,7 @@ sources/
   docs/   YYYY-MM-DD-slug.(pdf|md) — papers, PDFs, formal docs (+ .md notes alongside)
   notes/  YYYY-MM-DD-slug.md     — the owner's own notes, meeting notes, drafts
   code/   YYYY-MM-DD-slug.md     — extracts from codebases, READMEs, ADRs, API docs
+  audio/  YYYY-MM-DD-slug.md     — transcripts of recordings & podcast episodes
 ```
 
 ## Rules
@@ -24,14 +25,23 @@ sources/
    ---
    url: https://...            # or origin: <repo/path/person> for non-web sources
    retrieved: 2026-07-17
-   type: snapshot | summary-notes | original | extract
+   type: snapshot | summary-notes | original | extract | transcript | feed-entry
    ---
    ```
+
+   Audio sources (`type: transcript` for verbatim transcripts,
+   `type: feed-entry` for show-notes-only) additionally require `published:`,
+   `speakers:` (with roles), and `show:` where applicable, plus `guid:` and
+   `audio_url:` for feed episodes. Metadata must be confirmed with the owner
+   if not derivable — see the `ingest-audio` skill.
 
    `type: summary-notes` marks files that are notes *about* a source rather than
    a verbatim copy — pages citing them inherit at most `confidence: medium`.
 3. **Binary sources get a sidecar.** A PDF `foo.pdf` gets `foo.md` next to it
-   with the frontmatter above plus extracted key passages.
+   with the frontmatter above plus extracted key passages. Audio binaries are
+   NOT committed by default (repo bloat) — the transcript file records
+   `audio_url:` or the local path; archive audio under `sources/audio/media/`
+   only on explicit request.
 4. **Sources are not wiki pages.** They are exempt from `schema.md` and are not
    published to the site. Never "clean up" a source to match current terminology
    — that destroys the evidence trail.
