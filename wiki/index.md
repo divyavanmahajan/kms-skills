@@ -31,6 +31,8 @@ maintenance.
 - [Wiki maintenance](topics/wiki-maintenance.md) — how this repo fights drift
 - [Nuggets (structured evidence objects)](topics/nuggets.md) — claim-level
   evidence units, richer than chunks
+- [LLM interpretability (global workspace)](topics/llm-interpretability.md) —
+  Anthropic's J-space research, via The AI Daily Brief
 
 ## Guides
 

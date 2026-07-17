@@ -8,10 +8,10 @@ title: Health Dashboard
 
 | Metric | Value |
 |---|---|
-| Pages | 10 |
-| — draft | 7 |
+| Pages | 11 |
+| — draft | 8 |
 | — reviewed | 3 |
-| Nuggets | 26 |
+| Nuggets | 33 |
 | — disputed | 0 |
 | Stale (past review date) | 0 (0%) |
 | Unsourced | 2 |

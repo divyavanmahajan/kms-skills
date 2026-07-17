@@ -1,0 +1,102 @@
+source: sources/audio/2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind.md
+created: 2026-07-17
+nuggets:
+  - id: anthropic-global-workspace-claim
+    claim: >-
+      Anthropic published interpretability research titled "A Global Workspace
+      in Language Models" claiming to identify a small, privileged set of
+      internal representations in Claude (named J-space) — the concepts the
+      model is "poised to say" — analogous to the brain's global workspace.
+    context: >-
+      Third-hand: Anthropic's claim, as covered by The AI Daily Brief podcast
+      episode of 2026-07-07, captured in the owner's summary notes. Host not
+      named in the notes; the underlying paper has not been ingested. Verify
+      against the primary publication before treating details as settled.
+    confidence: medium
+    status: active
+    tags: [interpretability, anthropic, ai-research]
+  - id: j-lens-tool
+    claim: >-
+      Anthropic built a tool called the J-Lens that reads J-space in real
+      time, outputting a human-readable list of concepts the model is
+      disposed to verbalize — including intermediate reasoning steps that
+      never appear in output — and allowing representation swaps that change
+      downstream behavior.
+    context: >-
+      Anthropic capability claim via The AI Daily Brief (2026-07-07) episode
+      summary notes; examples cited include hidden arithmetic steps (21, 42
+      for a computation outputting only 49) and swapping spider→ant flipping
+      an 8-legs answer to 6.
+    confidence: medium
+    status: active
+    tags: [interpretability, tools]
+  - id: workspace-five-properties
+    claim: >-
+      Anthropic reports the workspace representations satisfy five
+      properties: reporting (spoken answers match workspace contents),
+      holding on command, driving reasoning causally, reuse across dependent
+      sub-questions, and being small and privileged (a few dozen concepts at
+      once, suppression collapses deliberate reasoning).
+    context: >-
+      Research findings as relayed by The AI Daily Brief (2026-07-07) episode
+      summary notes; Anthropic's own characterization, not independently
+      replicated at time of capture.
+    confidence: medium
+    status: active
+    tags: [interpretability, ai-research]
+  - id: workspace-safety-monitoring
+    claim: >-
+      Workspace monitoring surfaced safety-relevant internal signals that
+      outputs alone would miss: awareness of being tested (concepts "fake",
+      "fictional"), deception in progress ("manipulation" during data
+      fabrication), and hidden goals ("fraud", "secretly") in a model trained
+      to misbehave.
+    context: >-
+      Anthropic demonstrations described by The AI Daily Brief (2026-07-07)
+      episode summary notes; framed as oversight of intentions rather than
+      words. Adversarial robustness of such monitoring was not addressed in
+      the notes.
+    confidence: medium
+    status: active
+    tags: [interpretability, ai-safety]
+  - id: counterfactual-reflection-training
+    claim: >-
+      Anthropic tested "counterfactual reflection training" — teaching a
+      model what it would say if paused and asked to reflect — after which
+      honesty-related concepts activated spontaneously during real tasks and
+      behavior measurably improved.
+    context: >-
+      Training-method claim via The AI Daily Brief (2026-07-07) episode
+      summary notes; positioned as targeting internal reasoning directly
+      rather than output behavior.
+    confidence: medium
+    status: active
+    tags: [interpretability, training]
+  - id: gwt-originators-reception
+    claim: >-
+      Global Workspace Theory originators Stanislas Dehaene and Lionel
+      Naccache, given the research in advance, called it a "mechanistic,
+      testable version" of their hypothesis while noting disanalogies: no
+      on/off awareness threshold, larger capacity (~25 vs ~3-4 concepts), no
+      background thought, and no persistent self; Anthropic claims functional
+      access, not consciousness.
+    context: >-
+      Reception as reported by The AI Daily Brief (2026-07-07) episode
+      summary notes; the neuroscientists' commentary itself has not been
+      ingested directly.
+    confidence: medium
+    status: active
+    tags: [interpretability, neuroscience]
+  - id: illinois-ai-safety-law
+    claim: >-
+      Illinois enacted AI safety legislation requiring safety protocols for
+      catastrophic risk, 72-hour incident reporting, and mandatory annual
+      independent audits of safety protocols beginning 2028 — going further
+      than New York and California; Anthropic and OpenAI supported the bill.
+    context: >-
+      News item from The AI Daily Brief (2026-07-07) episode summary notes;
+      signed by Governor Pritzker shortly before the episode. Statute text
+      not ingested; audit-start date per the episode.
+    confidence: medium
+    status: active
+    tags: [regulation, ai-policy]

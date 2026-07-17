@@ -46,6 +46,7 @@ nav:
       - topics/knowledge-drift.md
       - topics/wiki-maintenance.md
       - topics/nuggets.md
+      - topics/llm-interpretability.md
   - Guides:
       - guides/maintenance-guidelines.md
       - guides/obsidian.md
