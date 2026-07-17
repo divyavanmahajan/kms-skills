@@ -19,6 +19,9 @@ python3 scripts/fetch_feed.py                      # pull new podcast episodes i
 python3 scripts/fetch_notes.py                     # sync notes from GitHub repos into inbox/
 python3 scripts/build_browse.py  # generate the site's Sources + Nuggets browser (run before mkdocs)
 mkdocs serve                     # preview the site locally (pip install -r requirements.txt)
+python3 -m kms_mcp index         # rebuild the knowledge graph + embeddings (.kms-index/)
+python3 scripts/extract_entities.py  # extract entities for new nuggets into graph/entities.yaml
+python3 scripts/remove_source.py "<glob>"  # dry-run retraction impact report (--apply via /remove-source)
 ```
 
 ## Skills
@@ -29,6 +32,8 @@ mkdocs serve                     # preview the site locally (pip install -r requ
 - `/nuggets [source]` — extract claim-level nuggets from a source into `nuggets/`
 - `/review [page]` — semantic review of stale or flagged pages
 - `/contradictions` — contradiction sweep over the nugget inventory + pages
+- `/remove-source <glob>` — retract sources matching a glob under `sources/` and
+  update all derived content (nuggets, entities, wiki claims, graph)
 - `/maintain` — full weekly maintenance loop (used by scheduled CI too)
 
 ## Key paths
@@ -38,3 +43,10 @@ mkdocs serve                     # preview the site locally (pip install -r requ
 - `nuggets/` — claim inventory (one YAML per source); claims immutable, supersede to correct
 - `wiki/` — compiled pages (MkDocs docs dir); every page needs schema frontmatter
 - `inbox/` — drop zone for material awaiting ingestion
+- `graph/entities.yaml` — entity extraction cache (nugget uid → named entities)
+- `kms_mcp/` — MCP server ("kms" in .mcp.json): Kuzu knowledge graph + semantic
+  search over the whole KMS. Prefer its tools (`kms_semantic_search`,
+  `kms_graph_query`, `kms_related`) over grep when answering questions from the
+  knowledge base. After changing nuggets/wiki/sources, run
+  `scripts/extract_entities.py` for new nuggets and reindex via `kms_reindex`
+  or `python3 -m kms_mcp index`.

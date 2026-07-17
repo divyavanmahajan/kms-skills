@@ -1,0 +1,1252 @@
+# Entity extraction cache — nugget uid ("<nugget file stem>#<claim id>") ->
+# list of {name, type} named entities mentioned in the claim.
+#
+# Maintained by scripts/extract_entities.py (LLM-assisted). Like nuggets,
+# entries are only ever added or corrected for NEW nuggets — the indexer
+# (kms_mcp) turns this file into Entity nodes and MENTIONS edges.
+2025-04-08-how-big-a-deal-is-llama-4-s-10m-token-context-window-ad-free#llama4-scout-10m-context:
+- name: Meta
+  type: company
+- name: Llama 4 Scout
+  type: model
+- name: Llama 4 Maverick
+  type: model
+- name: Google
+  type: company
+- name: Gemini
+  type: model
+2025-04-10-how-will-tariffs-impact-the-ai-industry#china-16b-nvidia-rush:
+- name: Nvidia
+  type: company
+- name: China
+  type: place
+2025-04-12-the-2025-ai-index#stanford-global-optimism-gap:
+- name: AI Index 2025
+  type: report
+- name: Stanford HAI
+  type: organization
+- name: China
+  type: place
+- name: Indonesia
+  type: place
+- name: Thailand
+  type: place
+- name: United States
+  type: place
+2025-04-12-the-2025-ai-index#stanford-org-usage-55-to-78:
+- name: Stanford HAI
+  type: organization
+- name: AI Index 2025
+  type: report
+- name: United States
+  type: place
+- name: China
+  type: place
+2025-04-21-agent-pilots-nearly-doubled-last-quarter#kpmg-agent-pilots-2025:
+- name: KPMG
+  type: company
+- name: KPMG AI Pulse Survey
+  type: report
+2025-04-25-how-every-employee-becomes-an-agent-boss#frontier-firm-three-phases:
+- name: Microsoft
+  type: company
+2025-04-25-how-every-employee-becomes-an-agent-boss#msft-agent-boss-82pct-capacity:
+- name: Microsoft
+  type: company
+- name: LinkedIn
+  type: company
+- name: Work Trend Index 2025
+  type: report
+2025-05-03-nvidia-and-anthropic-trade-barbs-around-ai-chip-rules#ai-diffusion-rule-tiers:
+- name: AI Diffusion Rule
+  type: report
+- name: China
+  type: place
+2025-05-03-nvidia-and-anthropic-trade-barbs-around-ai-chip-rules#sov-govt-to-govt-chip-agreements:
+- name: Anthropic
+  type: company
+- name: Nvidia
+  type: company
+- name: Jensen Huang
+  type: person
+- name: AI Diffusion Rule
+  type: report
+2025-05-15-the-age-of-ai-diplomacy#sov-diffusion-rule-rescinded:
+- name: US Commerce Department
+  type: organization
+- name: AI Diffusion Rule
+  type: report
+- name: United States
+  type: place
+2025-05-15-the-age-of-ai-diplomacy#sov-humane-fullstack-buildout:
+- name: Saudi Arabia
+  type: place
+- name: Humane
+  type: company
+- name: Nvidia
+  type: company
+- name: AMD
+  type: company
+- name: Amazon
+  type: company
+2025-05-15-the-age-of-ai-diplomacy#sov-mbs-600b-pledge:
+- name: Mohammed bin Salman
+  type: person
+- name: United States
+  type: place
+- name: UAE
+  type: place
+- name: Trump administration
+  type: organization
+- name: AI Diffusion Rule
+  type: report
+2025-05-25-how-to-make-ai-work-at-work#mollick-leadership-lab-crowd:
+- name: Ethan Mollick
+  type: person
+2025-05-28-what-to-use-claude-4-for#claude-opus4-7hr-refactor:
+- name: Anthropic
+  type: company
+- name: Claude Opus 4
+  type: model
+- name: Claude Sonnet 4
+  type: model
+2025-05-29-is-ai-already-shrinking-entry-level-tech-jobs#signalfire-entrylevel-collapse-2024:
+- name: SignalFire
+  type: company
+- name: State of Talent Report 2025
+  type: report
+- name: New York Fed
+  type: organization
+2025-05-30-the-6-ai-use-case-primitives#openai-report-bcg-evidence:
+- name: OpenAI
+  type: company
+- name: BCG
+  type: company
+2025-05-30-the-6-ai-use-case-primitives#openai-six-use-case-primitives:
+- name: OpenAI
+  type: company
+- name: Identifying and Scaling AI Use Cases
+  type: report
+2025-05-31-nvidia-ceo-says-china-ai-is-catching-up-fast#h20-ban-8b-nvidia:
+- name: Nvidia
+  type: company
+- name: H20
+  type: technology
+2025-05-31-nvidia-ceo-says-china-ai-is-catching-up-fast#saudi-humane-infrastructure:
+- name: Saudi Arabia
+  type: place
+- name: Humane
+  type: company
+- name: Nvidia
+  type: company
+- name: AMD
+  type: company
+- name: Amazon
+  type: company
+- name: Qualcomm
+  type: company
+2025-05-31-nvidia-ceo-says-china-ai-is-catching-up-fast#sov-huang-run-on-american-platforms:
+- name: Nvidia
+  type: company
+- name: Jensen Huang
+  type: person
+- name: China
+  type: place
+2025-06-11-what-s-the-bigger-deal-for-ai-o3-pro-or-o3-s-80-price-drop#o3-price-drop-80pct:
+- name: OpenAI
+  type: company
+- name: o3
+  type: model
+- name: o3 Pro
+  type: model
+- name: Sam Altman
+  type: person
+2025-06-12-how-this-totally-unhinged-ai-ad-shows-the-future-of-advertis#disney-universal-sue-midjourney:
+- name: Disney
+  type: company
+- name: Universal
+  type: company
+- name: Midjourney
+  type: company
+2025-06-12-how-this-totally-unhinged-ai-ad-shows-the-future-of-advertis#kalshi-veo3-nba-ad:
+- name: PJ Ace
+  type: person
+- name: Kalshi
+  type: company
+- name: Google
+  type: company
+- name: Veo 3
+  type: model
+- name: NBA Finals
+  type: event
+2025-06-21-10-ai-video-trends-taking-over-the-internet#veo3-youtube-shorts-integration:
+- name: Neal Mohan
+  type: person
+- name: YouTube
+  type: company
+- name: Cannes Lions
+  type: event
+- name: Google
+  type: company
+- name: Veo 3
+  type: model
+2025-06-27-everything-is-now-a-vibe-coding-app#lovable-hackathon-250k-apps:
+- name: Lovable
+  type: company
+- name: Replit
+  type: company
+- name: Amjad Masad
+  type: person
+2025-06-29-ai-agents-and-software-3-0#karpathy-software-3-0:
+- name: Andrej Karpathy
+  type: person
+- name: YC Startup School
+  type: event
+2025-07-04-velvet-sundown-or-how-scared-should-we-be-of-ai-music#elvis-act-music-regulation:
+- name: US Senate
+  type: organization
+- name: Tennessee
+  type: place
+- name: Elvis Act
+  type: report
+2025-07-04-velvet-sundown-or-how-scared-should-we-be-of-ai-music#velvet-sundown-spotify:
+- name: The Velvet Sundown
+  type: organization
+- name: Spotify
+  type: company
+2025-07-06-the-state-of-ai-mid-2025#menlo-consumer-adoption-61-tools:
+- name: Menlo Ventures
+  type: company
+- name: State of Consumer AI 2025
+  type: report
+- name: ChatGPT
+  type: model
+- name: Gemini
+  type: model
+- name: Meta AI
+  type: model
+- name: Alexa
+  type: model
+- name: Siri
+  type: model
+2025-07-06-the-state-of-ai-mid-2025#menlo-parents-power-users:
+- name: Menlo Ventures
+  type: company
+- name: State of Consumer AI 2025
+  type: report
+2025-07-08-the-latest-ai-job-loss-predictions#farley-amodei-white-collar-predictions:
+- name: Jim Farley
+  type: person
+- name: Ford
+  type: company
+- name: JPMorgan
+  type: company
+- name: Marion Lake
+  type: person
+- name: Anthropic
+  type: company
+- name: Dario Amodei
+  type: person
+- name: Aspen Ideas Festival
+  type: event
+2025-07-11-is-grok-4-the-best-llm-yet#grok4-arc-agi2-15point9:
+- name: xAI
+  type: company
+- name: Grok 4
+  type: model
+- name: Grok 4 Heavy
+  type: model
+- name: Grok 2
+  type: model
+- name: Claude Opus 4
+  type: model
+- name: ARC-AGI-2
+  type: report
+- name: Artificial Analysis
+  type: company
+2025-07-16-does-ai-secretly-slow-developers-down#metr-19-percent-slower:
+- name: METR
+  type: organization
+2025-07-17-how-much-ai-do-workers-actually-want#stanford-hai-worker-preferences:
+- name: Stanford HAI
+  type: organization
+2025-07-18-all-the-cool-things-people-are-vibe-coding#all-cool-things-lovable-unicorn:
+- name: Lovable
+  type: company
+2025-07-18-all-the-cool-things-people-are-vibe-coding#claude-code-usage-growth-2025:
+- name: Claude Code
+  type: model
+- name: Claude 4
+  type: model
+2025-07-24-america-s-ai-action-plan#sov-action-plan-open-weights-geostrategic:
+- name: AI Action Plan
+  type: report
+- name: United States
+  type: place
+- name: China
+  type: place
+2025-07-24-america-s-ai-action-plan#sov-action-plan-third-pillar:
+- name: White House
+  type: organization
+- name: AI Action Plan
+  type: report
+- name: United States
+  type: place
+- name: China
+  type: place
+2025-07-24-america-s-ai-action-plan#sov-anthropic-gulf-memo:
+- name: Anthropic
+  type: company
+- name: Dario Amodei
+  type: person
+2025-07-25-how-one-company-saved-213-000-hours-with-ai#norges-bank-mandatory-213000-hours:
+- name: Norges Bank Investment Management
+  type: organization
+- name: Nikolai Tangen
+  type: person
+- name: Norway
+  type: place
+2025-07-29-is-global-ai-cooperation-even-possible#sov-china-world-ai-coop-org:
+- name: China
+  type: place
+- name: World AI Conference
+  type: event
+- name: Shanghai
+  type: place
+- name: World AI Cooperation Organization
+  type: organization
+2025-07-29-walmart-blasts-past-agent-experimentation#walmart-four-super-agents:
+- name: Walmart
+  type: company
+- name: Sparky
+  type: model
+- name: Marty
+  type: model
+- name: Suresh Kumar
+  type: person
+2025-08-03-where-ai-is-right-now-15-charts-in-15-minutes#paid-ai-subscriptions-25-to-42:
+- name: KPMG
+  type: company
+- name: Writer
+  type: company
+- name: Ramp
+  type: company
+- name: United States
+  type: place
+2025-08-07-gpt-5-everything-you-need-to-know#gpt5-family-400k-context:
+- name: OpenAI
+  type: company
+- name: GPT-5
+  type: model
+- name: o3
+  type: model
+- name: SWE-Bench Verified
+  type: report
+2025-08-16-the-claude-code-problem#claude-code-problem-replit-margins:
+- name: Replit
+  type: company
+- name: Claude Code
+  type: model
+- name: Chris Pike
+  type: person
+- name: Cursor
+  type: company
+2025-08-17-will-ai-destroy-or-reinvent-education#mit-eeg-education-study:
+- name: MIT
+  type: organization
+2025-08-22-no-95-of-ai-pilots-aren-t-failing#mit-nanda-95-percent-methodology:
+- name: MIT
+  type: organization
+- name: Project NANDA
+  type: report
+2025-08-22-no-95-of-ai-pilots-aren-t-failing#pilot-failure-80-organizational: []
+2025-08-22-no-95-of-ai-pilots-aren-t-failing#shadow-ai-40-vs-90:
+- name: MIT
+  type: organization
+2025-08-26-what-ai-backlash-at-youtube-can-teach-other-companies#netflix-traffic-light-genai:
+- name: Netflix
+  type: company
+- name: YouTube
+  type: company
+2025-08-27-the-new-politics-of-ai#sov-us-intel-equity-stake:
+- name: United States
+  type: place
+- name: Intel
+  type: company
+- name: Howard Lutnick
+  type: person
+2025-08-28-7-ai-use-cases-unlocked-by-nano-banana#nano-banana-official-name-cost:
+- name: Google
+  type: company
+- name: Gemini 2.5 Flash Image
+  type: model
+- name: GPT-4o
+  type: model
+- name: LM Arena
+  type: company
+2025-08-29-the-most-used-genai-tools#a16z-gemini-12pct-china-22:
+- name: Andreessen Horowitz
+  type: company
+- name: Top 100 Gen AI Consumer Apps
+  type: report
+- name: Gemini
+  type: model
+- name: ChatGPT
+  type: model
+- name: DeepSeek
+  type: model
+- name: Grok
+  type: model
+- name: China
+  type: place
+2025-08-30-workers-don-t-trust-their-companies-on-ai#stanford-hai-earlycareer-decline:
+- name: Stanford HAI
+  type: organization
+2025-08-30-workers-don-t-trust-their-companies-on-ai#writer-genz-sabotage:
+- name: Writer
+  type: company
+2025-09-05-openai-launches-jobs-and-certifications#openai-certify-10m-jobs-platform:
+- name: OpenAI
+  type: company
+- name: Gerald Huff Fund for Humanity
+  type: organization
+- name: Fiji Simo
+  type: person
+- name: United States
+  type: place
+2025-09-10-ai-generated-code-reaching-50-in-some-companies#enterprise-ai-code-shares:
+- name: Anthropic
+  type: company
+- name: Dario Amodei
+  type: person
+- name: Robinhood
+  type: company
+- name: Coinbase
+  type: company
+- name: Microsoft
+  type: company
+- name: Meta
+  type: company
+2025-09-14-the-ai-slopocalypse#inception-point-ai-podcasts:
+- name: Inception Point AI
+  type: company
+- name: Quiet Please
+  type: company
+2025-09-18-how-people-actually-use-chatgpt#openai-nber-asking-doing-expressing:
+- name: OpenAI
+  type: company
+- name: NBER
+  type: organization
+- name: Harvard
+  type: organization
+- name: ChatGPT
+  type: model
+- name: David Deming
+  type: person
+2025-09-19-ai-agent-deployments-quadruple-in-2025#kpmg-agent-deployment-quadruple-2025:
+- name: KPMG
+  type: company
+- name: AI Quarterly Pulse Survey
+  type: report
+2025-09-19-ai-agent-deployments-quadruple-in-2025#kpmg-worker-resistance-collapse-q3-2025:
+- name: KPMG
+  type: company
+- name: AI Quarterly Pulse Survey
+  type: report
+2025-09-21-the-truth-about-the-ai-bubble#azhar-capex-6x-revenue:
+- name: Azeem Azhar
+  type: person
+2025-09-24-nvidia-and-openai-up-the-ai-stakes-with-100b-deal#nvidia-openai-100b-10gw-deal:
+- name: Nvidia
+  type: company
+- name: OpenAI
+  type: company
+- name: United States
+  type: place
+2025-09-24-nvidia-and-openai-up-the-ai-stakes-with-100b-deal#nvidia-openai-neocloud-note:
+- name: Nvidia
+  type: company
+- name: OpenAI
+  type: company
+2025-09-24-nvidia-and-openai-up-the-ai-stakes-with-100b-deal#openai-anthropic-2025-revenue:
+- name: OpenAI
+  type: company
+- name: Anthropic
+  type: company
+2025-09-29-learn-ai-or-be-replaced-accenture-s-11-000-layoffs-are-a-war#accenture-11000-layoffs:
+- name: Accenture
+  type: company
+- name: Julie Sweet
+  type: person
+2025-09-30-claude-sonnet-4-5-can-code-autonomously-for-30-hours#sonnet45-30hr-autonomous:
+- name: Anthropic
+  type: company
+- name: Claude Sonnet 4.5
+  type: model
+- name: GPT-5 Codex
+  type: model
+- name: SWE-Bench Verified
+  type: report
+2025-10-01-sora-2-and-the-brainrot-rebellion#sora-2-cameos-launch:
+- name: OpenAI
+  type: company
+- name: Sora 2
+  type: model
+- name: Pew Research Center
+  type: organization
+2025-10-07-why-openai-s-amd-deal-could-be-bigger-news-than-devday#openai-amd-6gw-equity-option:
+- name: OpenAI
+  type: company
+- name: AMD
+  type: company
+- name: Lisa Su
+  type: person
+2025-10-08-5-reasons-ai-is-a-bubble-and-5-it-s-not#bain-2t-revenue-800b-shortfall:
+- name: Bain & Company
+  type: company
+2025-10-08-5-reasons-ai-is-a-bubble-and-5-it-s-not#oracle-ai-cloud-margin-14pct:
+- name: Oracle
+  type: company
+- name: The Information
+  type: company
+- name: Walmart
+  type: company
+- name: Azure
+  type: technology
+2025-10-12-what-1-000-execs-told-us-about-ai-agents#agent-readiness-score-52:
+- name: Super Intelligent
+  type: company
+- name: Agent Readiness Score
+  type: report
+- name: Nathaniel Whittemore
+  type: person
+2025-10-12-what-1-000-execs-told-us-about-ai-agents#data-fragmentation-top-blocker:
+- name: Super Intelligent
+  type: company
+- name: Nathaniel Whittemore
+  type: person
+2025-10-13-these-are-the-jobs-people-actually-want-ai-to-automate#senate-100m-jobs:
+- name: U.S. Senate HELP Committee
+  type: organization
+- name: Housecall Pro
+  type: company
+- name: ChatGPT
+  type: model
+- name: United States
+  type: place
+2025-10-26-workers-are-excited-about-ai-agents-so-why-are-companies-scr#clear-communication-agent-usage-gap:
+- name: EY
+  type: company
+2025-10-26-workers-are-excited-about-ai-agents-so-why-are-companies-scr#ey-84pct-eager-agents:
+- name: EY
+  type: company
+2025-10-30-openai-is-now-officially-a-for-profit-company#openai-microsoft-restructure-stakes:
+- name: OpenAI
+  type: company
+- name: Microsoft
+  type: company
+- name: OpenAI Foundation
+  type: organization
+- name: Azure
+  type: technology
+2025-10-31-why-openai-s-1-trillion-ipo-can-t-come-soon-enough#nvidia-5t-market-cap:
+- name: Nvidia
+  type: company
+- name: Blackwell
+  type: technology
+2025-10-31-why-openai-s-1-trillion-ipo-can-t-come-soon-enough#openai-1t-ipo-valuation-arc:
+- name: OpenAI
+  type: company
+- name: Reuters
+  type: company
+2025-10-31-why-openai-s-1-trillion-ipo-can-t-come-soon-enough#powell-ai-vs-dotcom:
+- name: Jerome Powell
+  type: person
+- name: Federal Reserve
+  type: organization
+2025-11-03-rip-vibe-coding-feb-2025-oct-2025#rip-vibe-coding-swyx:
+- name: Sean Wang
+  type: person
+- name: Cognition
+  type: company
+2025-11-04-is-openai-becoming-too-big-to-fail#sov-microsoft-uae-chip-license:
+- name: Microsoft
+  type: company
+- name: Brad Smith
+  type: person
+- name: US Commerce Department
+  type: organization
+- name: UAE
+  type: place
+- name: Blackwell
+  type: technology
+2025-11-06-why-openai-s-cfo-just-sparked-an-ai-bailout-debate#openai-cfo-backstop-comment:
+- name: OpenAI
+  type: company
+- name: Sarah Fryer
+  type: person
+- name: WSJ TechLive
+  type: event
+2025-11-08-the-ai-roi-surprise-wharton-finds-75-of-enterprises-seeing-p#wharton-gbk-roi-adoption:
+- name: Wharton
+  type: organization
+- name: Wharton GBK Study
+  type: report
+2025-11-09-a-framework-for-choosing-winning-ai-use-cases-agent-readines#gaspar-four-step-use-case-process:
+- name: Nufar Gaspar
+  type: person
+- name: BCG
+  type: company
+- name: Super Intelligent
+  type: company
+2025-11-09-a-framework-for-choosing-winning-ai-use-cases-agent-readines#kpmg-ceo-roi-timeline:
+- name: KPMG
+  type: company
+- name: KPMG CEO Study
+  type: report
+2025-11-18-how-gemini-3-changes-the-ai-race#gemini3-arc-agi2-vs-gpt51:
+- name: Google
+  type: company
+- name: Gemini 3 Pro
+  type: model
+- name: GPT-5.1
+  type: model
+- name: ARC-AGI 2
+  type: report
+- name: LM Arena
+  type: organization
+- name: Artificial Analysis
+  type: company
+2025-11-22-25-things-nano-banana-pro-does-that-ai-couldn-t-before#nano-banana-pro-visual-compression:
+- name: Nano Banana Pro
+  type: model
+- name: Llama 3
+  type: model
+2025-11-24-why-the-ai-bubble-debate-is-useless#openai-1-4t-commitments-oracle-cds:
+- name: OpenAI
+  type: company
+- name: Oracle
+  type: company
+2025-11-26-why-opus-4-5-changes-vibe-coding#opus-45-anthropic-internal-220:
+- name: Anthropic
+  type: company
+- name: Claude Opus 4.5
+  type: model
+2025-11-26-why-opus-4-5-changes-vibe-coding#opus-45-swebench-verified-809:
+- name: Claude Opus 4.5
+  type: model
+- name: Sonnet 4.5
+  type: model
+- name: GPT-5.1 Codex Max
+  type: model
+- name: Gemini 3 Pro
+  type: model
+- name: SWE-Bench Verified
+  type: report
+- name: Anthropic
+  type: company
+2025-11-26-why-opus-4-5-changes-vibe-coding#opus-45-token-price-cut:
+- name: Claude Opus 4.5
+  type: model
+- name: Claude Opus 4.1
+  type: model
+- name: SWE-Bench Verified
+  type: report
+- name: Anthropic
+  type: company
+2025-12-04-can-today-s-ai-really-replace-12-of-work#mit-iceberg-index-117:
+- name: MIT
+  type: organization
+- name: Iceberg Index
+  type: report
+- name: Anthropic
+  type: company
+- name: Claude
+  type: model
+2025-12-05-what-1-250-professionals-say-about-working-with-ai#anthropic-1250-time-savings:
+- name: Anthropic
+  type: company
+2025-12-10-the-ai-race-gets-a-massive-power-shift#compute-advantage-33-to-1:
+- name: David Shore
+  type: person
+- name: Blue Rose Research
+  type: company
+- name: United States
+  type: place
+- name: China
+  type: place
+2025-12-10-the-ai-race-gets-a-massive-power-shift#sov-h200-china-addicted-stack:
+- name: Howard Lutnick
+  type: person
+- name: Nvidia
+  type: company
+- name: China
+  type: place
+- name: United States
+  type: place
+- name: H200
+  type: technology
+2025-12-10-the-ai-race-gets-a-massive-power-shift#trump-h200-china-25pct-cut:
+- name: Donald Trump
+  type: person
+- name: Nvidia
+  type: company
+- name: China
+  type: place
+- name: United States
+  type: place
+- name: H200
+  type: technology
+- name: Blackwell
+  type: technology
+- name: Rubin
+  type: technology
+2025-12-10-the-state-of-enterprise-ai#anthropic-enterprise-share-40:
+- name: Anthropic
+  type: company
+- name: OpenAI
+  type: company
+- name: Menlo Ventures
+  type: company
+- name: State of Enterprise AI
+  type: report
+2025-12-11-gpt-5-2-is-here#arc-390x-cost-efficiency:
+- name: ARC Prize
+  type: organization
+- name: ARC-AGI
+  type: report
+- name: o3
+  type: model
+- name: GPT-5.2 Pro
+  type: model
+2025-12-11-gpt-5-2-is-here#gpt52-gdpval-arcagi:
+- name: OpenAI
+  type: company
+- name: GPT-5.2
+  type: model
+- name: GPT-5
+  type: model
+- name: Claude Opus 4.5
+  type: model
+- name: GDPval
+  type: report
+- name: ARC-AGI 2
+  type: report
+- name: SWE-Bench Pro
+  type: report
+2025-12-19-82-of-companies-are-seeing-positive-ai-roi#aidb-benchmark-82-positive-roi:
+- name: The AI Daily Brief
+  type: organization
+- name: AI ROI Benchmarking Study
+  type: report
+2025-12-19-82-of-companies-are-seeing-positive-ai-roi#aidb-roi-portfolio-benefit-types:
+- name: AI ROI Benchmarking Study
+  type: report
+2025-12-22-the-10-biggest-ai-stories-of-2025#deepseek-nvidia-593b:
+- name: DeepSeek
+  type: company
+- name: DeepSeek R1
+  type: model
+- name: Nvidia
+  type: company
+- name: Menlo Ventures
+  type: company
+2025-12-26-the-5-most-impactful-ai-model-releases-of-2025#2025-model-retrospective-ranking:
+- name: Anthropic
+  type: company
+- name: Claude
+  type: model
+- name: OpenAI
+  type: company
+- name: o1
+  type: model
+- name: o3
+  type: model
+- name: Google
+  type: company
+- name: Nano Banana
+  type: model
+- name: OpenRouter
+  type: company
+2026-01-03-what-manus-and-groq-acquisitions-tell-us-about-ai#meta-manus-nvidia-groq-2026-acquisitions:
+- name: Meta
+  type: company
+- name: Manus
+  type: company
+- name: Nvidia
+  type: company
+- name: Groq
+  type: company
+2026-01-08-why-everyone-is-obsessed-with-claude-code#claude-code-obsessed-anecdotes:
+- name: Google
+  type: company
+- name: Claude Code
+  type: model
+- name: Claude Opus 4.5
+  type: model
+2026-01-19-how-to-make-chatgpt-ads-not-suck#chatgpt-ads-free-tier:
+- name: OpenAI
+  type: company
+- name: ChatGPT
+  type: model
+2026-01-26-ralph-wiggum-clawdbot-and-mac-minis-how-pros-are-vibe-coding#cursor-browser-parallel-agents:
+- name: Cursor
+  type: company
+- name: GPT-5.2
+  type: model
+- name: Jeffrey Huntley
+  type: person
+- name: Ralph Wiggum loop
+  type: technology
+2026-01-28-are-agent-swarms-the-next-ai-paradigm#kimi-k25-parl-swarm:
+- name: Moonshot AI
+  type: company
+- name: Kimi K2.5
+  type: model
+- name: PARL
+  type: technology
+2026-02-01-openai-ipo-grok-spacex-merger-the-ai-ipo-race-heats-up#amazon-50b-openai-830b-valuation:
+- name: Amazon
+  type: company
+- name: OpenAI
+  type: company
+- name: Anthropic
+  type: company
+2026-02-05-the-dawn-of-the-agent-age#dawn-agent-age-jan-2026:
+- name: Anthropic
+  type: company
+- name: Claude Cowork
+  type: model
+- name: Claude Code
+  type: model
+2026-02-06-opus-4-6-and-chatgpt-5-3-codex-are-here-and-the-labs-are-at#opus46-gpt53-simultaneous:
+- name: Claude Opus 4.6
+  type: model
+- name: GPT-5.3 Codex
+  type: model
+- name: Terminal Bench 2.0
+  type: report
+- name: OpenAI
+  type: company
+- name: Anthropic
+  type: company
+2026-02-08-claude-code-killed-the-ai-bubble#accenture-30000-claude-code:
+- name: Accenture
+  type: company
+- name: Claude Code
+  type: model
+2026-02-08-claude-code-killed-the-ai-bubble#claude-code-github-commits:
+- name: SemiAnalysis
+  type: company
+- name: Claude Code
+  type: model
+- name: GitHub
+  type: company
+2026-02-11-how-the-global-ai-race-has-shifted#deepseek-r1-nvidia-600b-loss:
+- name: DeepSeek
+  type: company
+- name: DeepSeek R1
+  type: model
+- name: Nvidia
+  type: company
+- name: G42
+  type: company
+- name: UAE
+  type: place
+- name: China
+  type: place
+- name: H200
+  type: technology
+- name: Elizabeth Warren
+  type: person
+- name: Jim Banks
+  type: person
+- name: Blackwell
+  type: technology
+2026-02-11-how-the-global-ai-race-has-shifted#sov-g42-data-center-diplomacy:
+- name: G42
+  type: company
+- name: UAE
+  type: place
+- name: Vietnam
+  type: place
+2026-02-19-how-people-actually-use-ai-agents#agentic-use-beyond-coding:
+- name: Anthropic
+  type: company
+- name: Measuring AI Agent Autonomy in Practice
+  type: report
+2026-02-19-how-people-actually-use-ai-agents#claude-code-median-turn-45s:
+- name: Anthropic
+  type: company
+- name: Claude Code
+  type: model
+- name: Measuring AI Agent Autonomy in Practice
+  type: report
+2026-02-20-does-gemini-3-1-pro-matter#gemini31-arc-agi2-77:
+- name: Google
+  type: company
+- name: Gemini 3.1 Pro
+  type: model
+- name: Gemini 3 Pro
+  type: model
+- name: Opus 4.6
+  type: model
+- name: ARC-AGI 2
+  type: report
+2026-02-24-the-rise-of-the-anti-ai-movement#pew-us-ai-concern-ranking:
+- name: Pew Research Center
+  type: organization
+- name: YouGov
+  type: company
+- name: United States
+  type: place
+2026-02-28-are-40-staff-cuts-the-new-ai-normal#block-40pct-cut-ai-washing:
+- name: Jack Dorsey
+  type: person
+- name: Block
+  type: company
+2026-02-28-who-controls-ai#anthropic-pentagon-scr-designation:
+- name: Anthropic
+  type: company
+- name: Pete Hegseth
+  type: person
+- name: Donald Trump
+  type: person
+2026-03-06-ai-is-officially-political#openai-dod-deal-same-day:
+- name: OpenAI
+  type: company
+- name: Anthropic
+  type: company
+- name: Department of Defense
+  type: organization
+- name: Dario Amodei
+  type: person
+2026-03-06-gpt-5-4-first-test-results#gpt54-osworld-above-human:
+- name: OpenAI
+  type: company
+- name: GPT-5.4
+  type: model
+- name: GPT-5.2
+  type: model
+- name: OSWorld
+  type: report
+- name: Code Red
+  type: event
+2026-03-12-what-vibe-coding-is-turning-into#lovable-cursor-arr-surge-2026:
+- name: Lovable
+  type: company
+- name: Cursor
+  type: company
+2026-03-13-pro-worker-ai#ecb-ai-firms-hire-more:
+- name: European Central Bank
+  type: organization
+- name: YouGov
+  type: company
+2026-03-22-why-ai-actually-won-t-take-your-job#resume-org-ai-washing:
+- name: Resume.org
+  type: company
+2026-04-01-introducing-maturity-maps-a-new-way-to-measure-ai-adoption#maturity-maps-six-dimensions:
+- name: Superintelligent
+  type: company
+- name: Maturity Maps
+  type: report
+- name: Deloitte
+  type: company
+2026-04-16-ai-s-great-divergence#pwc-75-percent-gains-top-20:
+- name: PwC
+  type: company
+2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid#dpa-section-303-grid:
+- name: Donald Trump
+  type: person
+- name: Defense Production Act
+  type: report
+2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid#gigawatt-nuclear-reactor-equivalence:
+- name: Anthropic
+  type: company
+- name: Amazon
+  type: company
+- name: Microsoft
+  type: company
+2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid#goldman-datacenter-power-6-to-11:
+- name: Goldman Sachs
+  type: company
+- name: United States
+  type: place
+2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid#google-40b-anthropic-china-blocks-manus:
+- name: Google
+  type: company
+- name: Anthropic
+  type: company
+- name: China
+  type: place
+- name: Meta
+  type: company
+- name: Manus
+  type: company
+- name: Amazon
+  type: company
+2026-04-27-how-deepseek-v4-connects-to-the-us-power-grid#sov-deepseek-v4-dependency-risk:
+- name: DeepSeek V4
+  type: model
+- name: China
+  type: place
+- name: United States
+  type: place
+2026-04-29-ai-lab-power-rankings#ai-lab-power-rankings-google-first:
+- name: Google
+  type: company
+- name: OpenAI
+  type: company
+- name: Microsoft
+  type: company
+- name: Gemini
+  type: model
+- name: ChatGPT
+  type: model
+- name: Claude
+  type: model
+- name: Grok
+  type: model
+2026-04-29-ai-lab-power-rankings#microsoft-openai-2026-amendment-terms:
+- name: Microsoft
+  type: company
+- name: OpenAI
+  type: company
+2026-05-07-surprise-elon-anthropic-team-up-reshapes-the-ai-race#elon-anthropic-colossus-lease:
+- name: Anthropic
+  type: company
+- name: xAI
+  type: company
+- name: Nvidia
+  type: company
+- name: Elon Musk
+  type: person
+- name: Dario Amodei
+  type: person
+2026-05-24-why-agents-still-need-humans#human-sandwich-infinite-backlog:
+- name: Dan Shipper
+  type: person
+- name: After Automation
+  type: report
+- name: Every
+  type: company
+2026-05-29-claude-opus-4-8-first-impressions#opus48-benchmarks-honesty:
+- name: Claude Opus 4.8
+  type: model
+- name: Claude Opus 4.7
+  type: model
+- name: GPT-5.5
+  type: model
+- name: Anthropic
+  type: company
+- name: OpenAI
+  type: company
+- name: SWE-Bench Pro
+  type: report
+- name: Terminal Bench 2.0
+  type: report
+2026-06-02-should-americans-get-shares-in-ai-companies#bain-40pct-below-target-circular-bet:
+- name: Bain & Company
+  type: company
+2026-06-02-should-americans-get-shares-in-ai-companies#sanders-sovereign-wealth-fund-act:
+- name: Bernie Sanders
+  type: person
+- name: OpenAI
+  type: company
+- name: Anthropic
+  type: company
+2026-06-03-the-next-wave-of-enterprise-ai#sov-nadella-participate-at-frontier:
+- name: Microsoft
+  type: company
+- name: Frontier Tuning
+  type: technology
+- name: MAI
+  type: model
+- name: McKinsey
+  type: company
+- name: GPT-5.5
+  type: model
+- name: Satya Nadella
+  type: person
+2026-06-23-the-right-way-to-deal-with-ai-data-centers#bloomberg-276pct-grid-prices:
+- name: Bloomberg
+  type: company
+2026-06-25-ceo-led-ai-gets-3x-the-roi#kpmg-ceo-ownership-3x-roi:
+- name: KPMG
+  type: company
+2026-06-27-the-ad-hoc-ai-licensing-regime-ai-weekly-brief#ad-hoc-licensing-gpt56:
+- name: OpenAI
+  type: company
+- name: GPT-5.6
+  type: model
+- name: Google
+  type: company
+- name: Gemma 4
+  type: model
+- name: United States
+  type: place
+2026-06-30-how-big-is-the-ai-economy#exponential-view-ai-economy:
+- name: Exponential View
+  type: company
+- name: State of the AI Economy
+  type: report
+2026-06-30-how-big-is-the-ai-economy#semiconductor-market-1-5-trillion:
+- name: Exponential View
+  type: company
+2026-06-30-how-big-is-the-ai-economy#token-volume-30-quadrillion:
+- name: Exponential View
+  type: company
+2026-07-02-ai-companies-are-hiring-more#ramp-revelio-adopters-hire-more:
+- name: Ramp
+  type: company
+- name: Revelio Labs
+  type: company
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#anthropic-global-workspace-claim:
+- name: Anthropic
+  type: company
+- name: Claude
+  type: model
+- name: A Global Workspace in Language Models
+  type: report
+- name: J-space
+  type: technology
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#counterfactual-reflection-training:
+- name: Anthropic
+  type: company
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#gwt-originators-reception:
+- name: Stanislas Dehaene
+  type: person
+- name: Lionel Naccache
+  type: person
+- name: Global Workspace Theory
+  type: technology
+- name: Anthropic
+  type: company
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#illinois-ai-safety-law:
+- name: Illinois
+  type: place
+- name: New York
+  type: place
+- name: California
+  type: place
+- name: Anthropic
+  type: company
+- name: OpenAI
+  type: company
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#j-lens-tool:
+- name: Anthropic
+  type: company
+- name: J-Lens
+  type: technology
+- name: J-space
+  type: technology
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#workspace-five-properties:
+- name: Anthropic
+  type: company
+2026-07-07-ai-daily-brief-anthropic-can-now-read-claudes-mind#workspace-safety-monitoring:
+- name: Anthropic
+  type: company
+2026-07-17-announcing-microsoft-web-iq#webiq-architecture-layers:
+- name: Web IQ
+  type: technology
+- name: Bing
+  type: technology
+- name: DiskANN
+  type: technology
+2026-07-17-announcing-microsoft-web-iq#webiq-p95-latency:
+- name: Web IQ
+  type: technology
+- name: Microsoft
+  type: company
+2026-07-17-announcing-microsoft-web-iq#webiq-passage-output:
+- name: Web IQ
+  type: technology
+- name: Microsoft
+  type: company
+2026-07-17-announcing-microsoft-web-iq#webiq-target-workload:
+- name: Web IQ
+  type: technology
+2026-07-17-announcing-microsoft-web-iq#webiq-what-it-is:
+- name: Microsoft
+  type: company
+- name: Web IQ
+  type: technology
+2026-07-17-autonuggetizer-trec-2024-rag#autonuggetizer-correlation:
+- name: NIST
+  type: organization
+- name: TREC 2024 RAG Track
+  type: event
+2026-07-17-autonuggetizer-trec-2024-rag#autonuggetizer-pipeline:
+- name: AutoNuggetizer
+  type: technology
+- name: GPT-4o
+  type: model
+- name: TREC 2024 RAG Track
+  type: event
+- name: NIST
+  type: organization
+2026-07-17-autonuggetizer-trec-2024-rag#autonuggetizer-what:
+- name: AutoNuggetizer
+  type: technology
+- name: TREC 2024 RAG Track
+  type: event
+- name: TREC QA Track
+  type: event
+2026-07-17-autonuggetizer-trec-2024-rag#vital-vs-okay:
+- name: TREC 2024 RAG Track
+  type: event
+- name: TREC QA Track
+  type: event
+2026-07-17-great-nugget-recall#nugget-eval-definition:
+- name: The Great Nugget Recall
+  type: report
+- name: Ellen Voorhees
+  type: person
+2026-07-17-great-nugget-recall#nugget-eval-origin-2003:
+- name: TREC QA Track
+  type: event
+- name: Ellen Voorhees
+  type: person
+2026-07-17-great-nugget-recall#nuggetization-correlation:
+- name: The Great Nugget Recall
+  type: report
+2026-07-17-great-nugget-recall#pre-llm-automation:
+- name: POURPRE
+  type: technology
+- name: Nuggeteer
+  type: technology
+- name: Jimmy Lin
+  type: person
+- name: Dina Demner-Fushman
+  type: person
+2026-07-17-llm-wiki-maintenance-knowledge-drift#drift-citation-false-confidence: []
+2026-07-17-llm-wiki-maintenance-knowledge-drift#drift-compiled-must-be-kept-honest: []
+2026-07-17-llm-wiki-maintenance-knowledge-drift#drift-review-intervals: []
+2026-07-17-llm-wiki-maintenance-knowledge-drift#drift-six-mechanisms: []
+2026-07-17-trec-2007-qa-overview#nugget-pyramid:
+- name: TREC 2007 QA Track
+  type: event
+- name: TREC 2006
+  type: event
+- name: NIST
+  type: organization
+2026-07-17-webiq-grounding-at-scale#evidence-object-definition:
+- name: Microsoft
+  type: company
+- name: Web IQ
+  type: technology
+2026-07-17-webiq-grounding-at-scale#evidence-object-pipeline-position: []
+2026-07-17-webiq-grounding-at-scale#evidence-object-vs-chunk: []
+2026-07-17-webiq-grounding-at-scale#semantic-first-propagation:
+- name: Web IQ
+  type: technology
+2026-07-17-what-is-llm-wiki#llm-wiki-fit:
+- name: RAG
+  type: technology
+2026-07-17-what-is-llm-wiki#llm-wiki-human-review: []
+2026-07-17-what-is-llm-wiki#llm-wiki-ingest-time:
+- name: RAG
+  type: technology
+2026-07-17-what-is-llm-wiki#llm-wiki-markdown-rationale:
+- name: Markdown
+  type: technology

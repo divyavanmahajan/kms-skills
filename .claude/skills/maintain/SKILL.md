@@ -19,7 +19,15 @@ small enough for a human to review in minutes.
 4. **Contradiction spot-check** — only if step 1 ingested something or step 3
    changed claims: check the touched concepts against related pages (the
    `contradictions` skill's classification applies).
-5. **Regenerate** — `python3 scripts/dashboard.py` again so the dashboard
+5. **Graph entity coverage** — `python3 scripts/extract_entities.py --check`.
+   For any nugget it lists, read that nugget and add its entities to
+   `graph/entities.yaml` (rules: `SYSTEM_PROMPT` in
+   `scripts/extract_entities.py`; reuse existing entity names — see the
+   `ingest` skill's Step 3b). Additive cache entries are low-risk. If the
+   `kms_mcp` dependencies are installed, finish with `python3 -m kms_mcp index`
+   so the local knowledge graph reflects the session (`.kms-index/` is
+   gitignored — nothing to commit).
+6. **Regenerate** — `python3 scripts/dashboard.py` again so the dashboard
    reflects the session's fixes.
 
 ## Committing (CI context)

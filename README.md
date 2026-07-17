@@ -29,6 +29,8 @@ flowchart LR
 | `nuggets/` | Claim inventory: one YAML per source of atomic claims + context + provenance ("nuggets", richer than chunks) | Claims immutable, supersede to correct ([nugget-policy](policies/nugget-policy.md)) |
 | `wiki/` | Compiled knowledge — the actual wiki, also the MkDocs site | Schema frontmatter, citations, supersede-don't-delete ([schema](policies/schema.md)) |
 | `inbox/` | Drop zone for material awaiting ingestion | Emptied by `/ingest` |
+| `graph/` | Entity extraction cache feeding the knowledge graph | Maintained by `scripts/extract_entities.py` |
+| `kms_mcp/` | MCP server: Kuzu knowledge graph + semantic search over the KMS | See [kms_mcp/README.md](kms_mcp/README.md) |
 | `policies/` | The operating rules (schema, citations, sources, review tiers) | High-risk to change |
 | `scripts/` | Deterministic checks: `lint.py`, `dashboard.py`, `new_page.py` | No LLM calls |
 | `.claude/skills/` | LLM judgment work: ingest, review, contradictions, maintain | Governed by [AGENTS.md](AGENTS.md) |
@@ -43,6 +45,14 @@ flowchart LR
 /contradictions                          # consistency sweep over the nugget inventory
 /maintain                                # the full weekly loop, on demand
 ```
+
+The repo also ships an **MCP server** (`kms_mcp/`) exposing a Kuzu knowledge
+graph and local semantic search over sources, nuggets, and pages. Claude Code
+picks it up automatically from `.mcp.json`, so you can ask things like *"what
+does the KB say about enterprise agent adoption?"* or *"show everything
+connected to Nvidia"* and Claude will answer from the graph — see
+[kms_mcp/README.md](kms_mcp/README.md) for setup, the graph schema, and how to
+connect external agents over stdio or HTTP.
 
 For manual editing, the repo doubles as an Obsidian vault — see
 [the Obsidian guide](wiki/guides/obsidian.md). The maintenance concepts from

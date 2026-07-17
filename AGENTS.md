@@ -7,7 +7,11 @@ keep every change inspectable and recoverable.
 ## The prime directives
 
 1. **Never edit `sources/`.** Raw sources are append-only. You may ADD new source
-   files (via ingestion) but never modify or delete existing ones.
+   files (via ingestion) but never modify or delete existing ones. The single
+   sanctioned exception is an **owner-requested retraction** via the
+   `remove-source` skill: it removes sources *and* all derived content, records
+   the removal in the append-only `sources/RETRACTIONS.md` log, and goes
+   through a PR. Never retract on your own initiative.
 2. **Supersede, don't delete.** Wiki pages are never deleted. Mark them
    `status: superseded`, set `superseded_by`, and link forward. The same goes
    for nuggets in `nuggets/`: a recorded `claim` is never reworded — correct it
@@ -40,6 +44,8 @@ Prefix commits with the operation so history is scannable:
 - `lint: <fix>` — structural fixes (links, metadata, naming)
 - `dashboard: regenerate` — generated dashboard updates
 - `policy: <change>` — changes to files in `policies/` (high risk, PR only)
+- `retract: <what was removed>` — owner-requested source removal + derived-content
+  cleanup via the `remove-source` skill (high risk, PR only)
 
 ## The maintenance loop
 
