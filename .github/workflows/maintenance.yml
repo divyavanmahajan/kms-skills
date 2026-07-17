@@ -1,0 +1,65 @@
+# Weekly self-maintenance.
+#
+# Job 1 (no LLM): regenerates the health dashboard and commits it (low risk).
+# Job 2 (Claude): runs the /maintain skill — reviews stale pages, fixes lint
+# findings, and opens a PR for anything that needs human approval.
+#
+# Requirements:
+#   - Repo secret ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions)
+#   - Settings → Actions → General → Workflow permissions:
+#     "Read and write permissions" + "Allow GitHub Actions to create and
+#     approve pull requests"
+name: Weekly maintenance
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Regenerate dashboard
+        run: python3 scripts/dashboard.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add wiki/dashboard.md
+          git diff --cached --quiet || git commit -m "dashboard: regenerate"
+          git push
+
+  claude-maintenance:
+    needs: dashboard
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run maintenance session
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Run the weekly maintenance loop for this knowledge base by following
+            .claude/skills/maintain/SKILL.md exactly. Obey AGENTS.md: low-risk
+            fixes commit directly to main; anything medium/high-risk goes to a
+            maintenance/YYYY-MM-DD branch with a PR. Never merge PRs yourself.
+          claude_args: "--allowedTools 'Bash,Read,Write,Edit,Glob,Grep,WebFetch'"

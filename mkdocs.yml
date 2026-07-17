@@ -1,0 +1,49 @@
+site_name: Knowledge Base
+site_description: Self-managed compiled knowledge system (LLM wiki)
+repo_url: https://github.com/divyavanmahajan/kms-skills
+edit_uri: edit/main/wiki/
+docs_dir: wiki
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Dashboard: dashboard.md
+  - Glossary: glossary.md
+  - Topics:
+      - topics/llm-wiki.md
+      - topics/knowledge-drift.md
+      - topics/wiki-maintenance.md
+  - Decisions:
+      - decisions/0001-repo-architecture.md
