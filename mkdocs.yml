@@ -46,6 +46,9 @@ nav:
       - topics/knowledge-drift.md
       - topics/wiki-maintenance.md
       - topics/nuggets.md
+  - Guides:
+      - guides/maintenance-guidelines.md
+      - guides/obsidian.md
   - Decisions:
       - decisions/0001-repo-architecture.md
       - decisions/0002-nugget-layer.md

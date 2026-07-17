@@ -99,9 +99,15 @@ def check_frontmatter(page: Path, meta: dict, errors, warnings):
             errors.append(f"{rel}: superseded_by target does not exist: {target}")
 
 
+def strip_code(text: str) -> str:
+    """Remove fenced code blocks and inline code spans — links there are examples."""
+    text = re.sub(r"^(```|~~~).*?^\1\s*$", "", text, flags=re.M | re.S)
+    return re.sub(r"`[^`\n]*`", "", text)
+
+
 def check_links(page: Path, body: str, errors):
     rel = page.relative_to(ROOT)
-    for target in LINK_RE.findall(body):
+    for target in LINK_RE.findall(strip_code(body)):
         if target.startswith(("http://", "https://", "mailto:", "#")):
             continue
         path_part = target.split("#", 1)[0]
@@ -114,7 +120,7 @@ def check_links(page: Path, body: str, errors):
 
 def collect_internal_targets(page: Path, body: str):
     targets = set()
-    for target in LINK_RE.findall(body):
+    for target in LINK_RE.findall(strip_code(body)):
         if target.startswith(("http://", "https://", "mailto:", "#")):
             continue
         path_part = target.split("#", 1)[0]

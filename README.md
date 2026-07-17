@@ -44,6 +44,11 @@ flowchart LR
 /maintain                                # the full weekly loop, on demand
 ```
 
+For manual editing, the repo doubles as an Obsidian vault — see
+[the Obsidian guide](wiki/guides/obsidian.md). The maintenance concepts from
+the source articles, and where each is implemented in this repo, are traced in
+[the maintenance guidelines](wiki/guides/maintenance-guidelines.md).
+
 Without Claude Code, the deterministic layer still works:
 
 ```bash

@@ -8,13 +8,13 @@ title: Health Dashboard
 
 | Metric | Value |
 |---|---|
-| Pages | 8 |
-| — draft | 5 |
+| Pages | 10 |
+| — draft | 7 |
 | — reviewed | 3 |
 | Nuggets | 17 |
 | — disputed | 0 |
 | Stale (past review date) | 0 (0%) |
-| Unsourced | 1 |
+| Unsourced | 2 |
 | Low confidence | 0 |
 | Broken links | 0 |
 | Orphan pages | 0 |
@@ -26,6 +26,7 @@ None. ✅
 
 ## Unsourced pages
 
+- [Maintaining the KMS with Obsidian](guides/obsidian.md) — status: draft
 - [Knowledge Base](index.md) — status: reviewed
 
 ## Low-confidence pages

@@ -32,6 +32,13 @@ maintenance.
 - [Nuggets (structured evidence objects)](topics/nuggets.md) — claim-level
   evidence units, richer than chunks
 
+## Guides
+
+- [Long-term maintenance guidelines](guides/maintenance-guidelines.md) — every
+  concept from the source articles, traced to its implementation here
+- [Maintaining the KMS with Obsidian](guides/obsidian.md) — manual editing
+  workflow
+
 ## Decisions
 
 - [0001 — Repository architecture](decisions/0001-repo-architecture.md)

@@ -63,6 +63,9 @@ Tracked on the [dashboard](../dashboard.md): pages by status, sourced vs.
 unsourced, pages past review date, broken links, orphans, low-confidence
 pages, stale percentage.
 
+For the full operating rules with concept-to-implementation traceability, see
+the [long-term maintenance guidelines](../guides/maintenance-guidelines.md).
+
 ## Sources
 
 - `sources/web/2026-07-17-llm-wiki-maintenance-knowledge-drift.md` — supports
