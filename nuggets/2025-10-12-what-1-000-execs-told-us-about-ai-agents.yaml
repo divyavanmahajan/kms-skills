@@ -1,0 +1,30 @@
+source: sources/audio/2025-10-12-what-1-000-execs-told-us-about-ai-agents.md
+created: '2026-07-17'
+nuggets:
+- id: agent-readiness-score-52
+  claim: 'Across 1,000+ enterprise AI audits, Super Intelligent''s 0–100 Agent Readiness Score averaged
+    52.1 (quartiles: Initiate, Explorer, Pilot, Ready), placing most organizations in the ''Agent Pilot''
+    stage, and firms with an AI governance framework scored 6.6 percentage points higher on average.'
+  context: Nathaniel Whittemore (Super Intelligent founder) presenting audit findings; via The AI Daily
+    Brief episode summary notes (2025-10-12). Third-hand.
+  quote: the average score across audited organizations was 52.1
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - agent-readiness
+  - governance
+  - enterprise
+- id: data-fragmentation-top-blocker
+  claim: Across Super Intelligent's 1,000+ audits, data fragmentation was the single biggest blocker to
+    agent adoption (more than technology readiness); enterprise knowledge search was the most-recommended
+    use case (48% of audits) and ~44–45% flagged undocumented processes as a significant blocker.
+  context: Nathaniel Whittemore summarizing Super Intelligent audit findings; via The AI Daily Brief episode
+    summary notes (2025-10-12). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - data
+  - blockers
+  - enterprise

@@ -1,0 +1,17 @@
+source: sources/audio/2026-03-13-pro-worker-ai.md
+created: '2026-07-17'
+nuggets:
+- id: ecb-ai-firms-hire-more
+  claim: A European Central Bank study of 5,000 Eurozone firms found companies making significant use
+    of AI are ~4% more likely to hire additional staff, while a YouGov poll found 63% of Americans believe
+    AI will decrease jobs versus only 7% who believe it will increase them.
+  context: ECB study and YouGov sentiment poll; via The AI Daily Brief episode summary notes (2026-03-13).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - hiring
+  - worker-sentiment
+  - ecb

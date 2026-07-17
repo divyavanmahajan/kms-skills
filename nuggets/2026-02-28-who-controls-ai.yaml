@@ -1,0 +1,17 @@
+source: sources/audio/2026-02-28-who-controls-ai.md
+created: '2026-07-17'
+nuggets:
+- id: anthropic-pentagon-scr-designation
+  claim: After Anthropic refused to drop contractual prohibitions on domestic mass surveillance and fully
+    autonomous weapons, Defense Secretary Pete Hegseth moved to designate Anthropic a 'supply chain risk'
+    (10 U.S.C. § 3252), and President Trump directed all federal agencies to cease using Anthropic technology
+    with a six-month phase-out.
+  context: The SCR tool had historically been reserved for foreign adversaries; via The AI Daily Brief
+    'Who Controls AI?' (2026-02-28). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - policy
+  - national-security
+  - geopolitics

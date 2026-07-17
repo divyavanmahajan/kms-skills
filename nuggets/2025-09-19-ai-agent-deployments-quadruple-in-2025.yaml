@@ -1,0 +1,28 @@
+source: sources/audio/2025-09-19-ai-agent-deployments-quadruple-in-2025.md
+created: '2026-07-17'
+nuggets:
+- id: kpmg-agent-deployment-quadruple-2025
+  claim: Per KPMG's AI Quarterly Pulse Survey, enterprise AI agent deployment rose from 11% (Q1) to 33%
+    (Q2) to 42% (Q3) of large organizations in 2025 — nearly a 4x increase since the start of the year.
+  context: Host summarizing KPMG's Q3 2025 Pulse Survey of 130 organizations with $1B+ revenue; via The
+    AI Daily Brief episode summary notes (2025-09-19). Third-hand.
+  quote: Deployment rate rose from 11% (Q1) to 33% (Q2) to 42% (Q3)—nearly a 4x increase since the start
+    of 2025.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - adoption
+  - enterprise
+  - kpmg
+- id: kpmg-worker-resistance-collapse-q3-2025
+  claim: KPMG reported employee resistance to AI agents fell from 47% in Q2 2025 to 21% in Q3 2025.
+  context: Host summarizing KPMG Q3 2025 Pulse Survey; via The AI Daily Brief episode summary notes (2025-09-19).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - adoption
+  - workforce
+  - kpmg

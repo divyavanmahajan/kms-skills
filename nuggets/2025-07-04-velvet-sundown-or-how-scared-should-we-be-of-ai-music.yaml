@@ -1,0 +1,27 @@
+source: sources/audio/2025-07-04-velvet-sundown-or-how-scared-should-we-be-of-ai-music.md
+created: '2026-07-17'
+nuggets:
+- id: velvet-sundown-spotify
+  claim: A likely AI-generated band, The Velvet Sundown, accumulated between roughly 300,000 and 634,000
+    monthly Spotify listeners largely via algorithmic playlists, yet only about 11,000 of 634,000 monthly
+    listeners chose to follow the band.
+  context: Central case study on AI music; the band's AI origin is flagged as suspected/unverified; via
+    The AI Daily Brief episode summary notes (2025-07-04). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - creativity
+  - music
+- id: elvis-act-music-regulation
+  claim: The US Senate voted 99–1 to remove a proposed 10-year moratorium on state AI regulation, an outcome
+    tied to protecting laws such as Tennessee's Elvis Act, which prohibits non-consensual AI mimicry of
+    a musician's voice.
+  context: Reported as a headline in the AI-music episode; via The AI Daily Brief episode summary notes
+    (2025-07-04). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - music
+  - regulation

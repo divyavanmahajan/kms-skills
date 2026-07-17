@@ -16,4 +16,6 @@ jobs:
       - name: Structural lint
         run: python3 scripts/lint.py
       - name: Site builds
-        run: mkdocs build
+        run: |
+          python3 scripts/build_browse.py
+          mkdocs build

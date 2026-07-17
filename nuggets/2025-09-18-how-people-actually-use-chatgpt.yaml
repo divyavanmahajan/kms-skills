@@ -1,0 +1,16 @@
+source: sources/audio/2025-09-18-how-people-actually-use-chatgpt.md
+created: '2026-07-17'
+nuggets:
+- id: openai-nber-asking-doing-expressing
+  claim: An OpenAI/NBER/Harvard study of 1.5 million ChatGPT conversations classified usage as Asking
+    49%, Doing 40%, and Expressing 11% (work-related use ~30%), and found the share of users with typically
+    feminine names rose from 37% (Jan 2024) to 52% (July 2025).
+  context: OpenAI economic research / NBER / David Deming study; via The AI Daily Brief episode summary
+    notes (2025-09-18). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - adoption
+  - usage
+  - survey
+  - demographics

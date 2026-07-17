@@ -18,3 +18,15 @@ feeds: []
 #   - name: my-patreon-show
 #     url: ${PATREON_FEED_URL}
 #     max_episodes: 5
+
+# Markdown notes synced from public GitHub repos by scripts/fetch_notes.py.
+# Fields: name, repo (owner/name), path (directory), branch (default main),
+# show (podcast/series the notes describe), author, max_files (per run, default 20).
+github_notes:
+  - name: ainews
+    repo: divyavanmahajan/divyavanmahajan.github.io
+    branch: main
+    path: src/content/ainews
+    show: The AI Daily Brief
+    author: Divya Van Mahajan (episode summary notes)
+    max_files: 20

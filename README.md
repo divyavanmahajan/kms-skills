@@ -56,6 +56,7 @@ pip install -r requirements.txt
 python3 scripts/lint.py            # structural lint (CI runs this on every push)
 python3 scripts/dashboard.py       # regenerate wiki/dashboard.md
 python3 scripts/new_page.py "Title" --type topic
+python3 scripts/build_browse.py    # generate the site's Sources + Nuggets browser
 mkdocs serve                       # browse the wiki at http://127.0.0.1:8000
 ```
 
@@ -74,9 +75,16 @@ Episodes are **sources, not pages** — they feed existing topic pages.
   installed), preserves it in `sources/audio/`, and nuggetizes with
   speaker-attributed context. Audio binaries stay out of Git; the transcript
   records `audio_url:`.
+- **Notes in other repos**: `scripts/fetch_notes.py` syncs Markdown notes
+  from public GitHub repos (configured under `github_notes:` in `feeds.yaml`)
+  — e.g. the AI Daily Brief episode summaries in
+  `divyavanmahajan.github.io/src/content/ainews`. Their Astro frontmatter is
+  mapped to the source schema (guid-deduped, drafts skipped); new notes land
+  in `inbox/` alongside feed entries.
 - **Cadence**: daily capture is deterministic and cheap; synthesis into wiki
   pages happens in the weekly `/maintain` PR, so you review one PR a week, not
-  seven.
+  seven. With a large backlog (e.g. first sync of an existing notes repo),
+  run `/ingest` on batches rather than all at once.
 
 ## How it stays honest
 

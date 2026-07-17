@@ -1,0 +1,18 @@
+source: sources/audio/2026-04-01-introducing-maturity-maps-a-new-way-to-measure-ai-adoption.md
+created: '2026-07-17'
+nuggets:
+- id: maturity-maps-six-dimensions
+  claim: Super Intelligent's 'Maturity Maps' score AI readiness across six dimensions (Deployment Depth,
+    Systems Integration, Data, Outcomes, People, Governance) for ten business functions on a 1–5 scale,
+    drawing on 480+ studies covering 150,000+ professionals; People was the bottleneck (7 of 10 functions
+    scored 1) and Data the ceiling (8 of 10 scored 1–1.5).
+  context: 'Host introducing the Maturity Maps framework (Deloitte cited: 93% of AI spend to infrastructure,
+    7% to people); via The AI Daily Brief episode summary notes (2026-04-01). Third-hand.'
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - framework
+  - maturity
+  - data
+  - people

@@ -1,0 +1,17 @@
+source: sources/audio/2026-02-05-the-dawn-of-the-agent-age.md
+created: '2026-07-17'
+nuggets:
+- id: dawn-agent-age-jan-2026
+  claim: The host argues January 2026 was 'the dawn of the agent era,' pointing to Anthropic's no-code
+    Claude Cowork being built in ~10 days largely by Claude Code, and to non-technical users completing
+    in 20 minutes projects that had taken a professional 100+ hours over 3+ months.
+  context: Host's January 2026 monthly retrospective (with KPMG), citing investor Brent Beshore's account;
+    via The AI Daily Brief episode summary notes (2026-02-05). Third-hand.
+  quote: completed in 20 minutes by non-technical users using Claude Cowork
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - agent-age
+  - inflection
+  - claude

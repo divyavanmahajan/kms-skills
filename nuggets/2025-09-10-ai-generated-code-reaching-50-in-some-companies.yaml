@@ -1,0 +1,16 @@
+source: sources/audio/2025-09-10-ai-generated-code-reaching-50-in-some-companies.md
+created: '2026-07-17'
+nuggets:
+- id: enterprise-ai-code-shares
+  claim: Reported AI-written code shares included ~90% at Anthropic (Dario Amodei), over 50% at Robinhood,
+    ~40% at Coinbase (targeting 50% by Oct 2025), ~40% at Microsoft, and 20–30% at Meta (projected ~50%
+    by 2026).
+  context: CEO/company figures aggregated on the podcast Sept 2025; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - adoption
+  - ai-generated-code
+  - enterprise

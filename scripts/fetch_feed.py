@@ -33,7 +33,6 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_FILE = ROOT / "feeds.yaml"
 INBOX = ROOT / "inbox"
-AUDIO_SOURCES = ROOT / "sources" / "audio"
 GUID_RE = re.compile(r"^guid:\s*(.+?)\s*$", re.M)
 ATOM = "{http://www.w3.org/2005/Atom}"
 
@@ -60,12 +59,13 @@ def strip_html(text: str) -> str:
 
 
 def known_guids() -> set[str]:
+    """Guids recorded anywhere in inbox/ or sources/ (values may be YAML-quoted)."""
     guids = set()
-    for folder in (INBOX, AUDIO_SOURCES):
+    for folder, pattern in ((INBOX, "*.md"), (ROOT / "sources", "**/*.md")):
         if not folder.exists():
             continue
-        for f in folder.glob("*.md"):
-            guids |= set(GUID_RE.findall(f.read_text(encoding="utf-8")))
+        for f in folder.glob(pattern):
+            guids |= {g.strip("'\"") for g in GUID_RE.findall(f.read_text(encoding="utf-8"))}
     return guids
 
 

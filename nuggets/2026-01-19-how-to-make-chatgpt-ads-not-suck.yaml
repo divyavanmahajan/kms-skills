@@ -1,0 +1,16 @@
+source: sources/audio/2026-01-19-how-to-make-chatgpt-ads-not-suck.md
+created: '2026-07-17'
+nuggets:
+- id: chatgpt-ads-free-tier
+  claim: OpenAI announced in January 2026 it would begin testing ads in ChatGPT's free and 'go' tiers,
+    stating responses would not be influenced by ads and paid tiers would remain ad-free, with only about
+    5% of ChatGPT users converting to paid tiers.
+  context: Analyzed as commercially inevitable but a trust risk; via The AI Daily Brief episode summary
+    notes (2026-01-19). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - advertising
+  - society
+  - consumer

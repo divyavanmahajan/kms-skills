@@ -1,0 +1,17 @@
+source: sources/audio/2025-08-03-where-ai-is-right-now-15-charts-in-15-minutes.md
+created: '2026-07-17'
+nuggets:
+- id: paid-ai-subscriptions-25-to-42
+  claim: The share of U.S. businesses with paid AI subscriptions jumped from ~25% (Q4 2024) to ~42% (Q1
+    2025), and KPMG found enterprises with at least one fully deployed agent rose from 11% to 33% in a
+    year; a Writer survey found 75% of executives believed their company had succeeded in AI adoption
+    versus only 45% of employees.
+  context: Ramp spending data, KPMG, and Writer survey; via The AI Daily Brief '15 Charts in 15 Minutes'
+    (2025-08-03). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - adoption
+  - enterprise
+  - agents
+  - statistics

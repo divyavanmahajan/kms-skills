@@ -1,0 +1,17 @@
+source: sources/audio/2025-07-17-how-much-ai-do-workers-actually-want.md
+created: '2026-07-17'
+nuggets:
+- id: stanford-hai-worker-preferences
+  claim: In a Stanford HAI study of 15,000+ workers, only 2% wanted full automation with no human input,
+    69% welcomed automation freeing them for higher-value work, and the top concern was distrust of AI
+    accuracy (45%) rather than job replacement (23%).
+  context: Stanford Human-Centered AI study (15,000+ workers, ~50 experts); via The AI Daily Brief episode
+    summary notes (2025-07-17). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - worker-sentiment
+  - survey
+  - automation

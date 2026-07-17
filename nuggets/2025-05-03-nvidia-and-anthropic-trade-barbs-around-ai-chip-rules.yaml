@@ -1,0 +1,30 @@
+source: sources/audio/2025-05-03-nvidia-and-anthropic-trade-barbs-around-ai-chip-rules.md
+created: '2026-07-17'
+nuggets:
+- id: ai-diffusion-rule-tiers
+  claim: 'The Biden-era AI Diffusion Rule created a three-tier chip export system: Tier 1 allies unrestricted,
+    Tier 2 capped at 50,000 advanced AI chips over three years (orders under 1,700 chips needing no authorization),
+    and Tier 3 adversaries (including China) fully banned.'
+  context: Via The AI Daily Brief episode summary notes (2025-05-03). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - infrastructure
+  - chips
+  - export-controls
+  - diffusion-rule
+  - policy
+- id: sov-govt-to-govt-chip-agreements
+  claim: Anthropic proposed that large-scale chip access for Tier 2 nations be granted only through government-to-government
+    agreements — moving chip supply into the realm of foreign policy — while NVIDIA's Jensen Huang argued
+    controls should instead 'accelerate the diffusion of American AI technology around the world.'
+  context: The AI Daily Brief (2025-05-03) on the Anthropic-NVIDIA clash over the diffusion rule; via
+    episode summary notes. Third-hand.
+  quote: accelerate the diffusion of American AI technology around the world
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - export-controls
+  - chips
+  - government-to-government

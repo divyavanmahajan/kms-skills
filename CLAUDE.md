@@ -16,6 +16,8 @@ python3 scripts/lint.py --strict # warnings become errors (used in CI)
 python3 scripts/dashboard.py     # regenerate wiki/dashboard.md
 python3 scripts/new_page.py "Title" --type topic   # scaffold a schema-compliant page
 python3 scripts/fetch_feed.py                      # pull new podcast episodes into inbox/
+python3 scripts/fetch_notes.py                     # sync notes from GitHub repos into inbox/
+python3 scripts/build_browse.py  # generate the site's Sources + Nuggets browser (run before mkdocs)
 mkdocs serve                     # preview the site locally (pip install -r requirements.txt)
 ```
 

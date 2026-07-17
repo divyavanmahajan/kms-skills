@@ -1,0 +1,16 @@
+source: sources/audio/2025-11-08-the-ai-roi-surprise-wharton-finds-75-of-enterprises-seeing-p.md
+created: '2026-07-17'
+nuggets:
+- id: wharton-gbk-roi-adoption
+  claim: The third annual Wharton GBK study (~800 enterprise leaders) found 74% report positive AI ROI,
+    82% use generative AI weekly (46% daily), 72% formally track ROI, and 88% plan to increase generative-AI
+    budgets over the next 12 months.
+  context: Wharton GBK enterprise generative-AI study; via The AI Daily Brief episode summary notes (2025-11-08).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - roi
+  - adoption
+  - survey

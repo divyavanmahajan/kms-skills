@@ -1,0 +1,32 @@
+source: sources/audio/2026-02-11-how-the-global-ai-race-has-shifted.md
+created: '2026-07-17'
+nuggets:
+- id: deepseek-r1-nvidia-600b-loss
+  claim: DeepSeek's R1 release (roughly a year earlier) wiped nearly $600 billion from NVIDIA's market
+    cap in a single day; the same episode describes UAE-based G42 positioning the UAE as a neutral third
+    AI power practicing 'data center diplomacy' and NVIDIA H200 exports to China being approved even as
+    Senators Warren and Banks prepared a Blackwell export ban.
+  context: Recapping the shifting global AI race; via The AI Daily Brief episode summary notes (2026-02-11).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - china
+  - us-china-race
+  - markets
+  - diplomacy
+- id: sov-g42-data-center-diplomacy
+  claim: G42 positioned the UAE as a neutral third AI pole serving 'the 4 billion people living between
+    Milan and Singapore,' with UAE law framed as protecting corporate data like embassy protections (a
+    data-sovereignty guarantee) and a billion-dollar Vietnam data-center project the host called 'data
+    center diplomacy.'
+  context: The AI Daily Brief (2026-02-11); via episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - uae
+  - g42
+  - data-center-diplomacy
+  - data-sovereignty

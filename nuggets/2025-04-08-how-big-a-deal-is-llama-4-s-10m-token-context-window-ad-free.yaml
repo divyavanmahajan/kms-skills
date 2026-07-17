@@ -1,0 +1,17 @@
+source: sources/audio/2025-04-08-how-big-a-deal-is-llama-4-s-10m-token-context-window-ad-free.md
+created: '2026-07-17'
+nuggets:
+- id: llama4-scout-10m-context
+  claim: Meta's Llama 4 Scout was marketed with a 10-million-token context window, described as ten times
+    larger than Google Gemini's prior ~1-million-token window; Llama 4 Maverick was described as 17B active
+    parameters across 128 experts (~400B total).
+  context: April 8 2025 episode on Meta's Llama 4 launch (Scout/Maverick/Behemoth, all MoE); the notes
+    report benchmark-gaming allegations and real-world testing falling short; via The AI Daily Brief episode
+    summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - context-window
+  - meta
+  - llama

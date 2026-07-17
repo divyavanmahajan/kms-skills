@@ -1,0 +1,18 @@
+source: sources/audio/2026-05-07-surprise-elon-anthropic-team-up-reshapes-the-ai-race.md
+created: '2026-07-17'
+nuggets:
+- id: elon-anthropic-colossus-lease
+  claim: Anthropic leased xAI's Colossus 1 data center (~220,000 NVIDIA GPUs, ~300 MW) in Memphis, framed
+    as Elon Musk's 'AI Play 3.0' — pivoting from model builder to compute-infrastructure provider — while
+    Dario Amodei disclosed Anthropic had planned for 10x annual growth but saw 80x annualized growth in
+    revenue and usage in Q1 2026.
+  context: Anthropic's 'Code with Claude' dev day; via The AI Daily Brief episode summary notes (2026-05-07).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - compute
+  - strategy
+  - consolidation
+  - growth

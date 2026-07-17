@@ -1,0 +1,15 @@
+source: sources/audio/2026-04-16-ai-s-great-divergence.md
+created: '2026-07-17'
+nuggets:
+- id: pwc-75-percent-gains-top-20
+  claim: A PwC study of over 1,200 senior executives found roughly 75% of AI's economic gains are captured
+    by the top 20% of companies, with the most 'AI fit' firms delivering AI-driven financial performance
+    7.2x higher than the rest.
+  context: '''AI''s Great Divergence''; via The AI Daily Brief episode summary notes (2026-04-16). Third-hand.'
+  confidence: medium
+  status: active
+  tags:
+  - strategy
+  - enterprise
+  - winners
+  - divergence

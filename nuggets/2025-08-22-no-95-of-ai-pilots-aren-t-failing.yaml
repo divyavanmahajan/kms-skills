@@ -1,0 +1,39 @@
+source: sources/audio/2025-08-22-no-95-of-ai-pilots-aren-t-failing.md
+created: '2026-07-17'
+nuggets:
+- id: mit-nanda-95-percent-methodology
+  claim: The MIT Project NANDA report behind the '95% of generative AI pilots are failing' claim was based
+    on only 52 interviews, 150 survey responses, and ~300 publicly disclosed initiatives, counting a company
+    as a failure if it made no public announcement of a P&L or productivity gain.
+  context: Host critiquing the viral MIT report; via The AI Daily Brief episode summary notes (2025-08-22).
+    Third-hand.
+  quote: Anyone making financial decisions based on this report should be embarrassed.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - pilots
+  - mistakes
+  - roi
+- id: shadow-ai-40-vs-90
+  claim: The MIT report found only ~40% of companies had purchased LLM subscriptions while ~90% of employees
+    were using LLMs regularly, mostly through personal tools — the 'shadow AI economy.'
+  context: Host reframing the report's actual finding; via The AI Daily Brief episode summary notes (2025-08-22).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - shadow-ai
+  - adoption
+- id: pilot-failure-80-organizational
+  claim: The host estimated ~80% of enterprise AI pilot failures are organizational (leadership/team buy-in,
+    problem-value fit, data readiness, change management) versus ~20% technical.
+  context: Host's 15-reason taxonomy of pilot failure; via The AI Daily Brief episode summary notes (2025-08-22).
+    Third-hand opinion.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - mistakes
+  - pilots
