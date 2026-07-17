@@ -1,0 +1,17 @@
+source: sources/audio/2025-09-05-openai-launches-jobs-and-certifications.md
+created: '2026-07-17'
+nuggets:
+- id: openai-certify-10m-jobs-platform
+  claim: OpenAI committed to certify 10 million Americans in AI by 2030 via a new jobs platform and certification
+    program, while the episode cited a Gerald Huff Fund for Humanity report projecting a net loss of 45
+    million U.S. jobs due to AI.
+  context: OpenAI announcement by Fiji Simo; the 45M figure is from a report explicitly framed as UBI
+    advocacy; via The AI Daily Brief episode summary notes (2025-09-05). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - reskilling
+  - certification
+  - predictions

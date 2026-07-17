@@ -1,0 +1,16 @@
+source: sources/audio/2025-11-06-why-openai-s-cfo-just-sparked-an-ai-bailout-debate.md
+created: '2026-07-17'
+nuggets:
+- id: openai-cfo-backstop-comment
+  claim: OpenAI CFO Sarah Fryer used the word 'backstop' at WSJ TechLive to describe a possible federal
+    guarantee that would lower AI chip financing costs, sparking an 'AI bailout' debate; OpenAI later
+    clarified it is not seeking a government backstop.
+  context: Framed by the host as a communications failure; via The AI Daily Brief episode summary notes
+    (2025-11-06). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - bailout
+  - government
+  - openai

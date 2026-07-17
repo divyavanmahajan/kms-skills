@@ -1,0 +1,17 @@
+source: sources/audio/2026-02-20-does-gemini-3-1-pro-matter.md
+created: '2026-07-17'
+nuggets:
+- id: gemini31-arc-agi2-77
+  claim: Google's Gemini 3.1 Pro was reported to jump ARC-AGI 2 from Gemini 3 Pro's 31.1% to 77.1% (versus
+    Opus 4.6's 68.8%) while holding input pricing flat at $2/million tokens and achieving the score at
+    under $1 per task.
+  context: February 20 2026 episode (Gemini reportedly rose from 6th to 1st on Artificial Analysis but
+    lagged on agentic GDP-Val); via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - google
+  - gemini
+  - arc-agi
+  - pricing

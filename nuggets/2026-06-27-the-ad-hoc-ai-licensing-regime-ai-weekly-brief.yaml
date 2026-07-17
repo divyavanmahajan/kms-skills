@@ -1,0 +1,16 @@
+source: sources/audio/2026-06-27-the-ad-hoc-ai-licensing-regime-ai-weekly-brief.md
+created: '2026-07-17'
+nuggets:
+- id: ad-hoc-licensing-gpt56
+  claim: The US government effectively acted as an informal frontier-model licensing authority, delaying
+    OpenAI's GPT-5.6 from public launch to a limited partner preview at the government's request and approving
+    access customer-by-customer; separately, Google's open-weight Gemma 4 reached 200 million downloads.
+  context: Sam Altman called it 'not our preferred long-term model'; via The AI Daily Brief episode summary
+    notes (2026-06-27). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - policy
+  - geopolitics
+  - licensing
+  - open-source

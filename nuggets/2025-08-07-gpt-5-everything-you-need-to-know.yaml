@@ -1,0 +1,16 @@
+source: sources/audio/2025-08-07-gpt-5-everything-you-need-to-know.md
+created: '2026-07-17'
+nuggets:
+- id: gpt5-family-400k-context
+  claim: OpenAI's GPT-5 launched as three models (GPT-5, Mini, Nano), all with 400K context windows and
+    a unified router, scoring 74.9% on SWE-Bench Verified with thinking (52.8% without) versus o3 at 69.1%.
+  context: August 7 2025 GPT-5 launch episode (a poorly designed comparison chart drew mockery); via The
+    AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - openai
+  - gpt5
+  - context-window
+  - swe-bench

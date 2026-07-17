@@ -1,0 +1,31 @@
+source: sources/audio/2025-08-30-workers-don-t-trust-their-companies-on-ai.md
+created: '2026-07-17'
+nuggets:
+- id: stanford-hai-earlycareer-decline
+  claim: Stanford HAI found early-career workers (ages 22–25) in high-AI-exposure fields saw a ~30% relative
+    decline in employment after controlling for firm-level shocks, most acute from late 2022 (a later
+    episode, 2025-09-05, relays the same study as a 13% relative decline).
+  context: Stanford HAI early-career employment paper, framed as 'consistent with the hypothesis,' not
+    proof; the cross-episode figure discrepancy is noted; via The AI Daily Brief episode summary notes
+    (2025-08-30). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - entry-level
+  - employment
+  - exposure
+- id: writer-genz-sabotage
+  claim: A Writer survey (Dec 2024, 800 employees + 800 executives) found 41% of Gen Z employees reported
+    actively sabotaging their company's generative-AI strategy, and 75% of executives said their company
+    successfully adopted AI versus only 45% of employees.
+  context: Writer survey relayed on-air; via The AI Daily Brief episode summary notes (2025-08-30). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - worker-sentiment
+  - trust
+  - gen-z

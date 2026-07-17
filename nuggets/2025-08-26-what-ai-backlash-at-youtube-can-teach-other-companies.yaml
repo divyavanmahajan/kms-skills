@@ -1,0 +1,17 @@
+source: sources/audio/2025-08-26-what-ai-backlash-at-youtube-can-teach-other-companies.md
+created: '2026-07-17'
+nuggets:
+- id: netflix-traffic-light-genai
+  claim: Netflix published five responsible Gen AI guidelines and a red/yellow/green 'traffic-light' framework,
+    requiring written Netflix approval for red-light uses such as final character designs, key visuals,
+    and talent replication; the same episode covered YouTube applying undisclosed ML processing to creators'
+    Shorts without consent.
+  context: Presented as governance models/controversies for media companies; via The AI Daily Brief episode
+    summary notes (2025-08-26). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - media
+  - creativity
+  - governance
+  - consent

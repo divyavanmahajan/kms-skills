@@ -1,0 +1,41 @@
+source: sources/audio/2025-05-31-nvidia-ceo-says-china-ai-is-catching-up-fast.md
+created: '2026-07-17'
+nuggets:
+- id: h20-ban-8b-nvidia
+  claim: NVIDIA said the H20 export ban would cost it $8 billion in Q2 revenue (about 15% of its $45B
+    projection), up from an initial $5.5B estimate.
+  context: NVIDIA earnings; via The AI Daily Brief episode summary notes (2025-05-31). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - infrastructure
+  - chips
+  - export-controls
+  - china
+  - nvidia
+- id: saudi-humane-infrastructure
+  claim: Saudi Arabia's state-owned Humane targeted 1.9 gigawatts of data-center capacity by 2030 plus
+    6.6 additional GW by 2034 at an estimated $77 billion, aiming for 7% of global compute by 2030, having
+    already inked $23 billion in deals with NVIDIA, AMD, Amazon, and Qualcomm.
+  context: Via The AI Daily Brief episode summary notes (2025-05-31). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - infrastructure
+  - compute
+  - data-center
+  - gulf-states
+- id: sov-huang-run-on-american-platforms
+  claim: NVIDIA CEO Jensen Huang framed AI sovereignty as a platform-adoption contest, arguing the question
+    is not whether China will have AI but whether one of the world's largest AI markets will run on American
+    platforms.
+  context: The AI Daily Brief (2025-05-31) reporting Huang's NVIDIA earnings commentary; via episode summary
+    notes. Third-hand.
+  quote: whether one of the world's largest AI markets will run on American platforms
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - chips
+  - china
+  - platform-dependency

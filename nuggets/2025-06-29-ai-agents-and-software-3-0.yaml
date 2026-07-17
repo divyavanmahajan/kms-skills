@@ -1,0 +1,15 @@
+source: sources/audio/2025-06-29-ai-agents-and-software-3-0.md
+created: '2026-07-17'
+nuggets:
+- id: karpathy-software-3-0
+  claim: Andrej Karpathy's YC Startup School keynote framed LLMs as 'Software 3.0' — programmable in natural
+    language — the third paradigm after human-written code (1.0) and neural-network weights (2.0).
+  context: Karpathy keynote analyzed June 2025; via The AI Daily Brief episode summary notes. Third-hand.
+  quote: The hottest new programming language is English.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - software-3-0
+  - karpathy
+  - paradigm

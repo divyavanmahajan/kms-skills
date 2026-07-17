@@ -1,0 +1,18 @@
+source: sources/audio/2026-05-29-claude-opus-4-8-first-impressions.md
+created: '2026-07-17'
+nuggets:
+- id: opus48-benchmarks-honesty
+  claim: Claude Opus 4.8 was reported to improve over Opus 4.7 (SWE-Bench Pro 64.3%→69.2%, Terminal Bench
+    2.0 66.1%→74.6%) with a focus on honesty/reduced sycophancy, and for the first time Anthropic included
+    OpenAI models as direct launch comparisons (GPT-5.5 retained a Terminal Bench lead at 78.2 versus
+    74.6).
+  context: May 29 2026 episode (also introduced 'Dynamic Workflows' parallel sub-agents and previewed
+    a 'Mythos-class' model); via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - anthropic
+  - claude
+  - terminal-bench
+  - benchmark

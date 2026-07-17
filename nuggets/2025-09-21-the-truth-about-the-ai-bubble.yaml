@@ -1,0 +1,15 @@
+source: sources/audio/2025-09-21-the-truth-about-the-ai-bubble.md
+created: '2026-07-17'
+nuggets:
+- id: azhar-capex-6x-revenue
+  claim: Azeem Azhar's framework estimated 2025 generative-AI CapEx at ~$370B against ~$60B revenues —
+    a CapEx-to-revenue ratio of roughly 6x, versus ~2x (railways) and ~4x (telecoms) at their bubble peaks.
+  context: Azeem Azhar's 'Is AI a Bubble?' essay walked through on-air; 'industry strain' gauge rated
+    yellow-approaching-red; via The AI Daily Brief episode summary notes (2025-09-21). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - capex
+  - bubble-debate
+  - valuation

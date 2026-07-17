@@ -1,0 +1,28 @@
+source: sources/audio/2026-04-29-ai-lab-power-rankings.md
+created: '2026-07-17'
+nuggets:
+- id: microsoft-openai-2026-amendment-terms
+  claim: An amended Microsoft–OpenAI partnership ended Microsoft's exclusive cloud position while preserving
+    a non-exclusive IP/model license through 2032, a 27% equity stake, and a ~20% revenue share from OpenAI
+    through 2030, and removed the original 'AGI clause.'
+  context: Reporting a restructured deal tied to Microsoft's cumulative ~$13B investment; via The AI Daily
+    Brief 'AI Lab Power Rankings' (2026-04-29). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - strategy
+  - deals
+- id: ai-lab-power-rankings-google-first
+  claim: In the show's first AI Lab Power Rankings, aggregated scores from four frontier models (Gemini,
+    ChatGPT, Claude, Grok) all placed Google first with an average of 91.4, ahead of OpenAI (85.4) and
+    Microsoft (84.9).
+  context: The host's own harsher scoring instead tied Google and OpenAI at 74; via The AI Daily Brief
+    episode summary notes (2026-04-29). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - leadership
+  - rankings
+  - labs

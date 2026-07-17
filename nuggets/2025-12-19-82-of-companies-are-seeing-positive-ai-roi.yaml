@@ -1,0 +1,27 @@
+source: sources/audio/2025-12-19-82-of-companies-are-seeing-positive-ai-roi.md
+created: '2026-07-17'
+nuggets:
+- id: aidb-benchmark-82-positive-roi
+  claim: The AI Daily Brief's AI ROI Benchmarking Study (1,200+ respondents, 5,000+ use cases, ROI scored
+    1–5) found 82% of companies reported positive ROI, 37% high (significant/transformational) ROI, and
+    only 5.6% of use cases negative ROI, with time savings averaging just under 8 hours per week.
+  context: First readout of the show's self-conducted benchmarking survey (self-selection caveats noted);
+    via The AI Daily Brief episode summary notes (2025-12-19). Third-hand, self-reported.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - roi
+  - benchmarking
+- id: aidb-roi-portfolio-benefit-types
+  claim: The AIDB study found ROI rose with benefit-type breadth (mean ROI 3.13 for one benefit type,
+    3.35 for four, 3.65 for eight), and that strategic benefits (new capabilities, decisions, revenue)
+    correlated with higher ROI than time savings.
+  context: AIDB benchmarking study analysis; via The AI Daily Brief episode summary notes (2025-12-19).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - roi
+  - portfolio

@@ -67,3 +67,10 @@ The repeatable loop every maintenance session follows:
   explicitly with both sources cited.
 - Distinguish decisions from facts: decisions live in `wiki/decisions/` with a
   status of `proposed | accepted | superseded`.
+- **Bulk ingest (a directory / many similar files):** never one page per
+  source and never regex-scraped nuggets. Preserve all sources first (a script
+  may do this — copy the frontmatter shape of an existing example or reuse
+  `scripts/fetch_notes.py`; dedup by `guid`), then compile a *small* set of
+  cross-cutting themed pages, with nuggets extracted by *reading* (fan out
+  subagents at volume). See the `ingest` skill's "Bulk ingest" section. This
+  holds regardless of which model runs it.

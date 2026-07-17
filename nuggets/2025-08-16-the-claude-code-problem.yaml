@@ -1,0 +1,17 @@
+source: sources/audio/2025-08-16-the-claude-code-problem.md
+created: '2026-07-17'
+nuggets:
+- id: claude-code-problem-replit-margins
+  claim: Replit's gross margins fell from 36% in February to negative 14% in April before partially recovering,
+    illustrating the mismatch between flat subscription pricing and variable AI inference costs (the 'Claude
+    Code problem').
+  context: '''The Claude Code problem'' (reframing investor Chris Pike''s ''Cursor problem''), Aug 2025;
+    via The AI Daily Brief episode summary notes. Third-hand.'
+  quote: Margins on all of the cogen products are either neutral or negative. They're absolutely abysmal.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - pricing
+  - business-model
+  - unit-economics

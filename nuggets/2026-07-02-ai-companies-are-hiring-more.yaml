@@ -1,0 +1,17 @@
+source: sources/audio/2026-07-02-ai-companies-are-hiring-more.md
+created: '2026-07-17'
+nuggets:
+- id: ramp-revelio-adopters-hire-more
+  claim: A RAMP/Revelio Labs study of 21,000 U.S. businesses found high-AI-adopting companies grew headcount
+    by 10% on average over two years (versus flat for low adopters), with entry-level headcount growing
+    even faster at 12%.
+  context: Firm-level AI-spend vs payroll analysis; lead economist urged cautious interpretation; via
+    The AI Daily Brief episode summary notes (2026-07-02). Third-hand, counter-narrative.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - hiring
+  - adoption
+  - counter-narrative

@@ -1,0 +1,44 @@
+source: sources/audio/2025-05-15-the-age-of-ai-diplomacy.md
+created: '2026-07-17'
+nuggets:
+- id: sov-humane-fullstack-buildout
+  claim: Saudi Arabia's new state-owned AI firm Humane will anchor a full-stack national AI build-out,
+    with NVIDIA supplying hundreds of thousands of chips over five years (an initial 18,000 Blackwell
+    GB300 units), a $10B AMD data-center project, and a $5B Amazon AI zone.
+  context: Reported on The AI Daily Brief (2025-05-15) analyzing the US-Saudi AI summit; via episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - sovereign-compute
+  - gulf-states
+  - saudi-arabia
+- id: sov-diffusion-rule-rescinded
+  claim: The US Commerce Department rescinded the Biden-era AI diffusion rule (a three-tier chip-export
+    framework), stating it would have undermined US diplomatic relations with dozens of countries by downgrading
+    them to second-tier status.
+  context: The AI Daily Brief (2025-05-15), framing chip-export policy as an instrument of AI diplomacy;
+    the quote is the notes' rendering of the Commerce statement. Third-hand.
+  quote: would have undermined U.S. diplomatic relations with dozens of countries
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - export-controls
+  - diffusion-rule
+  - chips
+- id: sov-mbs-600b-pledge
+  claim: Crown Prince Mohammed bin Salman pledged $600 billion of investment into the US over four years
+    alongside a $142 billion defense deal, with the Trump administration reportedly considering letting
+    the UAE import 500,000 chips annually through 2027 — roughly four times the Biden diffusion rule's
+    allowance.
+  context: The AI Daily Brief (2025-05-15) on the Riyadh US-Saudi summit; via episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - gulf-states
+  - data-center-diplomacy
+  - chips
+  - uae

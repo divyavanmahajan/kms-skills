@@ -1,0 +1,15 @@
+source: sources/audio/2026-03-06-ai-is-officially-political.md
+created: '2026-07-17'
+nuggets:
+- id: openai-dod-deal-same-day
+  claim: On the same day the Anthropic–Pentagon dispute escalated, OpenAI announced its own Department
+    of Defense deal, and Dario Amodei's leaked internal memo called OpenAI's model-refusal safeguards
+    'maybe 20% real and 80% safety theater.'
+  context: Via The AI Daily Brief 'AI Is Officially Political' (2026-03-06). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - competition
+  - politics
+  - strategy
+  - labs

@@ -1,0 +1,17 @@
+source: sources/audio/2025-07-29-walmart-blasts-past-agent-experimentation.md
+created: '2026-07-17'
+nuggets:
+- id: walmart-four-super-agents
+  claim: Walmart declared it is 'all in on agents,' building a company-wide framework organized around
+    four orchestration-layer 'super agents' — one each for customers (Sparky), suppliers (Marty), employees,
+    and developers.
+  context: Host analyzing Walmart's announcement under Global CTO Suresh Kumar; via The AI Daily Brief
+    episode summary notes (2025-07-29). Third-hand.
+  quote: a unified, company-wide agent framework organized around four super agents
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - multi-agent
+  - orchestration
+  - walmart

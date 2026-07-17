@@ -1,0 +1,41 @@
+source: sources/audio/2025-11-26-why-opus-4-5-changes-vibe-coding.md
+created: '2026-07-17'
+nuggets:
+- id: opus-45-swebench-verified-809
+  claim: Claude Opus 4.5 scored 80.9% on SWE-Bench Verified, ahead of Sonnet 4.5 (77.2%), GPT-5.1 Codex
+    Max (77.9%), and Gemini 3 Pro (76.2%).
+  context: Anthropic's published benchmarks on Opus 4.5's Nov 2025 release; via The AI Daily Brief episode
+    summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - benchmarks
+  - claude
+  - swe-bench
+- id: opus-45-token-price-cut
+  claim: With Opus 4.5, input token pricing dropped from $15 to $5 per million and output from $75 to
+    $25 per million versus Opus 4.1, while using 76% fewer output reasoning tokens on SWE-Bench Verified
+    at medium effort.
+  context: Anthropic pricing/efficiency figures at Opus 4.5 launch; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - pricing
+  - token-efficiency
+  - claude
+- id: opus-45-anthropic-internal-220
+  claim: In an internal Anthropic staff survey (n=18) on Opus 4.5, 50% reported at least 100% productivity
+    improvement and the mean self-estimated improvement was 220%; the model also scored higher than any
+    human candidate on Anthropic's timed 2-hour engineering take-home.
+  context: Anthropic-reported internal evidence relayed on the podcast; via The AI Daily Brief episode
+    summary notes. Third-hand.
+  quote: Software engineering is done.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - productivity
+  - claude

@@ -1,0 +1,17 @@
+source: sources/audio/2025-04-21-agent-pilots-nearly-doubled-last-quarter.md
+created: '2026-07-17'
+nuggets:
+- id: kpmg-agent-pilots-2025
+  claim: KPMG's Q1 2025 Pulse Survey found enterprise AI agent piloting jumped from 37% (Q4 2024) to 65%
+    (Q1 2025), with 99% of organizations planning to deploy agents, while full deployments held flat at
+    11%.
+  context: Host summarizing KPMG's Q1 2025 AI Pulse Survey of ~130 executives at $1B+ revenue firms; via
+    The AI Daily Brief episode summary notes (2025-04-21). Third-hand.
+  quote: 'Organizations piloting AI agents: 37% (Q4 2024) → 65% (Q1 2025).'
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - pilots
+  - adoption
+  - kpmg

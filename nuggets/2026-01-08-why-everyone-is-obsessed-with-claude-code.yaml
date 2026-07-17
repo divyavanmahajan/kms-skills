@@ -1,0 +1,16 @@
+source: sources/audio/2026-01-08-why-everyone-is-obsessed-with-claude-code.md
+created: '2026-07-17'
+nuggets:
+- id: claude-code-obsessed-anecdotes
+  claim: A Google principal engineer reported Claude Code reproduced in about one hour a distributed agent
+    orchestrator his team had spent a year building, and Opus 4.5 was described as doing the work of five
+    people for $200/month.
+  context: Reported Jan 2026 among practitioner reactions to Opus 4.5 / Claude Code; via The AI Daily
+    Brief episode summary notes. Third-hand anecdote.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - claude-code
+  - productivity
+  - anecdote

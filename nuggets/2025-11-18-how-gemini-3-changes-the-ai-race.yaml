@@ -1,0 +1,17 @@
+source: sources/audio/2025-11-18-how-gemini-3-changes-the-ai-race.md
+created: '2026-07-17'
+nuggets:
+- id: gemini3-arc-agi2-vs-gpt51
+  claim: Google's Gemini 3 Pro was reported to score 31.1% on ARC-AGI 2 (45.1% in Deep Think mode) versus
+    GPT-5.1's 17.6%, and to top LM Arena across all major leaderboards — credited with reversing the 'AI
+    plateau' narrative.
+  context: November 18 2025 Gemini 3 launch episode; Artificial Analysis reportedly confirmed it as new
+    overall leader; via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - google
+  - gemini
+  - arc-agi
+  - benchmark
