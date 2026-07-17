@@ -83,8 +83,14 @@ countermeasures, in order of automation:
 
 1. **GitHub Pages**: Settings → Pages → Source: **GitHub Actions**. The site
    deploys on every push to `main`.
-2. **Claude maintenance secret**: Settings → Secrets and variables → Actions →
-   add `ANTHROPIC_API_KEY`.
+2. **Claude maintenance secret**: Settings → Secrets and variables → Actions —
+   add ONE of:
+   - `CLAUDE_CODE_OAUTH_TOKEN` — if you have a Claude Pro/Max subscription:
+     run `claude setup-token` locally in Claude Code and paste the generated
+     token (valid ~1 year; uses your subscription, no separate API billing), or
+   - `ANTHROPIC_API_KEY` — from [platform.claude.com](https://platform.claude.com)
+     (separate pay-as-you-go billing; a claude.ai subscription does not
+     include API keys).
 3. **Actions permissions**: Settings → Actions → General → Workflow
    permissions → **Read and write** + **Allow GitHub Actions to create and
    approve pull requests** (needed by the weekly maintenance job).

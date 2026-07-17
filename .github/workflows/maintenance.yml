@@ -5,7 +5,10 @@
 # findings, and opens a PR for anything that needs human approval.
 #
 # Requirements:
-#   - Repo secret ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions)
+#   - ONE repo secret (Settings → Secrets and variables → Actions):
+#       CLAUDE_CODE_OAUTH_TOKEN — from a Claude Pro/Max subscription: run
+#         `claude setup-token` locally and paste the token (valid ~1 year), OR
+#       ANTHROPIC_API_KEY — from platform.claude.com (pay-as-you-go billing)
 #   - Settings → Actions → General → Workflow permissions:
 #     "Read and write permissions" + "Allow GitHub Actions to create and
 #     approve pull requests"
@@ -54,6 +57,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run maintenance session
         uses: anthropics/claude-code-action@v1
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
