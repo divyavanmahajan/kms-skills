@@ -118,6 +118,26 @@ inventory the wiki pages in Step 4 are compiled from.
 > the same source is cited by several themes, merge into one
 > `nuggets/<slug>.yaml`.
 
+## Step 3b — Entities for the knowledge graph
+
+Every new nugget needs an entry in `graph/entities.yaml` (the cache the
+`kms_mcp` knowledge graph compiles into Entity nodes and MENTIONS edges).
+Since you just read the source, extract them yourself — do not leave this to
+a later batch job:
+
+- Key: `"<nugget file stem>#<nugget id>"`; value: list of `{name, type}`.
+- Types and canonicalization rules are defined in `SYSTEM_PROMPT` in
+  `scripts/extract_entities.py` — follow them exactly (short canonical names
+  like "Nvidia", proper nouns only, model versions kept distinct, an empty
+  list is fine). **Reuse existing entity names** where the same entity is
+  already in the cache (`grep` it) — entities are shared graph nodes, and a
+  spelling variant splits the node.
+- At volume, have the same subagents that read the sources return entities
+  alongside their claims.
+
+`graph/entities.yaml` is append-mostly like the nugget inventory: add entries
+for new nuggets; never rework existing ones during an ingest.
+
 ## Step 4 — Compile into the wiki
 
 - **Prefer FEWER, better pages.** One concept per page (see `AGENTS.md` page
@@ -142,8 +162,15 @@ inventory the wiki pages in Step 4 are compiled from.
 ## Step 5 — Verify and commit
 
 1. `python3 scripts/lint.py` — fix all errors.
-2. `python3 scripts/dashboard.py`.
-3. Commit: `ingest: <short description of source and pages touched>`.
+2. `python3 scripts/extract_entities.py --check` — must report 0 missing; if it
+   lists nuggets, you skipped Step 3b for them.
+3. `python3 scripts/dashboard.py`.
+4. If the `kms_mcp` dependencies are installed (`requirements-mcp.txt`), rebuild
+   the local graph: `python3 -m kms_mcp index`. `.kms-index/` is gitignored, so
+   skipping this only leaves the *local* index stale (it warns and rebuilds on
+   demand; CI rebuilds its artifact from the pushed content).
+5. Commit (include `graph/entities.yaml` in the same ingest commit):
+   `ingest: <short description of source and pages touched>`.
    New pages/claims are **medium risk** — commit on a branch and open a PR
    unless the user asked you to commit directly.
 
