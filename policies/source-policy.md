@@ -24,10 +24,18 @@ sources/
    ```yaml
    ---
    url: https://...            # or origin: <repo/path/person> for non-web sources
+   title: The work's own title
+   author: Person or organization   # "unknown" only if confirmed by the owner
+   published: 2026-06-02            # publication/creation date, when known
    retrieved: 2026-07-17
    type: snapshot | summary-notes | original | extract | transcript | feed-entry
    ---
    ```
+
+   Dropped files and pasted text often carry none of this — the ingest skills
+   must ask the owner for missing fields rather than guessing (see the
+   metadata step in `ingest` and `ingest-audio`). Provenance recorded here is
+   what every downstream citation rests on.
 
    Audio sources (`type: transcript` for verbatim transcripts,
    `type: feed-entry` for show-notes-only) additionally require `published:`,

@@ -17,12 +17,35 @@ empty, list the contents of `inbox/` and ingest everything there (except
 entries are handled by the `ingest-audio` skill's procedure (metadata
 collection + transcription) — switch to it for those inputs.
 
-## Step 1 — Preserve the source (append-only)
+## Step 1 — Collect metadata (ask, don't guess)
+
+Gather this for every source before writing anything:
+
+| Field | Required | Notes |
+|---|---|---|
+| `url` or `origin` | yes | Where it came from — URL, or origin for files/notes ("email from X", "downloaded from Y", "own notes") |
+| `title` | yes | Of the work, not the filename |
+| `author` | yes | Person/organization; "unknown" only if the user confirms it |
+| `published` | when known | Publication/creation date (YYYY-MM-DD, or year) |
+| `type` | yes | `snapshot`, `summary-notes`, `original`, or `extract` |
+| `retrieved` | auto | Today |
+
+URLs and well-formed documents usually carry these; **dropped files and pasted
+text often don't. For every required field you cannot determine from the
+content itself: ASK THE USER** — use the AskUserQuestion tool when available
+(batch all missing fields for all pending sources into one round), otherwise
+ask in plain text and wait. Do not guess authors, dates, or origins, and do
+not proceed with placeholders: provenance frontmatter is what every downstream
+citation rests on. If the user genuinely doesn't know a field, record it
+explicitly (`author: unknown (confirmed by owner)`) and cap dependent nuggets
+at `confidence: low`.
+
+## Step 2 — Preserve the source (append-only)
 
 1. Pick the subfolder: `sources/web/` (URLs), `sources/docs/` (PDFs/papers),
    `sources/notes/` (the user's own notes), `sources/code/` (codebase/API docs).
-2. Create `sources/<sub>/YYYY-MM-DD-<slug>.md` with frontmatter:
-   `url:`/`origin:`, `retrieved: <today>`, `type: snapshot|summary-notes|original|extract`.
+2. Create `sources/<sub>/YYYY-MM-DD-<slug>.md` with the metadata from Step 1
+   as frontmatter.
    - URLs: fetch the page and capture the substantive content (headings, claims,
      data). If you can only capture a summary, set `type: summary-notes`.
    - Files from `inbox/`: `git mv` them into place (add the frontmatter sidecar
@@ -30,7 +53,7 @@ collection + transcription) — switch to it for those inputs.
 3. NEVER modify an existing file under `sources/`. A new version of an old
    source is a new dated file.
 
-## Step 2 — Extract nuggets
+## Step 3 — Extract nuggets
 
 From the source, list: topics covered, entities, concrete claims (especially
 numbers, versions, comparisons), and anything that contradicts existing wiki
@@ -39,9 +62,9 @@ content (`grep -ri` the key terms across `wiki/` and `nuggets/`).
 Record the claims as nuggets in `nuggets/<same-slug-as-source>.yaml` following
 the `nuggets` skill's procedure and `policies/nugget-policy.md` — atomic
 claim + context (who/when/scope) + provenance. The nugget file is the claim
-inventory the wiki pages in Step 3 are compiled from.
+inventory the wiki pages in Step 4 are compiled from.
 
-## Step 3 — Compile into the wiki
+## Step 4 — Compile into the wiki
 
 - **Prefer updating existing pages** over creating new ones. Only create a page
   for a genuinely new concept (`python3 scripts/new_page.py "Title" --type topic`).
@@ -57,7 +80,7 @@ inventory the wiki pages in Step 3 are compiled from.
   the affected page `status: disputed`, record both positions with citations in
   *Open questions*, and flag it in your final report.
 
-## Step 4 — Verify and commit
+## Step 5 — Verify and commit
 
 1. `python3 scripts/lint.py` — fix all errors.
 2. `python3 scripts/dashboard.py`.
