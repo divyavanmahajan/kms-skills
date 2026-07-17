@@ -1,0 +1,45 @@
+source: sources/audio/2025-09-24-nvidia-and-openai-up-the-ai-stakes-with-100b-deal.md
+created: '2026-07-17'
+nuggets:
+- id: nvidia-openai-100b-10gw-deal
+  claim: NVIDIA agreed to invest up to $100 billion in OpenAI, which signed a letter of intent to deploy
+    at least 10 gigawatts of NVIDIA systems — estimated at 4–5 million GPUs, roughly 25% of then-current
+    total US data center capacity.
+  context: Deal announced Sept 2025; cited by critics as circular/vendor financing; via The AI Daily Brief
+    episode summary notes (2025-09-24). Third-hand.
+  quote: OpenAI signed a letter of intent to deploy at least 10 gigawatts of NVIDIA systems
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - funding
+  - nvidia
+  - openai
+  - circular-financing
+  - capex
+- id: openai-anthropic-2025-revenue
+  claim: The host described OpenAI revenue growing from roughly $1.5M in mid-2023 to about $12 billion,
+    and Anthropic growing from $1B to $5B in revenue within 2025, as the core counter-bubble argument.
+  context: Host's counter-bubble argument; figures presented as stated, not audited; via The AI Daily
+    Brief episode summary notes (2025-09-24). Third-hand.
+  quote: Anthropic grew from $1B to $5B in revenue within 2025 alone.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - revenue
+  - openai
+  - anthropic
+  - bull-case
+- id: nvidia-openai-neocloud-note
+  claim: The NVIDIA–OpenAI deal was framed as emblematic of an 'equity-for-compute' pattern in which supply-constrained
+    compute is secured via large vendor investments tying chip demand back to the vendor.
+  context: Host's framing of the deal's structure; via The AI Daily Brief episode summary notes (2025-09-24).
+    Third-hand. (See also nvidia-openai-100b-10gw-deal.)
+  confidence: medium
+  status: active
+  tags:
+  - infrastructure
+  - compute
+  - capex
+  - circular-financing

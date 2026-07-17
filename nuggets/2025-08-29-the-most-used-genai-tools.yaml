@@ -1,0 +1,16 @@
+source: sources/audio/2025-08-29-the-most-used-genai-tools.md
+created: '2026-07-17'
+nuggets:
+- id: a16z-gemini-12pct-china-22
+  claim: In a16z's fifth Top 100 Gen AI Consumer Apps report, Gemini received about 12% of ChatGPT's web
+    visits, 22 of the 50 mobile-chart apps were developed in China, and the top four web products were
+    ChatGPT, Gemini, DeepSeek, and Grok.
+  context: Andreessen Horowitz Top 100 Gen AI Consumer Apps (5th ed., SimilarWeb/Sensor Tower); via The
+    AI Daily Brief episode summary notes (2025-08-29). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - most-used
+  - trends
+  - market-share
+  - consumer

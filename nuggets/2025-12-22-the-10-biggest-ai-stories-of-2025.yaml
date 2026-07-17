@@ -1,0 +1,16 @@
+source: sources/audio/2025-12-22-the-10-biggest-ai-stories-of-2025.md
+created: '2026-07-17'
+nuggets:
+- id: deepseek-nvidia-593b
+  claim: DeepSeek R1's January 2025 release triggered a $593 billion single-day NVIDIA market-cap loss
+    (described as the largest one-day loss in stock-market history), and Menlo found coding was 55% (~$4B)
+    of departmental enterprise AI spend.
+  context: Year-end retrospective 'The 10 Biggest AI Stories of 2025'; via The AI Daily Brief episode
+    summary notes (2025-12-22). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - trends
+  - biggest-stories
+  - market
+  - coding

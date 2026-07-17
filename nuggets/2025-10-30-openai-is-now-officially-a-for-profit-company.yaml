@@ -1,0 +1,17 @@
+source: sources/audio/2025-10-30-openai-is-now-officially-a-for-profit-company.md
+created: '2026-07-17'
+nuggets:
+- id: openai-microsoft-restructure-stakes
+  claim: In OpenAI's for-profit (PBC) conversion, the OpenAI Foundation retained an equity stake worth
+    ~$130 billion, Microsoft's stake moved from 32.5% to 27% (~$135 billion), and OpenAI committed $250
+    billion in Azure spending in exchange for losing Microsoft's right of first refusal on compute.
+  context: Summarizing the restructuring terms; via The AI Daily Brief episode summary notes (2025-10-30).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - business-model
+  - openai
+  - microsoft
+  - funding

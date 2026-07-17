@@ -1,0 +1,30 @@
+source: sources/audio/2026-06-02-should-americans-get-shares-in-ai-companies.md
+created: '2026-07-17'
+nuggets:
+- id: bain-40pct-below-target-circular-bet
+  claim: Bain & Company's April 2026 survey found nearly 40% of large companies reported AI cost savings
+    below 10% (versus 11–20% targets), and 44% were funding their next AI investment on the assumption
+    current deployments would pay for it — 'a circular bet with a structural leak.'
+  context: Relaying Bain survey findings; via The AI Daily Brief episode summary notes (2026-06-02). Third-hand.
+  quote: a circular bet with a structural leak
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - roi
+  - bear-case
+  - enterprise-adoption
+- id: sanders-sovereign-wealth-fund-act
+  claim: Senator Bernie Sanders announced an 'AI Sovereign Wealth Fund Act' proposing a one-time 50% tax
+    on major AI companies, paid in stock, giving the federal government a 50% ownership stake; OpenAI's
+    April 2026 white paper and Anthropic's Oct 2025 writing had separately endorsed public/sovereign wealth
+    funds.
+  context: Host viewed passage as unlikely but the cross-ideological direction as notable; via The AI
+    Daily Brief episode summary notes (2026-06-02). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - government
+  - policy
+  - ownership

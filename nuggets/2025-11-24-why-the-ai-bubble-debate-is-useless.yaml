@@ -1,0 +1,17 @@
+source: sources/audio/2025-11-24-why-the-ai-bubble-debate-is-useless.md
+created: '2026-07-17'
+nuggets:
+- id: openai-1-4t-commitments-oracle-cds
+  claim: The episode stated OpenAI has $1.4 trillion in spending commitments over ~8 years, and that Oracle's
+    credit-default-swap spreads had tripled, implying a 6–8% bankruptcy probability by 2030 (still short
+    of downgrade territory).
+  context: Host listing indicators worth watching for market-risk observers; via The AI Daily Brief episode
+    summary notes (2025-11-24). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - capex
+  - credit-risk
+  - oracle
+  - bear-case

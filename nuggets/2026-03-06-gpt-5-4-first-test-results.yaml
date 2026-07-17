@@ -1,0 +1,17 @@
+source: sources/audio/2026-03-06-gpt-5-4-first-test-results.md
+created: '2026-07-17'
+nuggets:
+- id: gpt54-osworld-above-human
+  claim: OpenAI's GPT-5.4 (1M-token context) was reported to score 75% on OS World Verified — above the
+    stated human baseline of 72.4% and up from GPT-5.2's 47.3% — as a product of OpenAI's December 2025
+    'Code Red' initiative.
+  context: March 6 2026 episode (cited as ~half the price of Opus 4.6 for coding but criticized for weak
+    front-end taste); via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - openai
+  - gpt5
+  - os-world
+  - computer-use

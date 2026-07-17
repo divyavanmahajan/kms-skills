@@ -47,6 +47,18 @@ nav:
       - topics/wiki-maintenance.md
       - topics/nuggets.md
       - topics/llm-interpretability.md
+  - AI industry:
+      - topics/ai-agents.md
+      - topics/vibe-coding.md
+      - topics/enterprise-ai-adoption.md
+      - topics/frontier-model-releases.md
+      - topics/ai-economics-and-the-bubble-debate.md
+      - topics/ai-jobs-and-labor.md
+      - topics/ai-infrastructure-compute-energy.md
+      - topics/ai-media-and-society.md
+      - topics/state-of-ai-adoption.md
+      - topics/ai-competition-and-geopolitics.md
+      - topics/ai-sovereignty.md
   - Guides:
       - guides/maintenance-guidelines.md
       - guides/obsidian.md

@@ -1,0 +1,17 @@
+source: sources/audio/2025-07-11-is-grok-4-the-best-llm-yet.md
+created: '2026-07-17'
+nuggets:
+- id: grok4-arc-agi2-15point9
+  claim: xAI's Grok 4 was reported to score 15.9% on ARC-AGI-2 (roughly doubling the previous ~8% high
+    attributed to Claude Opus 4), with a $300/month Grok 4 Heavy tier running multiple agents in parallel
+    and a claim of 100x more training compute than Grok 2.
+  context: July 11 2025 episode on Grok 4's launch; Artificial Analysis reported an Intelligence Index
+    of 73; via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - xai
+  - grok
+  - arc-agi
+  - benchmark

@@ -1,0 +1,16 @@
+source: sources/audio/2025-07-25-how-one-company-saved-213-000-hours-with-ai.md
+created: '2026-07-17'
+nuggets:
+- id: norges-bank-mandatory-213000-hours
+  claim: Norges Bank Investment Management made AI use mandatory (tied to promotion/employment), supported
+    it with a 6-person enabler team and 40 AI ambassadors, and after one year reported 20% productivity
+    gains and 213,000 hours saved annually.
+  context: Case study of Norway's sovereign wealth fund under CEO Nikolai Tangen; via The AI Daily Brief
+    episode summary notes (2025-07-25). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - case-study
+  - leadership
+  - productivity

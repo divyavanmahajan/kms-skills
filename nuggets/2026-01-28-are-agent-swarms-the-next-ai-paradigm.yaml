@@ -1,0 +1,17 @@
+source: sources/audio/2026-01-28-are-agent-swarms-the-next-ai-paradigm.md
+created: '2026-07-17'
+nuggets:
+- id: kimi-k25-parl-swarm
+  claim: Moonshot AI's Kimi K2.5 ships an agent-swarm system trained via PARL (Parallel Agent Reinforcement
+    Learning), which imposes a compute/time budget to force an orchestrator to decompose tasks across
+    specialized parallel sub-agents and combat 'serial collapse.'
+  context: Host (Nathaniel Whittemore) arguing 2026 may be the year of agent swarms; via The AI Daily
+    Brief episode summary notes (2026-01-28). Third-hand.
+  quote: PARL (Parallel Agent Reinforcement Learning)
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - multi-agent
+  - swarms
+  - kimi

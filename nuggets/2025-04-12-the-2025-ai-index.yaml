@@ -1,0 +1,25 @@
+source: sources/audio/2025-04-12-the-2025-ai-index.md
+created: '2026-07-17'
+nuggets:
+- id: stanford-org-usage-55-to-78
+  claim: Stanford's 2025 AI Index reported organizational AI usage rising from 55% in 2023 to 78% in 2024,
+    and U.S. private AI investment in 2024 of $109 billion (nearly 12x China's $9.3 billion).
+  context: Stanford HAI's 2025 AI Index Report (456 pages, covering 2024); via The AI Daily Brief episode
+    summary notes (2025-04-12). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - adoption
+  - investment
+  - index
+- id: stanford-global-optimism-gap
+  claim: AI optimism ('more beneficial than harmful') was reported at 83% in China, 80% in Indonesia,
+    77% in Thailand, versus 39% in the United States.
+  context: Stanford 2025 AI Index sentiment data; via The AI Daily Brief episode summary notes (2025-04-12).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - trends
+  - sentiment
+  - demographics

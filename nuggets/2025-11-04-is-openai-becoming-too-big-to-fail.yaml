@@ -1,0 +1,17 @@
+source: sources/audio/2025-11-04-is-openai-becoming-too-big-to-fail.md
+created: '2026-07-17'
+nuggets:
+- id: sov-microsoft-uae-chip-license
+  claim: Microsoft obtained the first US Commerce Department export license to ship 60,000 chips (including
+    GB300 Blackwells) to the UAE, with Microsoft President Brad Smith calling the deal a 'linchpin for
+    AI diplomacy in the Global South.'
+  context: The AI Daily Brief (2025-11-04); via episode summary notes. Third-hand.
+  quote: linchpin for AI diplomacy in the Global South
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - uae
+  - chips
+  - data-center-diplomacy
+  - global-south

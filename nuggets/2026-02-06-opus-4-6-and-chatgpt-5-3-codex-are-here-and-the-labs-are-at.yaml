@@ -1,0 +1,16 @@
+source: sources/audio/2026-02-06-opus-4-6-and-chatgpt-5-3-codex-are-here-and-the-labs-are-at.md
+created: '2026-07-17'
+nuggets:
+- id: opus46-gpt53-simultaneous
+  claim: Claude Opus 4.6 (1M-token context, Terminal Bench 2.0 65.4%) and GPT-5.3 Codex (claimed 77.3%
+    on Terminal Bench 2.0) were released within ~15–20 minutes of each other on February 6, 2026.
+  context: February 6 2026 episode framing an intensifying OpenAI–Anthropic rivalry; via The AI Daily
+    Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - anthropic
+  - openai
+  - terminal-bench
+  - context-window

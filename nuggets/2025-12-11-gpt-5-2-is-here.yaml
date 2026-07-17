@@ -1,0 +1,28 @@
+source: sources/audio/2025-12-11-gpt-5-2-is-here.md
+created: '2026-07-17'
+nuggets:
+- id: gpt52-gdpval-arcagi
+  claim: OpenAI's GPT-5.2 (codenamed 'Garlic') was reported at 70.9% on GDP-Val (up from GPT-5's 38.8%),
+    52.9% on ARC-AGI 2 versus Opus 4.5's 37.6%, and 55.6% on SWE-Bench Pro versus Opus 4.5's 52%.
+  context: December 11 2025 GPT-5.2 launch episode positioning it as a 'professional work model'; via
+    The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - openai
+  - gpt5
+  - benchmark
+  - gdp-val
+- id: arc-390x-cost-efficiency
+  claim: ARC Prize was cited noting 88% on ARC-AGI cost $4,500 per task a year earlier (an unreleased
+    o3 preview), while GPT-5.2 Pro reached 90.5% at $11.64 per task — a ~390x one-year cost-efficiency
+    improvement.
+  context: December 11 2025 GPT-5.2 episode; via The AI Daily Brief episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - arc-agi
+  - pricing
+  - benchmark

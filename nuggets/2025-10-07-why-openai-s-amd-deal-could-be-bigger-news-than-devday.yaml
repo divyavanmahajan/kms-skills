@@ -1,0 +1,16 @@
+source: sources/audio/2025-10-07-why-openai-s-amd-deal-could-be-bigger-news-than-devday.md
+created: '2026-07-17'
+nuggets:
+- id: openai-amd-6gw-equity-option
+  claim: OpenAI agreed to deploy 6 gigawatts of AMD chips and obtained an option to buy 160 million AMD
+    shares (~10% of AMD) at $0.01 per share; AMD stock rose 24% on the announcement.
+  context: AMD's largest-ever deal per CEO Lisa Su; cited by critics as circular/bubbly; via The AI Daily
+    Brief episode summary notes (2025-10-07). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - funding
+  - amd
+  - openai
+  - circular-financing

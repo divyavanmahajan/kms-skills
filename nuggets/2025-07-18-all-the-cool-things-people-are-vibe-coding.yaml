@@ -1,0 +1,27 @@
+source: sources/audio/2025-07-18-all-the-cool-things-people-are-vibe-coding.md
+created: '2026-07-17'
+nuggets:
+- id: all-cool-things-lovable-unicorn
+  claim: Lovable raised a $200 million Series A at a $1.8 billion valuation with 2.3 million active users,
+    180,000 paying customers, 45 full-time employees, and ARR growing from $17M in February to $75M.
+  context: Reported mid-July 2025 as Lovable reached unicorn status; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - lovable
+  - funding
+  - arr
+- id: claude-code-usage-growth-2025
+  claim: Claude Code's user base grew 300% in two months and revenue grew 5.5x since the Claude 4 launch
+    in May 2025, amid a controversy over unannounced usage limits on the $200/month Max plan.
+  context: Reported July 2025 as Claude Code hit usage-limit backlash; via The AI Daily Brief episode
+    summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - claude-code
+  - growth
+  - usage-limits

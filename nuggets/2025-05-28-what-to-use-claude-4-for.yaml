@@ -1,0 +1,16 @@
+source: sources/audio/2025-05-28-what-to-use-claude-4-for.md
+created: '2026-07-17'
+nuggets:
+- id: claude-opus4-7hr-refactor
+  claim: Anthropic's Claude Opus 4 was reported to maintain coherence on a complex open-source refactoring
+    task for approximately seven hours without losing focus, at its first developer conference alongside
+    Sonnet 4.
+  context: May 28 2025 episode on Claude Opus 4 / Sonnet 4 launch; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - anthropic
+  - claude
+  - agentic

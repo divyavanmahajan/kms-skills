@@ -1,0 +1,15 @@
+source: sources/audio/2025-12-05-what-1-250-professionals-say-about-working-with-ai.md
+created: '2026-07-17'
+nuggets:
+- id: anthropic-1250-time-savings
+  claim: Anthropic's AI-conducted survey of 1,250 professionals found 86% reported AI saves them time
+    and 65% reported satisfaction with AI's role in their work.
+  context: Anthropic Interviewer semi-structured survey; via The AI Daily Brief episode summary notes
+    (2025-12-05). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - adoption
+  - survey
+  - sentiment
+  - workforce

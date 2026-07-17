@@ -1,0 +1,29 @@
+source: sources/audio/2025-11-09-a-framework-for-choosing-winning-ai-use-cases-agent-readines.md
+created: '2026-07-17'
+nuggets:
+- id: gaspar-four-step-use-case-process
+  claim: Nufar Gaspar's agent-readiness framework structures use-case work into four sequential steps
+    — Identify, Select, Manage, Track — managed as an investment portfolio (a complexity-vs-value matrix
+    adapted from the BCG Growth-Share Matrix) rather than one-off projects.
+  context: Part 3 of the 'Agent Readiness' series with Nufar Gaspar (Super Intelligent); via The AI Daily
+    Brief episode summary notes (2025-11-09). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - framework
+  - use-case-selection
+  - agent-readiness
+- id: kpmg-ceo-roi-timeline
+  claim: A KPMG CEO study (~1,300 CEOs of $500M+ companies) showed ROI-timeline expectations shifting
+    from ~65% expecting 3–5 years in 2024 to ~67–69% expecting ROI within 1–3 years in 2025 (and ~19%
+    within 6–12 months).
+  context: Gaspar/host citing KPMG CEO study; via The AI Daily Brief episode summary notes (2025-11-09).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - enterprise-ai
+  - roi
+  - leadership
+  - kpmg

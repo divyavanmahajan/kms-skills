@@ -1,0 +1,18 @@
+source: sources/audio/2025-12-04-can-today-s-ai-really-replace-12-of-work.md
+created: '2026-07-17'
+nuggets:
+- id: mit-iceberg-index-117
+  claim: MIT's Iceberg Index found current AI overlaps with ~11.7% of all wage-earning skills (~2.2% 'visible'
+    in software/data science), but the study explicitly states this measures wage-value skill overlap,
+    not 11.7% of jobs eliminated; Anthropic's internal study found employees can fully delegate only 0–20%
+    of their work to Claude despite a ~50% productivity boost.
+  context: MIT Project Iceberg skill-centered metric; host flags CNBC's 'can replace 11.7% of the workforce'
+    headline as incorrect; via The AI Daily Brief episode summary notes (2025-12-04). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - task-vs-job
+  - exposure
+  - mit

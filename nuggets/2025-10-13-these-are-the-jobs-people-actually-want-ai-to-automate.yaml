@@ -1,0 +1,18 @@
+source: sources/audio/2025-10-13-these-are-the-jobs-people-actually-want-ai-to-automate.md
+created: '2026-07-17'
+nuggets:
+- id: senate-100m-jobs
+  claim: A U.S. Senate HELP Committee (Democratic staff) report projected AI and automation could displace
+    nearly 100 million U.S. jobs over the next decade (including 89% of fast-food workers, 64% of accountants,
+    47% of truck drivers); a separate Housecall Pro survey found 40% of home-service pros use AI, saving
+    3.2 hours/week, with 73% saying AI had not affected hiring.
+  context: The Senate report methodology relied heavily on querying ChatGPT (acknowledged as limited);
+    via The AI Daily Brief episode summary notes (2025-10-13). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - jobs
+  - labor
+  - predictions
+  - displacement
+  - trades

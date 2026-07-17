@@ -1,0 +1,30 @@
+source: sources/audio/2026-02-19-how-people-actually-use-ai-agents.md
+created: '2026-07-17'
+nuggets:
+- id: claude-code-median-turn-45s
+  claim: Anthropic's 'Measuring AI Agent Autonomy in Practice' found the median Claude Code turn lasts
+    about 45 seconds while the 99.9th-percentile turn grew from ~25 to ~45 minutes (Oct 2025–Jan 2026),
+    evidence of a 'capability overhang.'
+  context: Host summarizing Anthropic's agent-autonomy study; via The AI Daily Brief episode summary notes
+    (2026-02-19). Third-hand.
+  quote: The median turn duration is approximately 45 seconds and has been stable for months
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - autonomy
+  - capability-overhang
+  - anthropic
+- id: agentic-use-beyond-coding
+  claim: Anthropic's autonomy study found software engineering accounts for ~50% of agentic tool calls,
+    meaning more than half of agentic use cases already fall outside coding (e.g., back-office 9.1%, marketing
+    4.4%, sales 4.3%).
+  context: Host summarizing Anthropic's study; via The AI Daily Brief episode summary notes (2026-02-19).
+    Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - agents
+  - use-cases
+  - diversification
+  - anthropic

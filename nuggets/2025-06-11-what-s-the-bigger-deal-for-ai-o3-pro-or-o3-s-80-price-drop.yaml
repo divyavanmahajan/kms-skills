@@ -1,0 +1,15 @@
+source: sources/audio/2025-06-11-what-s-the-bigger-deal-for-ai-o3-pro-or-o3-s-80-price-drop.md
+created: '2026-07-17'
+nuggets:
+- id: o3-price-drop-80pct
+  claim: OpenAI cut o3 output token pricing by 80%, from $40 to $8 per million tokens (input $2/million),
+    attributed to inference-engineering gains rather than a distilled model, released alongside o3 Pro.
+  context: June 11 2025 episode; price cut announced by Sam Altman; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - models
+  - openai
+  - pricing
+  - reasoning-model

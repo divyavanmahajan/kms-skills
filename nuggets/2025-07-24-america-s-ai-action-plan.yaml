@@ -1,0 +1,41 @@
+source: sources/audio/2025-07-24-america-s-ai-action-plan.md
+created: '2026-07-17'
+nuggets:
+- id: sov-action-plan-third-pillar
+  claim: The White House's 28-page AI Action Plan made its third pillar 'Lead in International AI Diplomacy
+    and Security,' calling for the US to actively export its full AI stack — models, hardware, and standards
+    — to allies before they turn to Chinese alternatives.
+  context: The AI Daily Brief (2025-07-24) summarizing the published plan (ai.gov/action-plan); via episode
+    summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - national-strategy
+  - action-plan
+  - ai-diffusion
+- id: sov-action-plan-open-weights-geostrategic
+  claim: The AI Action Plan explicitly endorsed open-source/open-weight AI models as carrying geostrategic
+    value, arguing that if the US does not provide leading open models, the world will default to Chinese
+    models.
+  context: The AI Daily Brief (2025-07-24); via episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - open-weights
+  - national-strategy
+  - china
+- id: sov-anthropic-gulf-memo
+  claim: A leaked internal memo from Anthropic CEO Dario Amodei acknowledged that accepting Gulf-state
+    investment would 'likely enrich dictators' but concluded Anthropic would accept it on competitive-necessity
+    grounds, citing 'a truly giant amount of capital in the Middle East, easily $100 billion or more.'
+  context: The AI Daily Brief (2025-07-24) reporting on the leaked memo; via episode summary notes. Third-hand.
+  quote: there is a truly giant amount of capital in the Middle East, easily $100 billion or more
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - gulf-states
+  - capital
+  - anthropic

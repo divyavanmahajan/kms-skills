@@ -1,0 +1,39 @@
+source: sources/audio/2026-06-30-how-big-is-the-ai-economy.md
+created: '2026-07-17'
+nuggets:
+- id: exponential-view-ai-economy
+  claim: Exponential View's 'State of the AI Economy' put AI revenue at $110 billion trailing-12-months
+    ($175 billion annualized run rate) against hyperscaler/NeoCloud CapEx of $848 billion in 2026 (~$2T
+    cumulative since 2020), noting quarterly AI revenue began exceeding quarterly CapEx depreciation starting
+    Q4 2025.
+  context: Based on the Exponential View report analyzing 1,000+ AI companies with deduplicated revenue;
+    via The AI Daily Brief episode summary notes (2026-06-30). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - ai-economics
+  - revenue
+  - capex
+  - bull-case
+  - projections
+- id: token-volume-30-quadrillion
+  claim: Global token volumes exceeded 30 quadrillion per month (growing 14x year-over-year) while the
+    blended price per million tokens fell from $17 (mid-2024) to $2 (mid-2026), with agentic tasks consuming
+    roughly 1,200x more tokens than a standard chat.
+  context: Citing Exponential View; via The AI Daily Brief episode summary notes (2026-06-30). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - compute
+  - tokens
+  - economics
+- id: semiconductor-market-1-5-trillion
+  claim: The global semiconductor market was projected to reach $1.5 trillion in 2026, nearly doubling
+    from $792 billion the prior year, amid a 'compute super cycle.'
+  context: Citing Exponential View; via The AI Daily Brief episode summary notes (2026-06-30). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - chips
+  - semiconductor
+  - economics

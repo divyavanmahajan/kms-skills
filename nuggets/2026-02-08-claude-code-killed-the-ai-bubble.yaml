@@ -1,0 +1,28 @@
+source: sources/audio/2026-02-08-claude-code-killed-the-ai-bubble.md
+created: '2026-07-17'
+nuggets:
+- id: claude-code-github-commits
+  claim: Semi-Analysis reported Claude Code represents about 4% of all public GitHub commits and projected
+    it would account for 20%+ of all daily GitHub commits by the end of 2026.
+  context: Semi-Analysis 'Claude Code is the Inflection Point' piece cited Feb 2026; via The AI Daily
+    Brief episode summary notes. Third-hand.
+  quote: While you blinked, AI consumed all of software development
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - claude-code
+  - github
+  - adoption
+- id: accenture-30000-claude-code
+  claim: Accenture signed a deal to train 30,000 professionals on Claude Code, described as the largest
+    deployment to date, targeting financial services, life sciences, healthcare, and public sector.
+  context: Cited amid the 'SaaSpocalypse' discussion, Feb 2026; via The AI Daily Brief episode summary
+    notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - vibe-coding
+  - enterprise
+  - claude-code
+  - deployment

@@ -1,0 +1,16 @@
+source: sources/audio/2025-08-27-the-new-politics-of-ai.md
+created: '2026-07-17'
+nuggets:
+- id: sov-us-intel-equity-stake
+  claim: The US government acquired a 9.9% non-voting equity stake in Intel (becoming its largest shareholder)
+    in exchange for releasing $8.9B in remaining CHIPS Act funding, after Commerce Secretary Howard Lutnick
+    had proposed a sovereign wealth fund built on equity-for-contracts arrangements.
+  context: The AI Daily Brief (2025-08-27) on 'the new politics of AI'; via episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - national-ownership
+  - chips
+  - sovereign-wealth
+  - intel

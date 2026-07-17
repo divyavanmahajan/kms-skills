@@ -1,0 +1,15 @@
+source: sources/audio/2026-06-23-the-right-way-to-deal-with-ai-data-centers.md
+created: '2026-07-17'
+nuggets:
+- id: bloomberg-276pct-grid-prices
+  claim: A Bloomberg analysis of 25,000 grid nodes found electricity prices rose as much as 276% since
+    2020 near major data-center clusters, with over 70% of price-increasing nodes located within 50 miles
+    of significant data-center activity.
+  context: Via The AI Daily Brief episode summary notes (2026-06-23). Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - energy
+  - electricity
+  - data-center
+  - grid
