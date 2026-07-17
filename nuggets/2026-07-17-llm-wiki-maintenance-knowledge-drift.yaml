@@ -1,0 +1,48 @@
+source: sources/web/2026-07-17-llm-wiki-maintenance-knowledge-drift.md
+created: 2026-07-17
+nuggets:
+  - id: drift-six-mechanisms
+    claim: >-
+      Knowledge drift in a compiled wiki has six mechanisms: source drift,
+      concept drift, terminology drift, decision drift, citation drift, and
+      structure drift.
+    context: >-
+      Taxonomy from the glukhov.org maintenance article (retrieved July 2026);
+      each mechanism needs a distinct countermeasure.
+    confidence: medium
+    status: active
+    tags: [drift, taxonomy]
+  - id: drift-compiled-must-be-kept-honest
+    claim: >-
+      Unlike raw sources, compiled summaries must be actively maintained —
+      staleness is the default trajectory, not an accident.
+    context: >-
+      Core maintenance premise of the article (glukhov.org, retrieved
+      July 2026); motivates scheduled reviews rather than fix-on-notice.
+    quote: "a summary you already compiled has to be actively kept honest"
+    confidence: medium
+    status: active
+    tags: [drift, maintenance]
+  - id: drift-review-intervals
+    claim: >-
+      Recommended review intervals by content type: pricing pages 7-30 days,
+      tool pages 30-90 days, architecture principles 6-18 months, historical
+      records only when superseded.
+    context: >-
+      Author's recommended cadences (glukhov.org, retrieved July 2026);
+      heuristics, not measured decay rates.
+    confidence: medium
+    status: active
+    tags: [maintenance, cadence]
+  - id: drift-citation-false-confidence
+    claim: >-
+      Citation drift — claims no longer matching their cited sources after
+      rewrites — creates false confidence and is countered by re-verifying
+      citations before publishing.
+    context: >-
+      From the article's drift taxonomy (glukhov.org, retrieved July 2026);
+      the reason this repo requires a citation check before any draft page is
+      promoted to reviewed.
+    confidence: medium
+    status: active
+    tags: [drift, citations]

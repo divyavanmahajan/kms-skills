@@ -1,0 +1,49 @@
+source: sources/web/2026-07-17-what-is-llm-wiki.md
+created: 2026-07-17
+nuggets:
+  - id: llm-wiki-ingest-time
+    claim: >-
+      An LLM wiki compiles knowledge at ingest time, whereas RAG retrieves
+      knowledge at query time; this timing difference drives cost, latency,
+      quality, and maintenance characteristics.
+    context: >-
+      The glukhov.org article's central distinction (retrieved July 2026);
+      author's architectural framing, not a measured comparison.
+    quote: "RAG retrieves knowledge at query time. LLM Wiki compiles knowledge at ingest time."
+    confidence: medium
+    status: active
+    tags: [architecture, definition]
+  - id: llm-wiki-markdown-rationale
+    claim: >-
+      LLM wikis should use plain Markdown because boring formats outlive
+      clever platforms, keeping the system inspectable, portable, diffable,
+      and versionable.
+    context: >-
+      Design principle recommended by the article's author (glukhov.org,
+      retrieved July 2026); an opinionated best practice rather than a fact.
+    quote: "Boring formats survive longer than clever platforms"
+    confidence: medium
+    status: active
+    tags: [design, format]
+  - id: llm-wiki-human-review
+    claim: >-
+      Human review before publication is non-negotiable for an LLM wiki
+      handling material where correctness matters; LLMs draft, humans approve.
+    context: >-
+      Stated as a hard requirement by the article (glukhov.org, retrieved
+      July 2026); failure modes cited include hallucinated synthesis embedded
+      as authority.
+    confidence: medium
+    status: active
+    tags: [governance, review]
+  - id: llm-wiki-fit
+    claim: >-
+      LLM wikis fit stable curated domains (documentation, research synthesis,
+      personal and small-team knowledge bases) and fit poorly for highly
+      dynamic data, massive unmanaged corpora, or settings without review.
+    context: >-
+      The article's fit assessment (glukhov.org, retrieved July 2026); RAG is
+      positioned as complementary for the poor-fit cases, not competing.
+    confidence: medium
+    status: active
+    tags: [architecture, fit]

@@ -43,6 +43,9 @@ def main():
         if meta.get("confidence") == "low":
             low_conf.append((page, meta))
 
+    nuggets = lint.check_nuggets([], [])
+    nugget_disputed = sum(1 for n in nuggets if n.get("status") == "disputed")
+
     active = [p for p in pages if p.name != "index.md"]
     stale.sort()
     broken = [e for e in errors if "broken link" in e]
@@ -66,6 +69,8 @@ def main():
         if status in by_status:
             lines.append(f"| — {status} | {by_status[status]} |")
     lines += [
+        f"| Nuggets | {len(nuggets)} |",
+        f"| — disputed | {nugget_disputed} |",
         f"| Stale (past review date) | {len(stale)} ({stale_pct}%) |",
         f"| Unsourced | {len(unsourced)} |",
         f"| Low confidence | {len(low_conf)} |",

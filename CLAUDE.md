@@ -20,14 +20,16 @@ mkdocs serve                     # preview the site locally (pip install -r requ
 
 ## Skills
 
-- `/ingest <url|file|note>` — snapshot a source and compile it into wiki pages
+- `/ingest <url|file|note>` — snapshot a source, extract nuggets, compile wiki pages
+- `/nuggets [source]` — extract claim-level nuggets from a source into `nuggets/`
 - `/review [page]` — semantic review of stale or flagged pages
-- `/contradictions` — cross-page contradiction sweep
+- `/contradictions` — contradiction sweep over the nugget inventory + pages
 - `/maintain` — full weekly maintenance loop (used by scheduled CI too)
 
 ## Key paths
 
 - `policies/` — schema, citation, source, and review policies (high-risk to edit)
 - `sources/` — append-only raw material; never modify existing files
+- `nuggets/` — claim inventory (one YAML per source); claims immutable, supersede to correct
 - `wiki/` — compiled pages (MkDocs docs dir); every page needs schema frontmatter
 - `inbox/` — drop zone for material awaiting ingestion

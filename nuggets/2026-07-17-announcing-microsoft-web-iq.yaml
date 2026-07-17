@@ -1,0 +1,64 @@
+source: sources/web/2026-07-17-announcing-microsoft-web-iq.md
+created: 2026-07-17
+nuggets:
+  - id: webiq-what-it-is
+    claim: >-
+      Microsoft Web IQ is a suite of AI-native grounding APIs that connect AI
+      agents to current web content, functioning as a search engine for AI
+      systems rather than humans.
+    context: >-
+      Microsoft's own framing at launch, Microsoft Build 2026 (June 2, 2026);
+      in limited access for selected developers and enterprises as of
+      July 2026.
+    quote: "a suite of AI-native grounding APIs built for the agentic era"
+    confidence: medium
+    status: active
+    tags: [product, grounding]
+  - id: webiq-passage-output
+    claim: >-
+      Web IQ returns passages and structured evidence objects instead of full
+      documents, to maximize information density per token.
+    context: >-
+      Core design choice of the product; Microsoft's stated rationale is that
+      "documents are often a poor proxy" for the information models need.
+      Vendor description, not independent analysis.
+    quote: >-
+      Models do not need documents, they need information and documents are
+      often a poor proxy for that.
+    confidence: medium
+    status: active
+    tags: [retrieval, nuggets]
+  - id: webiq-p95-latency
+    claim: >-
+      Web IQ serves grounding responses at sub-165 ms p95 latency, which
+      Microsoft reports as roughly 2.5 times faster than alternatives.
+    context: >-
+      Vendor-reported benchmark from the June 2026 announcement, measured
+      across five data centers; the compared alternatives are not named.
+    confidence: medium
+    status: active
+    tags: [performance, benchmark]
+  - id: webiq-architecture-layers
+    claim: >-
+      Web IQ is layered as: the Bing global index (foundation), a small set of
+      models including an embedding model (model layer), DiskANN-based
+      distributed vector search (retrieval fabric), passage-level output, and
+      an orchestration layer that interprets queries and merges results.
+    context: >-
+      Architecture as described in the launch announcement, June 2026; depth
+      of description is marketing-level, engineering details are in the
+      companion Command Line blog post.
+    confidence: medium
+    status: active
+    tags: [architecture]
+  - id: webiq-target-workload
+    claim: >-
+      Web IQ targets multi-step agentic reasoning workflows where retrieval
+      happens repeatedly, optimizing for fewer tokens in, better answers out,
+      and lower cost per call.
+    context: >-
+      Stated design philosophy at launch (June 2026) — explains why token
+      efficiency, not just relevance, is the optimization target.
+    confidence: medium
+    status: active
+    tags: [design, agents]

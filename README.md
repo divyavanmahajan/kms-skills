@@ -13,7 +13,8 @@ and
 ```mermaid
 flowchart LR
     A[inbox/ or URL] -->|/ingest| B[sources/ append-only]
-    B -->|compile + cite| C[wiki/ Markdown pages]
+    B -->|extract claims| N[nuggets/ claim inventory]
+    N -->|compile + cite| C[wiki/ Markdown pages]
     C -->|lint.py + dashboard.py| D[Health dashboard]
     D -->|weekly Action /maintain| E[PR for human review]
     E -->|merge| C
@@ -25,6 +26,7 @@ flowchart LR
 | Path | What it is | Rules |
 |---|---|---|
 | `sources/` | Raw material: web snapshots, PDFs, notes, code extracts | Append-only, dated, never edited ([source-policy](policies/source-policy.md)) |
+| `nuggets/` | Claim inventory: one YAML per source of atomic claims + context + provenance ("nuggets", richer than chunks) | Claims immutable, supersede to correct ([nugget-policy](policies/nugget-policy.md)) |
 | `wiki/` | Compiled knowledge — the actual wiki, also the MkDocs site | Schema frontmatter, citations, supersede-don't-delete ([schema](policies/schema.md)) |
 | `inbox/` | Drop zone for material awaiting ingestion | Emptied by `/ingest` |
 | `policies/` | The operating rules (schema, citations, sources, review tiers) | High-risk to change |
@@ -36,8 +38,9 @@ flowchart LR
 
 ```text
 /ingest https://example.com/article     # or drop files in inbox/ and run /ingest
+/nuggets sources/web/2026-...-foo.md     # extract claim-level nuggets from a source
 /review                                  # semantic review of stale pages
-/contradictions                          # cross-page consistency sweep
+/contradictions                          # consistency sweep over the nugget inventory
 /maintain                                # the full weekly loop, on demand
 ```
 

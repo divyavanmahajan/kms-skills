@@ -29,10 +29,13 @@ maintenance.
 - [Knowledge drift](topics/knowledge-drift.md) — the six ways compiled
   knowledge rots
 - [Wiki maintenance](topics/wiki-maintenance.md) — how this repo fights drift
+- [Nuggets (structured evidence objects)](topics/nuggets.md) — claim-level
+  evidence units, richer than chunks
 
 ## Decisions
 
 - [0001 — Repository architecture](decisions/0001-repo-architecture.md)
+- [0002 — Adopt a nugget layer](decisions/0002-nugget-layer.md)
 
 ## How to add knowledge
 

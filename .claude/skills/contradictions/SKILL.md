@@ -10,8 +10,10 @@ to a PR for human judgment.
 
 ## Procedure
 
-1. Build a claim inventory: for each non-superseded page in `wiki/`, extract its
-   concrete claims (definitions, recommendations, numbers, version statements).
+1. Build a claim inventory: start from `nuggets/` (the structured claim
+   inventory — non-superseded nuggets only). For wiki pages whose sources have
+   no nugget file yet, extract claims from the page prose (and consider
+   running the `nuggets` skill to backfill).
 2. Group claims by concept — use the glossary to catch synonym pairs
    (terminology drift hides contradictions).
 3. For each group with more than one page, compare claims and classify conflicts:

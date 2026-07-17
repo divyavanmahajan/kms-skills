@@ -23,10 +23,14 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
+NUGGETS = ROOT / "nuggets"
 GENERATED = {"dashboard.md"}  # exempt from schema; never orphans, links from it don't count
 REQUIRED_KEYS = ("title", "status", "confidence", "review_after", "sources")
 STATUSES = {"draft", "reviewed", "disputed", "superseded"}
 CONFIDENCES = {"low", "medium", "high"}
+NUGGET_KEYS = ("id", "claim", "context", "confidence", "status")
+NUGGET_STATUSES = {"active", "disputed", "superseded"}
+ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(([^)\s]+)\)")
 KEBAB_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*\.md$|^\d{4}-[a-z0-9-]+\.md$")
 
@@ -119,6 +123,73 @@ def collect_internal_targets(page: Path, body: str):
     return targets
 
 
+def nugget_files():
+    if not NUGGETS.exists():
+        return []
+    return sorted(NUGGETS.glob("*.yaml"))
+
+
+def load_nuggets(path: Path):
+    """Return (data-or-None, error-or-None) for a nugget YAML file."""
+    try:
+        data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    except yaml.YAMLError as e:
+        return None, f"invalid YAML: {e}"
+    if not isinstance(data, dict):
+        return None, "top level is not a mapping"
+    return data, None
+
+
+def check_nuggets(errors, warnings):
+    """Validate nuggets/ per policies/nugget-policy.md. Returns all nuggets."""
+    seen_ids: dict[str, Path] = {}
+    all_nuggets = []
+    for path in nugget_files():
+        rel = path.relative_to(ROOT)
+        data, err = load_nuggets(path)
+        if err:
+            errors.append(f"{rel}: {err}")
+            continue
+        source = data.get("source")
+        if not source:
+            errors.append(f"{rel}: missing 'source'")
+        elif not (ROOT / str(source)).exists():
+            errors.append(f"{rel}: source does not exist: {source}")
+        items = data.get("nuggets")
+        if not isinstance(items, list) or not items:
+            errors.append(f"{rel}: 'nuggets' must be a non-empty list")
+            continue
+        for n in items:
+            if not isinstance(n, dict):
+                errors.append(f"{rel}: nugget entries must be mappings")
+                continue
+            nid = n.get("id", "<no id>")
+            for key in NUGGET_KEYS:
+                if key not in n:
+                    errors.append(f"{rel}: nugget '{nid}' missing '{key}'")
+            if "id" in n and not ID_RE.match(str(nid)):
+                errors.append(f"{rel}: nugget id not kebab-case: {nid}")
+            if nid in seen_ids:
+                errors.append(f"{rel}: duplicate nugget id '{nid}' "
+                              f"(also in {seen_ids[nid].relative_to(ROOT)})")
+            seen_ids[nid] = path
+            if n.get("confidence") not in (None, *CONFIDENCES):
+                errors.append(f"{rel}: nugget '{nid}' invalid confidence")
+            status = n.get("status")
+            if status not in (None, *NUGGET_STATUSES):
+                errors.append(f"{rel}: nugget '{nid}' invalid status '{status}'")
+            if status == "superseded" and not n.get("superseded_by"):
+                errors.append(f"{rel}: superseded nugget '{nid}' missing 'superseded_by'")
+            all_nuggets.append(n)
+    # second pass for superseded_by targets across files
+    known = set(seen_ids)
+    for n in all_nuggets:
+        target = n.get("superseded_by")
+        if target and target not in known:
+            errors.append(f"nuggets: '{n.get('id')}' superseded_by nonexistent id '{target}'")
+    return all_nuggets
+
+
 def run(strict: bool = False, quiet: bool = False):
     errors, warnings = [], []
     pages = wiki_pages()
@@ -144,12 +215,15 @@ def run(strict: bool = False, quiet: bool = False):
         if page.resolve() not in linked:
             warnings.append(f"{page.relative_to(ROOT)}: orphan page (no wiki page links to it)")
 
+    nuggets = check_nuggets(errors, warnings)
+
     if not quiet:
         for e in errors:
             print(f"ERROR   {e}")
         for w in warnings:
             print(f"WARNING {w}")
-        print(f"\nlint: {len(pages)} pages, {len(errors)} errors, {len(warnings)} warnings")
+        print(f"\nlint: {len(pages)} pages, {len(nuggets)} nuggets, "
+              f"{len(errors)} errors, {len(warnings)} warnings")
     return errors, warnings
 
 

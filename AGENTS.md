@@ -9,7 +9,10 @@ keep every change inspectable and recoverable.
 1. **Never edit `sources/`.** Raw sources are append-only. You may ADD new source
    files (via ingestion) but never modify or delete existing ones.
 2. **Supersede, don't delete.** Wiki pages are never deleted. Mark them
-   `status: superseded`, set `superseded_by`, and link forward.
+   `status: superseded`, set `superseded_by`, and link forward. The same goes
+   for nuggets in `nuggets/`: a recorded `claim` is never reworded — correct it
+   with a new nugget that supersedes the old one
+   ([`policies/nugget-policy.md`](policies/nugget-policy.md)).
 3. **Every claim needs provenance.** Follow [`policies/citation-policy.md`](policies/citation-policy.md).
    If you cannot source a claim, mark the page `confidence: low` and add it to
    *Open questions* — do not state it as fact.
@@ -43,7 +46,8 @@ Prefix commits with the operation so history is scannable:
 The repeatable loop every maintenance session follows:
 
 1. Add / detect new sources (`inbox/` and `sources/`)
-2. Compile: create or update wiki pages per [`policies/schema.md`](policies/schema.md)
+2. Extract nuggets (claim inventory) per [`policies/nugget-policy.md`](policies/nugget-policy.md),
+   then compile: create or update wiki pages per [`policies/schema.md`](policies/schema.md)
 3. Update links between pages
 4. Structural lint: `python3 scripts/lint.py`
 5. Semantic review: check stale pages (see `wiki/dashboard.md`) against their sources

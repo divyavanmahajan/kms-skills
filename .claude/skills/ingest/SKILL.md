@@ -28,11 +28,16 @@ empty, list the contents of `inbox/` and ingest everything there (except
 3. NEVER modify an existing file under `sources/`. A new version of an old
    source is a new dated file.
 
-## Step 2 — Extract
+## Step 2 — Extract nuggets
 
 From the source, list: topics covered, entities, concrete claims (especially
 numbers, versions, comparisons), and anything that contradicts existing wiki
-content (`grep -ri` the key terms across `wiki/`).
+content (`grep -ri` the key terms across `wiki/` and `nuggets/`).
+
+Record the claims as nuggets in `nuggets/<same-slug-as-source>.yaml` following
+the `nuggets` skill's procedure and `policies/nugget-policy.md` — atomic
+claim + context (who/when/scope) + provenance. The nugget file is the claim
+inventory the wiki pages in Step 3 are compiled from.
 
 ## Step 3 — Compile into the wiki
 

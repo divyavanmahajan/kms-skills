@@ -1,0 +1,55 @@
+source: sources/web/2026-07-17-webiq-grounding-at-scale.md
+created: 2026-07-17
+nuggets:
+  - id: evidence-object-definition
+    claim: >-
+      An evidence object is a passage-level unit carrying provenance,
+      structural metadata, and enough local context to remain interpretable
+      when detached from its source page.
+    context: >-
+      Microsoft's engineering definition (Command Line blog, June 2026) of the
+      units Web IQ returns; this is the concept colloquially called a
+      "nugget" — the announcement and engineering post never use that word.
+    quote: >-
+      passage-level units with provenance, structural metadata, and enough
+      local context to remain interpretable when detached from the source page
+    confidence: medium
+    status: active
+    tags: [nuggets, definition]
+  - id: evidence-object-vs-chunk
+    claim: >-
+      Evidence objects differ from plain chunks by changing the optimization
+      target from document relevance to information density per token, while
+      preserving attribution so outputs remain inspectable.
+    context: >-
+      The engineering post's stated contrast with traditional chunking
+      (June 2026); passages are selected for density relative to the query,
+      not the containing document's overall relevance.
+    confidence: medium
+    status: active
+    tags: [nuggets, retrieval]
+  - id: evidence-object-pipeline-position
+    claim: >-
+      Evidence objects are produced in the orchestration layer's
+      context-construction phase: after dense retrieval yields candidates, a
+      component selects and packages evidence under latency and context-window
+      constraints.
+    context: >-
+      Pipeline placement per the engineering post (June 2026); the post gives
+      minimal structural specification of the objects themselves and frames
+      them as token-economics optimization rather than architectural novelty.
+    confidence: medium
+    status: active
+    tags: [nuggets, architecture]
+  - id: semantic-first-propagation
+    claim: >-
+      In a semantic-first retrieval stack, dense retrieval is the default
+      access path, and that choice propagates into how content is chunked, how
+      representations are trained, and what the ANN index must preserve.
+    context: >-
+      Engineering observation from the Web IQ team (June 2026); later pipeline
+      stages recover precision via filtering, calibration, and task-specific
+      refinement.
+    confidence: medium
+    status: active
+    tags: [retrieval, architecture]

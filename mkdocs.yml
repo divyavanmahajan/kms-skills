@@ -45,5 +45,7 @@ nav:
       - topics/llm-wiki.md
       - topics/knowledge-drift.md
       - topics/wiki-maintenance.md
+      - topics/nuggets.md
   - Decisions:
       - decisions/0001-repo-architecture.md
+      - decisions/0002-nugget-layer.md
