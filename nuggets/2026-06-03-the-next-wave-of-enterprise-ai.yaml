@@ -1,0 +1,18 @@
+source: sources/audio/2026-06-03-the-next-wave-of-enterprise-ai.md
+created: '2026-07-17'
+nuggets:
+- id: sov-nadella-participate-at-frontier
+  claim: Microsoft's Frontier Tuning lets enterprises fine-tune its in-house MAI models on their own tasks
+    (one McKinsey-tuned case reportedly beating GPT-5.5 on quality at 10x lower cost), which Satya Nadella
+    framed as moving from 'consuming a frontier model' to 'fully participating at the frontier.'
+  context: The AI Daily Brief (2026-06-03) on enterprise 'own the model' strategies; via episode summary
+    notes. Third-hand.
+  quote: fully participating at the frontier
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - enterprise
+  - own-the-model
+  - custom-models
+  - microsoft

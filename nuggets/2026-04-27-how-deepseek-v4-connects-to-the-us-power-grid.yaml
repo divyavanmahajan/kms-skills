@@ -50,3 +50,18 @@ nuggets:
   - china
   - geopolitics
   - compute
+- id: sov-deepseek-v4-dependency-risk
+  claim: Analysts warned that cheap Chinese open-weight models like DeepSeek V4 create geopolitical dependency
+    risk if US enterprises adopt them and Chinese labs later restrict access — reframing AI sovereignty
+    as a supply-chain question at the model layer, alongside the grid being declared national-security
+    infrastructure.
+  context: The AI Daily Brief (2026-04-27) (grid/DPA fact captured separately in nugget `dpa-section-303-grid`);
+    via episode summary notes. Third-hand.
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - dependency
+  - open-weights
+  - china
+  - model-layer

@@ -26,3 +26,18 @@ nuggets:
   - compute
   - china
   - export-controls
+- id: sov-h200-china-addicted-stack
+  claim: Commerce Secretary Howard Lutnick framed the approved NVIDIA H200 exports to China (for a 25%
+    US revenue cut) as a deliberate dependency strategy — selling China enough that its developers get
+    'addicted to the American technology stack.'
+  context: The AI Daily Brief (2025-12-10); the sovereignty rationale accompanying the H200 approval (see
+    also nugget `trump-h200-china-25pct-cut`); via episode summary notes. Third-hand.
+  quote: get addicted to the American technology stack
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - export-controls
+  - china
+  - chips
+  - dependency

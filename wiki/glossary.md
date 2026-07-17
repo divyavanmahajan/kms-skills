@@ -145,3 +145,10 @@ An arrangement in which a chip/compute vendor invests in an AI lab that then
 spends the investment buying the vendor's products, inflating the vendor's
 revenue — a central AI-bubble concern. Also called: *vendor financing*. See
 [AI economics & the bubble debate](topics/ai-economics-and-the-bubble-debate.md).
+
+## AI sovereignty
+
+The drive by a nation, bloc, or firm to control — and own the upside of — its own
+AI stack (compute, chips, energy, models, data, capital), rather than depending on
+another power's. Also called: *sovereign AI*, *digital sovereignty*; at the firm
+level, *"own the model."* See [AI sovereignty](topics/ai-sovereignty.md).

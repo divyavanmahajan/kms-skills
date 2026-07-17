@@ -60,6 +60,8 @@ Cross-cutting syntheses compiled from 411 AI Daily Brief episode summary notes
   survey/index reports (Stanford, Menlo, a16z, OpenAI/NBER)
 - [AI competition, strategy & geopolitics](topics/ai-competition-and-geopolitics.md) —
   the full-stack contest, US–China, AI turning political
+- [AI sovereignty](topics/ai-sovereignty.md) — control of (and ownership of the
+  upside of) the AI stack: sovereign compute, national strategies, "own the model"
 
 ## Guides
 

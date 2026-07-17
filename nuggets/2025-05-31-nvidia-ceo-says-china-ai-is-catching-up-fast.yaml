@@ -25,3 +25,17 @@ nuggets:
   - compute
   - data-center
   - gulf-states
+- id: sov-huang-run-on-american-platforms
+  claim: NVIDIA CEO Jensen Huang framed AI sovereignty as a platform-adoption contest, arguing the question
+    is not whether China will have AI but whether one of the world's largest AI markets will run on American
+    platforms.
+  context: The AI Daily Brief (2025-05-31) reporting Huang's NVIDIA earnings commentary; via episode summary
+    notes. Third-hand.
+  quote: whether one of the world's largest AI markets will run on American platforms
+  confidence: medium
+  status: active
+  tags:
+  - sovereignty
+  - chips
+  - china
+  - platform-dependency

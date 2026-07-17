@@ -67,7 +67,9 @@ its rescission, H200-to-China for a 25% cut, proposed Blackwell bans), Chinese
 open-weight models (DeepSeek V4, GLM 5.2, Kimi) positioned as "good enough at a
 fraction of the cost," and "data center diplomacy" via the UAE/G42 as a neutral third
 pole. DeepSeek R1's ~$600B single-day NVIDIA loss is the recurring symbol of the
-China threat.
+China threat. The national-self-determination side of this contest — sovereign
+compute, national AI strategies, and public ownership of the upside — is developed
+in [AI sovereignty](ai-sovereignty.md).
 
 ## AI becomes political
 
