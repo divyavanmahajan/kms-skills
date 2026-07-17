@@ -41,6 +41,8 @@ nav:
   - Home: index.md
   - Dashboard: dashboard.md
   - Glossary: glossary.md
+  - Nuggets: nuggets/index.md
+  - Sources: sources/index.md
   - Topics:
       - topics/llm-wiki.md
       - topics/knowledge-drift.md

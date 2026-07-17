@@ -56,6 +56,7 @@ pip install -r requirements.txt
 python3 scripts/lint.py            # structural lint (CI runs this on every push)
 python3 scripts/dashboard.py       # regenerate wiki/dashboard.md
 python3 scripts/new_page.py "Title" --type topic
+python3 scripts/build_browse.py    # generate the site's Sources + Nuggets browser
 mkdocs serve                       # browse the wiki at http://127.0.0.1:8000
 ```
 

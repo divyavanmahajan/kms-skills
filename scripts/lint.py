@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 NUGGETS = ROOT / "nuggets"
 GENERATED = {"dashboard.md"}  # exempt from schema; never orphans, links from it don't count
+GENERATED_DIRS = {"sources", "nuggets"}  # wiki/<dir> built by build_browse.py, gitignored
 REQUIRED_KEYS = ("title", "status", "confidence", "review_after", "sources")
 STATUSES = {"draft", "reviewed", "disputed", "superseded"}
 CONFIDENCES = {"low", "medium", "high"}
@@ -52,7 +53,11 @@ def parse_frontmatter(text: str):
 
 
 def wiki_pages():
-    return sorted(p for p in WIKI.rglob("*.md") if p.name not in GENERATED)
+    return sorted(
+        p for p in WIKI.rglob("*.md")
+        if p.name not in GENERATED
+        and p.relative_to(WIKI).parts[0] not in GENERATED_DIRS
+    )
 
 
 def as_date(value):
