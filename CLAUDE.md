@@ -21,6 +21,7 @@ python3 scripts/build_browse.py  # generate the site's Sources + Nuggets browser
 mkdocs serve                     # preview the site locally (pip install -r requirements.txt)
 python3 -m kms_mcp index         # rebuild the knowledge graph + embeddings (.kms-index/)
 python3 scripts/extract_entities.py  # extract entities for new nuggets into graph/entities.yaml
+python3 scripts/remove_source.py "<glob>"  # dry-run retraction impact report (--apply via /remove-source)
 ```
 
 ## Skills
@@ -31,6 +32,8 @@ python3 scripts/extract_entities.py  # extract entities for new nuggets into gra
 - `/nuggets [source]` — extract claim-level nuggets from a source into `nuggets/`
 - `/review [page]` — semantic review of stale or flagged pages
 - `/contradictions` — contradiction sweep over the nugget inventory + pages
+- `/remove-source <glob>` — retract sources matching a glob under `sources/` and
+  update all derived content (nuggets, entities, wiki claims, graph)
 - `/maintain` — full weekly maintenance loop (used by scheduled CI too)
 
 ## Key paths
