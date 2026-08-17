@@ -1,0 +1,135 @@
+source: sources/web/2026-06-17-autonuggetizer-framework.md
+created: 2026-07-17
+nuggets:
+  - id: autonuggetizer-framework-definition
+    claim: >-
+      AutoNuggetizer is an LLM-based framework that automates extraction and
+      evaluation of atomic facts ("nuggets") to assess RAG and long-form language
+      model responses, modernizing traditional nugget-based evaluation by
+      integrating advanced language models into its pipeline.
+    context: >-
+      Framework design from Pradeep et al., as documented in the June 2026 topic
+      overview. Distinct from the TREC 2024 RAG Track implementation; describes
+      the general framework design and capabilities rather than a specific track
+      configuration.
+    confidence: medium
+    status: active
+    tags: [evaluation, RAG, LLM]
+
+  - id: autonuggetizer-extraction-module
+    claim: >-
+      AutoNuggetizer's extraction module generates 20-30 atomic, non-overlapping
+      candidate nuggets from a query and candidate answers, assigns vital/okay
+      importance tags, and trims the list to top 20.
+    context: >-
+      First of two sequential processing modules in the framework. "Vital" and
+      "okay" designations follow the TREC nugget evaluation tradition (vital =
+      must appear in good answer, okay = helpful but not essential).
+    confidence: medium
+    status: active
+    tags: [evaluation, pipeline]
+
+  - id: autonuggetizer-assignment-module
+    claim: >-
+      AutoNuggetizer's assignment module evaluates how well each answer supports
+      identified nuggets, outputting full support (1), partial support (0.5), or
+      no support (0), with batch processing for efficiency.
+    context: >-
+      Second of two sequential modules. Support scoring is continuous (0–1 scale)
+      rather than binary, allowing nuanced measurement of answer quality. Batch
+      processing implies efficiency optimization for scale.
+    confidence: medium
+    status: active
+    tags: [evaluation, pipeline]
+
+  - id: autonuggetizer-run-level-agreement
+    claim: >-
+      Run-level agreement between automatic and manual evaluation reaches 0.887
+      Kendall's τ on vital strict metrics.
+    context: >-
+      Kendall's τ is a rank correlation coefficient (0–1, higher = better).
+      "Vital strict" metrics focus only on essential nuggets with strict scoring.
+      This high correlation indicates the LLM-based system ranks system
+      performance almost as reliably as humans. From June 2026 validation study
+      by Pradeep et al.
+    quote: "0.887 Kendall's τ"
+    confidence: medium
+    status: active
+    tags: [evaluation, validation, performance]
+
+  - id: autonuggetizer-topic-agreement
+    claim: >-
+      Topic-level agreement (per-query variability) is lower, ranging 0.3–0.5.
+    context: >-
+      Contrasts with higher run-level (system-ranking) agreement. Per-query
+      variability is substantially noisier, indicating that while AutoNuggetizer
+      reliably ranks systems against each other, individual query outcomes vary.
+      Suggests the framework works better for comparative bulk evaluation than
+      per-query assessment.
+    confidence: medium
+    status: active
+    tags: [evaluation, limitation]
+
+  - id: autonuggetizer-operational-modes
+    claim: >-
+      AutoNuggetizer supports three operational modes: fully manual (~2.5 hours
+      per topic), semi-manual (~1 hour per topic), or fully automatic (at LLM
+      inference speed).
+    context: >-
+      Manual modes involve human review of nuggets (generation or assignment or
+      both). Semi-manual (human post-edit generation + auto assignment) is
+      recommended for optimal reliability. Time estimates are from the June 2026
+      framework documentation.
+    confidence: medium
+    status: active
+    tags: [evaluation, operations]
+
+  - id: autonuggetizer-scope
+    claim: >-
+      AutoNuggetizer focuses only on factual recall and does not assess fluency
+      or hallucination detection.
+    context: >-
+      Explicit scope limitation noted in the framework documentation. Means
+      AutoNuggetizer is not a complete quality metric—it measures whether an
+      answer includes necessary facts, not whether those facts are well-presented
+      or hallucinated elsewhere.
+    confidence: medium
+    status: active
+    tags: [evaluation, limitation, scope]
+
+  - id: autonuggetizer-partial-support-limitation
+    claim: >-
+      Partial support classification (0.5 score) needs refinement; currently less
+      reliable than full/no support judgments.
+    context: >-
+      Acknowledged limitation in the framework design. Suggests the LLM-based
+      assignment module struggles with edge cases where an answer partially
+      addresses a nugget — a known hard problem in information retrieval
+      evaluation.
+    confidence: medium
+    status: active
+    tags: [evaluation, limitation, research-need]
+
+  - id: autonuggetizer-multilingual-limitation
+    claim: >-
+      AutoNuggetizer shows preliminary performance on non-English queries,
+      indicating incomplete multilingual support.
+    context: >-
+      Noted as a limitation in the June 2026 documentation. Performance details
+      not provided, but "preliminary" suggests active research rather than
+      production-ready support. Likely reflects differences in LLM instruction-following
+      quality across languages.
+    confidence: medium
+    status: active
+    tags: [evaluation, limitation, multilingual]
+
+  - id: autonuggetizer-ambiguity-limitation
+    claim: >-
+      AutoNuggetizer shows lower accuracy on ambiguous or multi-faceted queries.
+    context: >-
+      Inherent to the nugget-based approach when query intent is unclear—nuggets
+      may be defined against one interpretation while answers target another. From
+      June 2026 limitation documentation.
+    confidence: medium
+    status: active
+    tags: [evaluation, limitation, query-clarity]

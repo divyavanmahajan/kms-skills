@@ -10,6 +10,7 @@ sources:
   - sources/web/2026-07-17-webiq-grounding-at-scale.md
   - sources/web/2026-07-17-great-nugget-recall.md
   - sources/web/2026-07-17-autonuggetizer-trec-2024-rag.md
+  - sources/web/2026-06-17-autonuggetizer-framework.md
   - sources/web/2026-07-17-trec-2007-qa-overview.md
 tags: [retrieval, knowledge-management, nuggets, evaluation]
 ---
@@ -120,5 +121,12 @@ here as unsourced background; now sourced — see Heritage section.)*
   pipeline, vital/okay scoring, TREC 2024 correlations (nuggets:
   `autonuggetizer-what`, `autonuggetizer-pipeline`, `vital-vs-okay`,
   `autonuggetizer-correlation`)
+- `sources/web/2026-06-17-autonuggetizer-framework.md` — AutoNuggetizer
+  framework design, validation metrics, operational modes, and limitations
+  (nuggets: `autonuggetizer-framework-definition`, `autonuggetizer-extraction-module`,
+  `autonuggetizer-assignment-module`, `autonuggetizer-run-level-agreement`,
+  `autonuggetizer-topic-agreement`, `autonuggetizer-operational-modes`,
+  `autonuggetizer-scope`, `autonuggetizer-partial-support-limitation`,
+  `autonuggetizer-multilingual-limitation`, `autonuggetizer-ambiguity-limitation`)
 - `sources/web/2026-07-17-trec-2007-qa-overview.md` — nugget pyramids
   (nugget: `nugget-pyramid`; thin snapshot)
