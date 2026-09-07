@@ -4,7 +4,7 @@ title: Health Dashboard
 
 # Health Dashboard
 
-*Generated 2026-08-31 by `scripts/dashboard.py` — do not edit by hand.*
+*Generated 2026-09-07 by `scripts/dashboard.py` — do not edit by hand.*
 
 | Metric | Value |
 |---|---|
