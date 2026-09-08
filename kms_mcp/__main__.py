@@ -44,12 +44,10 @@ def main() -> None:
 
     from .server import mcp
     if getattr(args, "http", False):
-        mcp.settings.host = args.host
-        mcp.settings.port = args.port
-        mcp.settings.stateless_http = True
         print(f"KMS MCP server on http://{args.host}:{args.port}/mcp",
               file=sys.stderr)
-        mcp.run(transport="streamable-http")
+        mcp.run(transport="streamable-http", host=args.host, port=args.port,
+                stateless_http=True)
     else:
         mcp.run()
 

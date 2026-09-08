@@ -83,6 +83,9 @@ def build_index(verbose: bool = True) -> dict:
         conn.execute(ddl)
 
     say("Inserting nodes...")
+    # One transaction for the whole load: thousands of single-row inserts
+    # otherwise each pay an auto-commit WAL flush.
+    conn.execute("BEGIN TRANSACTION")
     source_paths = {s.path for s in sources}
     for src, vec in zip(sources, src_vecs):
         conn.execute(
@@ -186,6 +189,7 @@ def build_index(verbose: bool = True) -> dict:
             rel("MATCH (s:Source {path:$s}), (t:Tag {name:$t}) CREATE (s)-[:SOURCE_TAG]->(t)",
                 {"s": src.path, "t": tag}, "TAGS")
 
+    conn.execute("COMMIT")
     conn.close()
     db.close()
 

@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "kms": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "kms_mcp"]
+    }
+  }
+}

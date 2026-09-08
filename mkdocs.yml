@@ -64,6 +64,8 @@ nav:
   - Guides:
       - guides/maintenance-guidelines.md
       - guides/obsidian.md
+      - guides/windows-github-copilot.md
+      - guides/mac-claude-code.md
   - Decisions:
       - decisions/0001-repo-architecture.md
       - decisions/0002-nugget-layer.md

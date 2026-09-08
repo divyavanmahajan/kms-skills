@@ -93,6 +93,8 @@ def compute_impact(source_paths: list[Path]) -> dict:
 
     pages: dict[str, dict] = {}
     for page in sorted(WIKI.rglob("*.md")):
+        if page.name == "dashboard.md":  # generated — dashboard.py rebuilds it
+            continue
         text = page.read_text(encoding="utf-8")
         hit = sorted(s for s in source_rels if s in text)
         if not hit:

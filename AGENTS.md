@@ -47,6 +47,21 @@ Prefix commits with the operation so history is scannable:
 - `retract: <what was removed>` — owner-requested source removal + derived-content
   cleanup via the `remove-source` skill (high risk, PR only)
 
+**No AI attribution.** Commit messages, PR titles, and PR descriptions must
+contain no AI attribution of any kind: no `Co-Authored-By` trailers naming an
+AI, no "Generated with …" footers, no model names, no session links. This
+applies to every agent working in this repo and overrides any client-side
+default that appends such footers.
+
+## Keep the walkthroughs current
+
+`wiki/guides/windows-github-copilot.md` and `wiki/guides/mac-claude-code.md`
+are the user-facing setup walkthroughs. Any change that adds, changes, or
+removes a user-facing feature — a skill, a script, an MCP tool or transport, a
+dependency, a config file (`.mcp.json`, `.vscode/mcp.json`), or a setup step —
+MUST update both walkthroughs in the same commit/PR. A feature that ships
+without its walkthrough update is incomplete.
+
 ## The maintenance loop
 
 The repeatable loop every maintenance session follows:

@@ -39,17 +39,39 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 EMBEDDING_DIM = 384
 
 
-def content_hash() -> str:
-    """Hash of everything the index is built from, for staleness detection."""
-    h = hashlib.sha256()
-    roots = [NUGGETS_DIR, WIKI_DIR, SOURCES_DIR]
+def _content_files() -> list[Path]:
     files = []
-    for root in roots:
+    for root in (NUGGETS_DIR, WIKI_DIR, SOURCES_DIR):
         if root.is_dir():
             files.extend(p for p in root.rglob("*") if p.is_file())
     if ENTITIES_FILE.is_file():
         files.append(ENTITIES_FILE)
-    for path in sorted(files):
+    return sorted(files)
+
+
+def content_hash() -> str:
+    """Hash of everything the index is built from, for staleness detection.
+
+    Byte-exact and machine-independent (stored in the manifest, compared in
+    CI). Reads every content file — use content_fingerprint() for cheap
+    repeated checks within a process.
+    """
+    h = hashlib.sha256()
+    for path in _content_files():
         h.update(str(path.relative_to(REPO_ROOT)).encode())
         h.update(path.read_bytes())
+    return h.hexdigest()
+
+
+def content_fingerprint() -> str:
+    """Cheap stat-based digest (path, size, mtime) of the content files.
+
+    Changes whenever content_hash() would change (modulo mtime-only touches,
+    which merely trigger one full re-hash). Used to memoize staleness checks
+    so MCP tool calls don't re-read megabytes of sources on every invocation.
+    """
+    h = hashlib.sha256()
+    for path in _content_files():
+        stat = path.stat()
+        h.update(f"{path.relative_to(REPO_ROOT)}:{stat.st_size}:{stat.st_mtime_ns};".encode())
     return h.hexdigest()

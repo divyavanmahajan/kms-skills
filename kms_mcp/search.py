@@ -75,7 +75,7 @@ class SearchIndex:
         if kinds:
             mask = np.isin(self.kinds, kinds)
             scores = np.where(mask, scores, -1.0)
-        order = np.argsort(-scores)[: max(limit * 3, limit)]
+        order = np.argsort(-scores)
         hits = []
         for i in order:
             if len(hits) >= limit or scores[i] < min_score or scores[i] < 0:

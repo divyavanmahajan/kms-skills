@@ -69,6 +69,10 @@ Cross-cutting syntheses compiled from 411 AI Daily Brief episode summary notes
   concept from the source articles, traced to its implementation here
 - [Maintaining the KMS with Obsidian](guides/obsidian.md) — manual editing
   workflow
+- [Using the KMS on Windows with GitHub Copilot](guides/windows-github-copilot.md) —
+  setup walkthrough: VS Code, Copilot agent mode, the `kms` MCP tools
+- [Using the KMS on Mac with Claude Code](guides/mac-claude-code.md) — setup
+  walkthrough: Claude Code, skills, the `kms` MCP server
 
 ## Decisions
 

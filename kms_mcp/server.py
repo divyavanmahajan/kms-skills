@@ -14,13 +14,13 @@ import re
 from typing import Optional
 
 import kuzu
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 from . import indexer
-from .config import DB_FILE, REPO_ROOT
+from .config import DB_FILE, REPO_ROOT, content_fingerprint
 from .search import SearchIndex
 
-mcp = FastMCP("kms_mcp")
+mcp = MCPServer("kms_mcp")
 
 WRITE_TOKENS = re.compile(
     r"\b(CREATE|MERGE|DELETE|DETACH|SET|DROP|ALTER|COPY|IMPORT|EXPORT|ATTACH|INSTALL|LOAD)\b",
@@ -47,6 +47,10 @@ class _State:
             self.open()
         return self.conn
 
+    def search_index(self) -> SearchIndex:
+        self.ensure()
+        return self.index
+
     def close(self) -> None:
         if self.conn is not None:
             self.conn.close()
@@ -55,17 +59,31 @@ class _State:
         self.db = self.conn = self.index = None
 
     def rebuild(self) -> dict:
+        global _stale_cache
         self.close()
         manifest = indexer.build_index(verbose=False)
         self.open()
+        _stale_cache = None
         return manifest
 
 
 STATE = _State()
 
+# (content_fingerprint, is_stale) — full content hashing only reruns when a
+# stat-level fingerprint of the content files changes, so tool calls stay cheap.
+_stale_cache: Optional[tuple[str, bool]] = None
+
+
+def _is_stale() -> bool:
+    global _stale_cache
+    fingerprint = content_fingerprint()
+    if _stale_cache is None or _stale_cache[0] != fingerprint:
+        _stale_cache = (fingerprint, indexer.is_stale())
+    return _stale_cache[1]
+
 
 def _staleness_note() -> dict:
-    if indexer.is_stale():
+    if _is_stale():
         return {"warning": "Index is stale (content changed since last build). "
                            "Call kms_reindex for up-to-date results."}
     return {}
@@ -122,8 +140,8 @@ def kms_semantic_search(query: str, limit: int = 10,
         kms_related (graph context). Nugget ids look like "<file>#<claim-id>",
         sections like "wiki/page.md#anchor", sources are file paths.
     """
-    index = (STATE.ensure(), STATE.index)[1]
-    hits = index.search(query, limit=limit, kinds=kinds, min_score=min_score)
+    hits = STATE.search_index().search(query, limit=limit, kinds=kinds,
+                                       min_score=min_score)
     payload = {"results": [vars(h) for h in hits], **_staleness_note()}
     if not hits:
         payload["hint"] = ("No results above min_score. Try a lower min_score, "
@@ -210,7 +228,7 @@ def kms_graph_schema() -> str:
         "MATCH (t:Tag)<-[:NUGGET_TAG]-(n:Nugget) RETURN t.name, count(n) AS uses ORDER BY uses DESC LIMIT 20",
     ]
     return json.dumps({"schema": schema, "manifest": indexer.manifest(),
-                       "stale": indexer.is_stale(), "examples": examples}, indent=2)
+                       "stale": _is_stale(), "examples": examples}, indent=2)
 
 
 @mcp.tool(name="kms_get_document",
@@ -237,6 +255,8 @@ def kms_get_document(id: str, max_chars: int = 20000, offset: int = 0) -> str:
         Truncated responses include "next_offset".
     """
     conn = STATE.ensure()
+    max_chars = max(1, max_chars)
+    offset = max(0, offset)
     try:
         if "#" in id and not id.startswith("wiki/"):
             return json.dumps(_get_nugget(conn, id), indent=2)

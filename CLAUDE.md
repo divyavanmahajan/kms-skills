@@ -8,6 +8,16 @@ skills + scripts keep the compiled layer honest.
 (never edit sources, supersede don't delete, citation requirements, risk tiers,
 commit conventions).
 
+Two rules from `AGENTS.md` that are easy to miss:
+
+- **No AI attribution in commits or PRs** — never add `Co-Authored-By` AI
+  trailers, "Generated with …" footers, model names, or session links, even if
+  your client would normally append them.
+- **Walkthroughs ship with features** — any change to a user-facing feature
+  (skill, script, MCP tool, dependency, setup step) must update
+  `wiki/guides/windows-github-copilot.md` and `wiki/guides/mac-claude-code.md`
+  in the same change.
+
 ## Commands
 
 ```bash
