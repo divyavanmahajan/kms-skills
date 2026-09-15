@@ -1,13 +1,13 @@
 ---
 url: https://www.patreon.com/posts/169183739
-title: Anthropic Researcher Says Ai Has Over A 10 Chance Of Killing All Huma
+title: Anthropic Researcher Says AI Has Over a 10% Chance of Killing All Humans
 author: Divya Van Mahajan (episode summary notes)
 show: The AI Daily Brief
 published: '2026-09-10'
-retrieved: '2026-09-13'
+retrieved: '2026-09-15'
 type: summary-notes
-guid: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/09/anthropic-researcher-says-ai-has-over-a-10-chance-of-killing-all-huma.md
-origin: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/09/anthropic-researcher-says-ai-has-over-a-10-chance-of-killing-all-huma.md
+guid: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/09/anthropic-researcher-says-ai-has-over-a-10-chance-of-killing-all-humans.md
+origin: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/09/anthropic-researcher-says-ai-has-over-a-10-chance-of-killing-all-humans.md
 tags:
 - ai-daily-brief-podcast
 description: 'Speaker: Host of the AI Daily Brief podcast (unnamed)'

@@ -1,13 +1,13 @@
 ---
-url: https://github.com/divyavanmahajan/divyavanmahajan.github.io/blob/main/src/content/ainews/2026/08/how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audi.md
-title: How To Decide What Work Ai Should Do For You The Ai Deputization Audi
+url: https://www.patreon.com/posts/166705342
+title: 'How to Decide What Work AI Should Do for You: The AI Deputization Audit'
 author: Divya Van Mahajan (episode summary notes)
 show: The AI Daily Brief
 published: '2026-08-14'
-retrieved: '2026-08-17'
+retrieved: '2026-09-15'
 type: summary-notes
-guid: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/08/how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audi.md
-origin: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/08/how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audi.md
+guid: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/08/how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit.md
+origin: github:divyavanmahajan/divyavanmahajan.github.io/src/content/ainews/2026/08/how-to-decide-what-work-ai-should-do-for-you-the-ai-deputization-audit.md
 tags:
 - ai-daily-brief-podcast
 description: This episode of the AI Daily Brief (hosted by Nathaniel Whittemore, though
