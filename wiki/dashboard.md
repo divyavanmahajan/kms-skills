@@ -4,14 +4,14 @@ title: Health Dashboard
 
 # Health Dashboard
 
-*Generated 2026-09-14 by `scripts/dashboard.py` — do not edit by hand.*
+*Generated 2026-09-21 by `scripts/dashboard.py` — do not edit by hand.*
 
 | Metric | Value |
 |---|---|
 | Pages | 22 |
 | — draft | 19 |
 | — reviewed | 3 |
-| Nuggets | 182 |
+| Nuggets | 192 |
 | — disputed | 0 |
 | Stale (past review date) | 0 (0%) |
 | Unsourced | 2 |
