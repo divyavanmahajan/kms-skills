@@ -4,7 +4,7 @@ title: Health Dashboard
 
 # Health Dashboard
 
-*Generated 2026-10-12 by `scripts/dashboard.py` — do not edit by hand.*
+*Generated 2026-10-19 by `scripts/dashboard.py` — do not edit by hand.*
 
 | Metric | Value |
 |---|---|
@@ -13,7 +13,7 @@ title: Health Dashboard
 | — reviewed | 3 |
 | Nuggets | 192 |
 | — disputed | 0 |
-| Stale (past review date) | 0 (0%) |
+| Stale (past review date) | 14 (67%) |
 | Unsourced | 2 |
 | Low confidence | 0 |
 | Broken links | 0 |
@@ -22,7 +22,20 @@ title: Health Dashboard
 
 ## Pages needing review
 
-None. ✅
+- [Maintaining the KMS with Obsidian](guides/obsidian.md) — due 2026-10-15
+- [AI agents (the shift to agentic AI)](topics/ai-agents.md) — due 2026-10-15
+- [AI competition, strategy & geopolitics](topics/ai-competition-and-geopolitics.md) — due 2026-10-15
+- [AI economics, funding & the bubble debate](topics/ai-economics-and-the-bubble-debate.md) — due 2026-10-15
+- [AI infrastructure — compute, chips & energy](topics/ai-infrastructure-compute-energy.md) — due 2026-10-15
+- [AI, jobs & the labor market](topics/ai-jobs-and-labor.md) — due 2026-10-15
+- [AI in media, creativity & society](topics/ai-media-and-society.md) — due 2026-10-15
+- [AI sovereignty](topics/ai-sovereignty.md) — due 2026-10-15
+- [Enterprise AI adoption & strategy](topics/enterprise-ai-adoption.md) — due 2026-10-15
+- [Frontier model releases & capabilities (2025–2026)](topics/frontier-model-releases.md) — due 2026-10-15
+- [LLM interpretability (global workspace)](topics/llm-interpretability.md) — due 2026-10-15
+- [Nuggets (structured evidence objects)](topics/nuggets.md) — due 2026-10-15
+- [State of AI — adoption metrics & trends](topics/state-of-ai-adoption.md) — due 2026-10-15
+- [Vibe coding & AI-assisted software development](topics/vibe-coding.md) — due 2026-10-15
 
 ## Unsourced pages
 
